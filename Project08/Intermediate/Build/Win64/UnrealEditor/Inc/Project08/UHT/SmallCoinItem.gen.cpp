@@ -79,10 +79,10 @@ ASmallCoinItem::~ASmallCoinItem() {}
 struct Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_SmallCoinItem_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASmallCoinItem, ASmallCoinItem::StaticClass, TEXT("ASmallCoinItem"), &Z_Registration_Info_UClass_ASmallCoinItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASmallCoinItem), 3765155140U) },
+		{ Z_Construct_UClass_ASmallCoinItem, ASmallCoinItem::StaticClass, TEXT("ASmallCoinItem"), &Z_Registration_Info_UClass_ASmallCoinItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASmallCoinItem), 647475664U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_SmallCoinItem_h_3751538171(TEXT("/Script/Project08"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_SmallCoinItem_h_1053682889(TEXT("/Script/Project08"),
 	Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_SmallCoinItem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_SmallCoinItem_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -47,7 +47,7 @@ struct Z_Construct_UClass_AMineItem_Statics
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_ExplostionDelay;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_ExplostionRadius;
-	static const UECodeGen_Private::FFloatPropertyParams NewProp_ExplosionDamage;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_ExplosionDamage;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -57,7 +57,7 @@ struct Z_Construct_UClass_AMineItem_Statics
 };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMineItem_Statics::NewProp_ExplostionDelay = { "ExplostionDelay", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMineItem, ExplostionDelay), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ExplostionDelay_MetaData), NewProp_ExplostionDelay_MetaData) };
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMineItem_Statics::NewProp_ExplostionRadius = { "ExplostionRadius", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMineItem, ExplostionRadius), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ExplostionRadius_MetaData), NewProp_ExplostionRadius_MetaData) };
-const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMineItem_Statics::NewProp_ExplosionDamage = { "ExplosionDamage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMineItem, ExplosionDamage), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ExplosionDamage_MetaData), NewProp_ExplosionDamage_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_AMineItem_Statics::NewProp_ExplosionDamage = { "ExplosionDamage", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMineItem, ExplosionDamage), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ExplosionDamage_MetaData), NewProp_ExplosionDamage_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMineItem_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMineItem_Statics::NewProp_ExplostionDelay,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMineItem_Statics::NewProp_ExplostionRadius,
@@ -104,10 +104,10 @@ AMineItem::~AMineItem() {}
 struct Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_MineItem_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_AMineItem, AMineItem::StaticClass, TEXT("AMineItem"), &Z_Registration_Info_UClass_AMineItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMineItem), 3432062247U) },
+		{ Z_Construct_UClass_AMineItem, AMineItem::StaticClass, TEXT("AMineItem"), &Z_Registration_Info_UClass_AMineItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMineItem), 685678236U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_MineItem_h_1614435084(TEXT("/Script/Project08"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_MineItem_h_3059980602(TEXT("/Script/Project08"),
 	Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_MineItem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_MineItem_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

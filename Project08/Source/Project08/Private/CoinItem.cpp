@@ -2,4 +2,20 @@
 
 ACoinItem::ACoinItem()
 {
+	PointValue = 0;
+	ItemType = "DefaultCoin";
+}
+
+void ACoinItem::ActivateItem(AActor* Activator)
+{
+	if (Activator && Activator->ActorHasTag("Player"))
+	{
+		GEngine->AddOnScreenDebugMessage(
+			-1,
+			2.0f,
+			FColor::Green,
+			FString::Printf(TEXT("Player GEngine %d points!"),
+				PointValue));
+		DestoryItem();
+	}
 }

@@ -79,10 +79,10 @@ ABigCoinItem::~ABigCoinItem() {}
 struct Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_BigCoinItem_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABigCoinItem, ABigCoinItem::StaticClass, TEXT("ABigCoinItem"), &Z_Registration_Info_UClass_ABigCoinItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABigCoinItem), 383270110U) },
+		{ Z_Construct_UClass_ABigCoinItem, ABigCoinItem::StaticClass, TEXT("ABigCoinItem"), &Z_Registration_Info_UClass_ABigCoinItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABigCoinItem), 2438258435U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_BigCoinItem_h_2630692830(TEXT("/Script/Project08"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_BigCoinItem_h_2462888597(TEXT("/Script/Project08"),
 	Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_BigCoinItem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_BigCoinItem_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

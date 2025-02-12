@@ -12,12 +12,17 @@ class PROJECT08_API AMineItem : public ABaseItem
 public :
 	AMineItem();
 
+	USphereComponent* ExplosionCollision;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
 	float ExplostionDelay;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
 	float ExplostionRadius;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
-	float ExplosionDamage;
+	int32 ExplosionDamage;
+
+	FTimerHandle ExplosionTimerHandle;
 
 	virtual void ActivateItem(AActor* Activator) override;
+	void Explode();
 };

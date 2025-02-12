@@ -8,5 +8,14 @@ AHealingItem::AHealingItem()
 
 void AHealingItem::ActivateItem(AActor* Activator)
 {
-	DestoryItem();
+	if (Activator && Activator->ActorHasTag("Player"))
+	{
+		GEngine->AddOnScreenDebugMessage(
+			-1,
+			2.0f,
+			FColor::Green,
+			FString::Printf(TEXT("Player gained %d HP!"),
+				HealAmount));
+		DestoryItem();
+	}
 }

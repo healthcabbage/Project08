@@ -90,10 +90,10 @@ ACoinItem::~ACoinItem() {}
 struct Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_CoinItem_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ACoinItem, ACoinItem::StaticClass, TEXT("ACoinItem"), &Z_Registration_Info_UClass_ACoinItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACoinItem), 1098256076U) },
+		{ Z_Construct_UClass_ACoinItem, ACoinItem::StaticClass, TEXT("ACoinItem"), &Z_Registration_Info_UClass_ACoinItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACoinItem), 3074683473U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_CoinItem_h_20017516(TEXT("/Script/Project08"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_CoinItem_h_2719896208(TEXT("/Script/Project08"),
 	Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_CoinItem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_CoinItem_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

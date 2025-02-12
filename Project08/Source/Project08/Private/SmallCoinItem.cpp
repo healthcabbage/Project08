@@ -8,5 +8,5 @@ ASmallCoinItem::ASmallCoinItem()
 
 void ASmallCoinItem::ActivateItem(AActor* Activator)
 {
-	DestoryItem();
+	Super::ActivateItem(Activator);
 }

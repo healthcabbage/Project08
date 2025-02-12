@@ -9,10 +9,18 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UPrimitiveComponent;
+struct FHitResult;
 #ifdef PROJECT08_ItemInterface_generated_h
 #error "ItemInterface.generated.h already included, missing '#pragma once' in ItemInterface.h"
 #endif
 #define PROJECT08_ItemInterface_generated_h
+
+#define FID_Project08_Source_Project08_Public_ItemInterface_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnItemEndOverlap); \
+	DECLARE_FUNCTION(execOnItemOverlap);
+
 
 #define FID_Project08_Source_Project08_Public_ItemInterface_h_10_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
@@ -58,6 +66,7 @@ public: \
 #define FID_Project08_Source_Project08_Public_ItemInterface_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_Project08_Source_Project08_Public_ItemInterface_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_Project08_Source_Project08_Public_ItemInterface_h_10_INCLASS_IINTERFACE_NO_PURE_DECLS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
