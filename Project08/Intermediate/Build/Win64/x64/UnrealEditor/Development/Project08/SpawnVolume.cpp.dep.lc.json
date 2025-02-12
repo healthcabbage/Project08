@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\github\\project08\\project08\\source\\project08\\private\\spawnvolume.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\project08\\project08\\intermediate\\build\\win64\\x64\\project08editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\github\\project08\\project08\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\project08\\definitions.project08.h",
+            "d:\\github\\project08\\project08\\source\\project08\\public\\spawnvolume.h",
+            "d:\\github\\project08\\project08\\source\\project08\\public\\itemspawnrow.h",
+            "d:\\github\\project08\\project08\\intermediate\\build\\win64\\unrealeditor\\inc\\project08\\uht\\itemspawnrow.generated.h",
+            "d:\\github\\project08\\project08\\intermediate\\build\\win64\\unrealeditor\\inc\\project08\\uht\\spawnvolume.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
