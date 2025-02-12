@@ -11,6 +11,7 @@
     <None Include="..\..\Source\Project08Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -37,6 +38,24 @@
     </ClCompile>
     <ClCompile Include="..\..\Source\Project08\Project08.h">
       <Filter>Source\Project08</Filter>
+    </ClCompile>
+    <Filter Include="Source\Project08\Private">
+      <UniqueIdentifier>{AB17ED0D-CCC5-3ADB-95EB-187A876B4F8B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project08\Private\RabbitCharacter.cpp">
+      <Filter>Source\Project08\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Private\RabbitGameMode.cpp">
+      <Filter>Source\Project08\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Project08\Public">
+      <UniqueIdentifier>{C21D4929-B47B-332B-8111-094DA4FF0C05}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project08\Public\RabbitCharacter.h">
+      <Filter>Source\Project08\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Public\RabbitGameMode.h">
+      <Filter>Source\Project08\Public</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

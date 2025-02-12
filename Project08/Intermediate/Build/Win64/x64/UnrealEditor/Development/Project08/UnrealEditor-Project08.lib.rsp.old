@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Project08.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\GitHub\Project08\Project08\Intermediate\Build\Win64\x64\Project08Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"D:\GitHub\Project08\Project08\Intermediate\Build\Win64\x64\UnrealEditor\Development\Project08\Project08.init.gen.cpp.obj"
+"D:\GitHub\Project08\Project08\Intermediate\Build\Win64\x64\UnrealEditor\Development\Project08\RabbitGameMode.gen.cpp.obj"
+"D:\GitHub\Project08\Project08\Intermediate\Build\Win64\x64\UnrealEditor\Development\Project08\Project08.cpp.obj"
+"D:\GitHub\Project08\Project08\Intermediate\Build\Win64\x64\UnrealEditor\Development\Project08\RabbitGameMode.cpp.obj"
+"D:\GitHub\Project08\Project08\Intermediate\Build\Win64\x64\UnrealEditor\Development\Project08\PerModuleInline.gen.cpp.obj"
+"D:\GitHub\Project08\Project08\Intermediate\Build\Win64\x64\UnrealEditor\Development\Project08\Default.rc2.res"
+/OUT:"D:\GitHub\Project08\Project08\Intermediate\Build\Win64\x64\UnrealEditor\Development\Project08\UnrealEditor-Project08.lib"

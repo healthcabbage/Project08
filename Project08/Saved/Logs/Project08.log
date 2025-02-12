@@ -1591,3 +1591,205 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.02.12-17.20.57:311][390]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2025.02.12-17.21.02:966][ 20]LogSlate: Window '프로젝트 세팅' being destroyed
 [2025.02.12-17.21.02:970][ 20]LogSlate: Window '프로젝트 세팅' being destroyed
+[2025.02.12-17.22.08:155][456]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 328.380890
+[2025.02.12-17.22.09:154][459]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-17.22.09:154][459]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 329.047058, Update Interval: 303.105560
+[2025.02.12-17.22.21:659][844]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-17.22.22:309][913]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.02.12-17.22.22:309][913]LogLiveCoding: Display: Live coding succeeded, no code changes detected
+[2025.02.12-17.23.54:426][621]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2025.02.12-17.25.09:753][101]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2025.02.12-17.25.10:702][207]LogSlate: Took 0.000410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.02.12-17.25.40:739][ 82]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-17.25.40:845][ 82]Using bundled DotNet SDK version: 8.0.300
+[2025.02.12-17.25.40:845][ 82]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-17.25.41:046][ 82]Log file: C:\Users\Agape\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.02.12-17.25.41:146][ 82]
+[2025.02.12-17.25.41:146][ 82]Generating VisualStudio2022 project files:
+[2025.02.12-17.25.41:146][ 82]Discovering modules, targets and source code for project...
+[2025.02.12-17.25.43:664][ 82]Binding IntelliSense data...
+[2025.02.12-17.25.47:848][ 82]Binding IntelliSense data... 100%
+[2025.02.12-17.25.47:848][ 82]Writing project files...
+[2025.02.12-17.25.49:566][ 82]Writing project files... 100%
+[2025.02.12-17.25.49:566][ 82]
+[2025.02.12-17.25.49:566][ 82]Generating QueryTargets data for editor...
+[2025.02.12-17.25.49:667][ 82]Total execution time: 8.74 seconds
+[2025.02.12-17.25.49:878][ 82]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-17.25.49:895][ 82]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2025.02.12-17.25.50:824][ 82]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/GitHub/Project08/Project08/Source/Project08/Public/RabbitGameMode.h'.
+[2025.02.12-17.25.50:824][ 82]LogVSAccessor: Warning: Couldn't open file 'D:/GitHub/Project08/Project08/Source/Project08/Private/RabbitGameMode.cpp'.
+[2025.02.12-17.25.50:876][ 82]LogAutomationController: Ignoring very large delta of 10.62 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.12-17.26.10:825][143]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_0.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_0.exp 개체를 생성하고 있습니다.
+[2025.02.12-17.26.11:013][143]LogClass: Could not find existing package /Script/Project08 for reload of class RabbitGameMode, assuming a new package.
+[2025.02.12-17.26.11:041][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.02.12-17.26.11:217][144]Display: Reload/Re-instancing Complete: 1 package new, 1 class new
+[2025.02.12-17.26.11:217][144]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-17.27.15:209][821]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 635.437073
+[2025.02.12-17.27.15:428][844]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-17.27.15:428][844]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 635.647949, Update Interval: 346.858124
+[2025.02.12-17.27.16:378][955]LogToolMenus: Warning: Menu item not found: 'Rename' for insert: 'BatchRenameObject'
+[2025.02.12-17.27.23:357][751]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode
+[2025.02.12-17.27.23:358][751]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2025.02.12-17.27.23:475][751]LogStreaming: Display: FlushAsyncLoading(492): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.12-17.27.24:113][751]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2025.02.12-17.27.31:933][219]LogSlate: External Image Picker: DecompressImage failed
+[2025.02.12-17.27.38:876][962]LogSlate: Window '프로젝트 세팅' being destroyed
+[2025.02.12-17.27.38:880][962]LogSlate: Window '프로젝트 세팅' being destroyed
+[2025.02.12-17.28.02:266][536]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-17.28.02:369][536]Using bundled DotNet SDK version: 8.0.300
+[2025.02.12-17.28.02:369][536]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-17.28.02:570][536]Log file: C:\Users\Agape\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.02.12-17.28.02:671][536]
+[2025.02.12-17.28.02:671][536]Generating VisualStudio2022 project files:
+[2025.02.12-17.28.02:772][536]Discovering modules, targets and source code for project...
+[2025.02.12-17.28.05:388][536]Binding IntelliSense data...
+[2025.02.12-17.28.09:056][536]Binding IntelliSense data... 100%
+[2025.02.12-17.28.09:056][536]Writing project files...
+[2025.02.12-17.28.11:103][536]Writing project files... 100%
+[2025.02.12-17.28.11:103][536]
+[2025.02.12-17.28.11:103][536]Generating QueryTargets data for editor...
+[2025.02.12-17.28.11:103][536]Total execution time: 8.66 seconds
+[2025.02.12-17.28.11:311][536]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-17.28.11:344][536]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2025.02.12-17.28.11:606][536]LogAutomationController: Ignoring very large delta of 9.50 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.12-17.28.17:326][558]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_1.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_1.exp 개체를 생성하고 있습니다.
+[2025.02.12-17.28.17:449][558]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-17.28.17:451][558]LogClass: Could not find existing class RabbitCharacter in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-17.28.17:574][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.02.12-17.28.17:949][559]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 1 class unchanged
+[2025.02.12-17.28.17:949][559]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-17.28.19:557][687]LogToolMenus: Warning: Menu item not found: 'Rename' for insert: 'BatchRenameObject'
+[2025.02.12-17.28.26:582][481]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter
+[2025.02.12-17.28.26:582][481]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_2
+[2025.02.12-17.28.26:695][481]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2025.02.12-17.28.29:400][683]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2025.02.12-17.28.30:606][812]LogStreaming: Display: FlushAsyncLoading(683): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.12-17.28.30:820][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_calf_l_pose.Manny_calf_l_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_calf_l_anim.Manny_calf_l_anim 맞지 않습니다. 8E2B50DD07CBD0EC07FCDD7DE6C03CCF vs CC78212CC2D05F60DB49B336943F61D9
+[2025.02.12-17.28.30:823][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_calf_r_pose.Manny_calf_r_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_calf_r_anim.Manny_calf_r_anim 맞지 않습니다. 7894484DF77F696ECE86F5E48B21970F vs 8FE1687880D683625E543FF1464725DB
+[2025.02.12-17.28.30:826][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_clavicle_l_pose.Manny_clavicle_l_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_clavicle_l_anim.Manny_clavicle_l_anim 맞지 않습니다. 6CEA229F225BD38F08A7E79F1708B2C3 vs 85F8EF1345C47A8C9C76736EC7A3FE90
+[2025.02.12-17.28.30:829][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_clavicle_r_pose.Manny_clavicle_r_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_clavicle_r_anim.Manny_clavicle_r_anim 맞지 않습니다. 5011953F65839BC59E3AB711A254A94E vs ADA1E6650A76F8713148B97EF6AF9A89
+[2025.02.12-17.28.30:831][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_foot_l_pose.Manny_foot_l_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_foot_l_anim.Manny_foot_l_anim 맞지 않습니다. E1CD278520DDF4FB187D1CBC17C34C12 vs 27DE3409653F529F13DE46FBC2B19C83
+[2025.02.12-17.28.30:834][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_foot_r_pose.Manny_foot_r_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_foot_r_anim.Manny_foot_r_anim 맞지 않습니다. 9B48B63BBAECCB8F6D4567982FCD3450 vs 73E77D69CA585135BF157B81788D5D86
+[2025.02.12-17.28.30:837][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_hand_l_pose.Manny_hand_l_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_hand_l_anim.Manny_hand_l_anim 맞지 않습니다. 9B42FC91272EF6C74D20196D6DFE60F4 vs AB6FD63C9D139264C0008EDBECC735F0
+[2025.02.12-17.28.30:839][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_hand_r_pose.Manny_hand_r_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_hand_r_anim.Manny_hand_r_anim 맞지 않습니다. 23D2F7543DE7F7C42CEDA5C43C0F6FB1 vs 93329CC316356DE7E397D2DEB2E3AFD1
+[2025.02.12-17.28.30:842][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_lowerarm_l_pose.Manny_lowerarm_l_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_lowerarm_l_anim.Manny_lowerarm_l_anim 맞지 않습니다. C5886899902BFF210DE43F818588A597 vs 011865FD95B823CF80CFFC7D480E61C6
+[2025.02.12-17.28.30:845][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_lowerarm_r_pose.Manny_lowerarm_r_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_lowerarm_r_anim.Manny_lowerarm_r_anim 맞지 않습니다. 875F291D3A6E3ECDAF9BE4BCE6F094DD vs 1BB05015D9BFA1ECD7E35B013381E1BD
+[2025.02.12-17.28.30:847][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_thigh_l_pose.Manny_thigh_l_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_thigh_l_anim.Manny_thigh_l_anim 맞지 않습니다. 44456FC574BD040D2281CA549C0C8191 vs 4CB65F0128C1D0D989355D4955DCE16F
+[2025.02.12-17.28.30:852][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_thigh_r_pose.Manny_thigh_r_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_thigh_r_anim.Manny_thigh_r_anim 맞지 않습니다. 364BC1D823C760EAFC55654DBF9144FE vs E90CD50BD93DFBC0B3D7B8B240DA9861
+[2025.02.12-17.28.30:855][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_upperarm_l_pose.Manny_upperarm_l_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_upperarm_l_anim.Manny_upperarm_l_anim 맞지 않습니다. E74586CE1E5E44B3F8048DBFC7950641 vs 664563D92C58772CAB9EEAD42C191D1A
+[2025.02.12-17.28.30:858][812]LogAnimation: Warning: 포즈 에셋 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_upperarm_r_pose.Manny_upperarm_r_pose 소스 애니메이션 /Game/Resources/Characters/Rigs/Poses/Manny/Manny_upperarm_r_anim.Manny_upperarm_r_anim 맞지 않습니다. 63B9CCF17675B52E40416075E3A9DDE3 vs 9AAB8175306B1E429602738D99BAB05C
+[2025.02.12-17.28.30:926][812]LogSkeletalMesh: Display: 스킨 입힌 에셋이 준비 되기를 기다리는 중 0/1 (SKM_Manny)...
+[2025.02.12-17.28.30:945][812]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_3
+[2025.02.12-17.28.31:074][815]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
+[2025.02.12-17.29.11:606][888]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2025.02.12-17.29.13:231][  1]LogSlate: Window 'BP_RabbitCharacter' being destroyed
+[2025.02.12-17.29.13:236][  1]LogSlate: Window 'BP_RabbitCharacter' being destroyed
+[2025.02.12-17.29.13:240][  1]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-17.29.13:240][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.29.13:272][  1]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.02.12-17.29.13:272][  1]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-17.29.13:272][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.29.13:341][  1]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.02.12-17.30.07:045][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.02.12-17.30.07:051][233]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Make_HJ/Rabbit_NewMap' took 0.022
+[2025.02.12-17.30.07:052][233]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Make_HJ/BP_RabbitGameMode] ([2] browsable assets)...
+[2025.02.12-17.30.07:052][233]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/BP_RabbitGameMode]
+[2025.02.12-17.30.07:052][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/BP_RabbitGameMode" FILE="D:/GitHub/Project08/Project08/Saved/Autosaves/Game/Make_HJ/BP_RabbitGameMode_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.02.12-17.30.07:056][233]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C' for saving '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C'
+[2025.02.12-17.30.07:056][233]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C' for saving '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C'
+[2025.02.12-17.30.07:056][233]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Make_HJ/BP_RabbitGameMode_Auto1
+[2025.02.12-17.30.07:056][233]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BP_RabbitGameMode_Auto1E09B526A4E2C43E32FB484AB7D0A3A7F.tmp' to 'D:/GitHub/Project08/Project08/Saved/Autosaves/Game/Make_HJ/BP_RabbitGameMode_Auto1.uasset'
+[2025.02.12-17.30.07:057][233]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Make_HJ/BP_RabbitCharacter] ([2] browsable assets)...
+[2025.02.12-17.30.07:149][233]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter]
+[2025.02.12-17.30.07:149][233]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2025.02.12-17.30.07:180][233]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter_C]
+[2025.02.12-17.30.07:180][233]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/BP_RabbitCharacter]
+[2025.02.12-17.30.07:180][233]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/BP_RabbitCharacter" FILE="D:/GitHub/Project08/Project08/Saved/Autosaves/Game/Make_HJ/BP_RabbitCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2025.02.12-17.30.07:183][233]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter_C' for saving '/Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter_C'
+[2025.02.12-17.30.07:184][233]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter_C' for saving '/Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter_C'
+[2025.02.12-17.30.07:184][233]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Make_HJ/BP_RabbitCharacter_Auto1
+[2025.02.12-17.30.07:184][233]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BP_RabbitCharacter_Auto1D0F86B704392DE9775AF66AF44C7E04D.tmp' to 'D:/GitHub/Project08/Project08/Saved/Autosaves/Game/Make_HJ/BP_RabbitCharacter_Auto1.uasset'
+[2025.02.12-17.30.07:184][233]LogFileHelpers: Auto-saving content packages took 0.134
+[2025.02.12-17.30.27:159][387]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-17.30.32:113][567]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_2.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_2.exp 개체를 생성하고 있습니다.
+[2025.02.12-17.30.32:339][567]LogClass: UClass RabbitCharacter Reload.
+[2025.02.12-17.30.32:342][567]LogClass: Could not find existing class RabbitCharacter in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-17.30.32:353][567]Re-instancing RabbitCharacter after reload.
+[2025.02.12-17.30.32:473][567]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.02.12-17.30.32:918][568]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 1 class unchanged
+[2025.02.12-17.30.32:918][568]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-17.33.08:958][ 37]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 989.185547
+[2025.02.12-17.33.09:958][ 40]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-17.33.09:958][ 40]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 989.852234, Update Interval: 315.976440
+[2025.02.12-17.37.00:704][817]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-17.37.05:951][183]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_3.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_3.exp 개체를 생성하고 있습니다.
+[2025.02.12-17.37.06:392][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.02.12-17.37.06:777][184]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes unchanged
+[2025.02.12-17.37.06:777][184]LogLiveCoding: Display: Live coding succeeded
+[2025.02.12-17.38.35:774][817]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-17.38.39:382][817]LogAutomationController: Ignoring very large delta of 3.98 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.12-17.38.39:721][819]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1319.947021
+[2025.02.12-17.38.40:723][822]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-17.38.40:723][822]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1320.614746, Update Interval: 345.197296
+[2025.02.12-17.43.02:099][735]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-17.43.19:631][404]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_4.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_4.exp 개체를 생성하고 있습니다.
+[2025.02.12-17.43.20:038][404]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-17.43.20:038][404]LogClass: UClass RabbitCharacter Reload.
+[2025.02.12-17.43.20:041][404]LogClass: Could not find existing class RabbitCharacter in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-17.43.20:055][404]Re-instancing RabbitCharacter after reload.
+[2025.02.12-17.43.20:324][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.02.12-17.43.20:688][405]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 1 class unchanged
+[2025.02.12-17.43.20:688][405]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-17.43.22:443][480]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter
+[2025.02.12-17.43.22:443][480]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2025.02.12-17.43.22:845][480]LogStreaming: Display: FlushAsyncLoading(684): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.12-17.44.42:007][825]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1682.232178
+[2025.02.12-17.44.43:004][828]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-17.44.43:004][828]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1682.896729, Update Interval: 333.366486
+[2025.02.12-17.44.45:895][843]LogSlate: Window 'BP_RabbitCharacter' being destroyed
+[2025.02.12-17.44.45:904][843]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-17.44.45:904][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.44.45:924][843]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter
+[2025.02.12-17.44.45:925][843]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.02.12-17.44.46:303][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.02.12-17.45.08:982][645]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2025.02.12-17.45.23:870][981]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode
+[2025.02.12-17.45.23:870][981]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.02.12-17.45.26:138][206]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-17.45.26:138][206]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.45.26:155][206]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode
+[2025.02.12-17.45.26:156][206]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.02.12-17.45.26:390][206]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.02.12-17.45.35:869][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.02.12-17.46.41:686][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.02.12-17.46.41:691][ 51]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Make_HJ/Rabbit_NewMap' took 0.022
+[2025.02.12-17.46.41:692][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Make_HJ/BP_RabbitGameMode] ([2] browsable assets)...
+[2025.02.12-17.46.41:692][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/BP_RabbitGameMode]
+[2025.02.12-17.46.41:692][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/BP_RabbitGameMode" FILE="D:/GitHub/Project08/Project08/Saved/Autosaves/Game/Make_HJ/BP_RabbitGameMode_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.02.12-17.46.41:693][ 51]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C' for saving '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C'
+[2025.02.12-17.46.41:693][ 51]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C' for saving '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C'
+[2025.02.12-17.46.41:694][ 51]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Make_HJ/BP_RabbitGameMode_Auto2
+[2025.02.12-17.46.41:694][ 51]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BP_RabbitGameMode_Auto26FDAD698420DDABDD3C133966FC3CD33.tmp' to 'D:/GitHub/Project08/Project08/Saved/Autosaves/Game/Make_HJ/BP_RabbitGameMode_Auto2.uasset'
+[2025.02.12-17.46.41:694][ 51]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Make_HJ/BP_RabbitCharacter] ([2] browsable assets)...
+[2025.02.12-17.46.41:782][ 51]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter]
+[2025.02.12-17.46.41:782][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/BP_RabbitCharacter]
+[2025.02.12-17.46.41:782][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/BP_RabbitCharacter" FILE="D:/GitHub/Project08/Project08/Saved/Autosaves/Game/Make_HJ/BP_RabbitCharacter_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2025.02.12-17.46.41:785][ 51]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter_C' for saving '/Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter_C'
+[2025.02.12-17.46.41:785][ 51]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter_C' for saving '/Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter_C'
+[2025.02.12-17.46.41:785][ 51]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Make_HJ/BP_RabbitCharacter_Auto2
+[2025.02.12-17.46.41:786][ 51]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BP_RabbitCharacter_Auto2C4674CF441D0F355B9490B92CEFDB962.tmp' to 'D:/GitHub/Project08/Project08/Saved/Autosaves/Game/Make_HJ/BP_RabbitCharacter_Auto2.uasset'
+[2025.02.12-17.46.41:786][ 51]LogFileHelpers: Auto-saving content packages took 0.095
+[2025.02.12-17.47.48:684][355]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-17.47.54:464][ 46]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_5.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_5.exp 개체를 생성하고 있습니다.
+[2025.02.12-17.47.54:582][ 51]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-17.47.54:582][ 51]LogClass: UClass RabbitGameMode Reload.
+[2025.02.12-17.47.54:582][ 51]LogClass: Could not find existing class RabbitGameMode in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-17.47.54:600][ 51]Re-instancing RabbitGameMode after reload.
+[2025.02.12-17.47.54:729][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.02.12-17.47.55:082][ 52]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 1 class unchanged
+[2025.02.12-17.47.55:082][ 52]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-17.48.31:082][648]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-17.48.36:296][238]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_6.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_6.exp 개체를 생성하고 있습니다.
+[2025.02.12-17.48.36:575][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.02.12-17.48.36:917][244]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes unchanged
+[2025.02.12-17.48.36:917][244]LogLiveCoding: Display: Live coding succeeded
