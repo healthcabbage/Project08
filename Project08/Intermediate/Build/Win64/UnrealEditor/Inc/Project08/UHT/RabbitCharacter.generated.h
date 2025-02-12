@@ -9,12 +9,22 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FInputActionValue;
 #ifdef PROJECT08_RabbitCharacter_generated_h
 #error "RabbitCharacter.generated.h already included, missing '#pragma once' in RabbitCharacter.h"
 #endif
 #define PROJECT08_RabbitCharacter_generated_h
 
-#define FID_Project08_Source_Project08_Public_RabbitCharacter_h_13_INCLASS_NO_PURE_DECLS \
+#define FID_Project08_Source_Project08_Public_RabbitCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execStopSprint); \
+	DECLARE_FUNCTION(execStartSprint); \
+	DECLARE_FUNCTION(execLook); \
+	DECLARE_FUNCTION(execStopJump); \
+	DECLARE_FUNCTION(execStartJump); \
+	DECLARE_FUNCTION(execMove);
+
+
+#define FID_Project08_Source_Project08_Public_RabbitCharacter_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesARabbitCharacter(); \
 	friend struct Z_Construct_UClass_ARabbitCharacter_Statics; \
@@ -23,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ARabbitCharacter)
 
 
-#define FID_Project08_Source_Project08_Public_RabbitCharacter_h_13_ENHANCED_CONSTRUCTORS \
+#define FID_Project08_Source_Project08_Public_RabbitCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ARabbitCharacter(ARabbitCharacter&&); \
@@ -35,12 +45,13 @@ public: \
 	NO_API virtual ~ARabbitCharacter();
 
 
-#define FID_Project08_Source_Project08_Public_RabbitCharacter_h_10_PROLOG
-#define FID_Project08_Source_Project08_Public_RabbitCharacter_h_13_GENERATED_BODY \
+#define FID_Project08_Source_Project08_Public_RabbitCharacter_h_11_PROLOG
+#define FID_Project08_Source_Project08_Public_RabbitCharacter_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Project08_Source_Project08_Public_RabbitCharacter_h_13_INCLASS_NO_PURE_DECLS \
-	FID_Project08_Source_Project08_Public_RabbitCharacter_h_13_ENHANCED_CONSTRUCTORS \
+	FID_Project08_Source_Project08_Public_RabbitCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Project08_Source_Project08_Public_RabbitCharacter_h_14_INCLASS_NO_PURE_DECLS \
+	FID_Project08_Source_Project08_Public_RabbitCharacter_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

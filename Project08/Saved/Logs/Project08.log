@@ -2475,3 +2475,416 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.02.12-18.14.49:188][ 81]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
 [2025.02.12-18.14.49:194][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
 [2025.02.12-18.14.49:249][ 83]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.02.12-18.15.48:516][403]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3548.738281
+[2025.02.12-18.15.49:516][406]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-18.15.49:516][406]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3549.404785, Update Interval: 323.524292
+[2025.02.12-18.18.36:770][991]LogDerivedDataCache: C:/Users/Agape/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.02.12-18.22.00:376][601]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3920.597168
+[2025.02.12-18.22.01:376][604]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-18.22.01:376][604]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3921.263916, Update Interval: 355.006561
+[2025.02.12-18.27.44:986][725]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-18.27.48:935][844]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.02.12-18.27.48:935][844]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2025.02.12-18.28.07:270][899]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-18.28.12:298][457]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_11.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_11.exp 개체를 생성하고 있습니다.
+[2025.02.12-18.28.12:428][462]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-18.28.12:429][462]LogClass: UClass RabbitCharacter Reload.
+[2025.02.12-18.28.12:431][462]LogClass: Could not find existing class RabbitCharacter in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-18.28.12:431][462]LogClass: Function Look is new or belongs to a modified class.
+[2025.02.12-18.28.12:431][462]LogClass: Function Move is new or belongs to a modified class.
+[2025.02.12-18.28.12:431][462]LogClass: Function StartJump is new or belongs to a modified class.
+[2025.02.12-18.28.12:431][462]LogClass: Function StartSprint is new or belongs to a modified class.
+[2025.02.12-18.28.12:431][462]LogClass: Function StopJump is new or belongs to a modified class.
+[2025.02.12-18.28.12:431][462]LogClass: Function StopSprint is new or belongs to a modified class.
+[2025.02.12-18.28.12:446][462]Re-instancing RabbitCharacter after reload.
+[2025.02.12-18.28.12:582][462]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.02.12-18.28.12:948][463]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 2 classes unchanged
+[2025.02.12-18.28.12:948][463]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-18.28.14:306][568]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.02.12-18.28.14:311][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.12-18.28.14:340][568]LogPlayLevel: Creating play world package: /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap
+[2025.02.12-18.28.14:341][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001126s)
+[2025.02.12-18.28.14:341][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Make_HJ/Rabbit_NewMap.Rabbit_NewMap to /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap.Rabbit_NewMap (0.001160s)
+[2025.02.12-18.28.14:409][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.02.12-18.28.14:416][568]LogChaosDD: Creating Chaos Debug Draw Scene for world Rabbit_NewMap
+[2025.02.12-18.28.14:418][568]LogPlayLevel: PIE: World Init took: (0.001406s)
+[2025.02.12-18.28.14:418][568]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.02.12-18.28.14:418][568]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.12-18.28.14:418][568]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.12-18.28.14:418][568]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.12-18.28.14:418][568]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.12-18.28.14:418][568]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.12-18.28.14:418][568]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.12-18.28.14:418][568]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.12-18.28.14:418][568]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.12-18.28.14:418][568]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.12-18.28.14:418][568]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.12-18.28.14:418][568]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.12-18.28.14:421][568]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.12-18.28.14:433][568]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.02.12-18.28.14:433][568]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.12-18.28.14:433][568]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.12-18.28.14:433][568]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.12-18.28.14:434][568]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.02.12-18.28.14:434][568]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.02.12-18.28.14:436][568]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.02.12-18.28.14:436][568]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.02.12-18.28.14:436][568]LogInit: FAudioDevice initialized with ID 5.
+[2025.02.12-18.28.14:436][568]LogAudio: Display: Audio Device (ID: 5) registered with world 'Rabbit_NewMap'.
+[2025.02.12-18.28.14:436][568]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.02.12-18.28.14:438][568]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.12-18.28.14:439][568]LogWorld: Bringing World /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap.Rabbit_NewMap up for play (max tick rate 0) at 2025.02.13-03.28.14
+[2025.02.12-18.28.14:439][568]LogWorld: Bringing up level for play took: 0.000562
+[2025.02.12-18.28.14:441][568]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.02.12-18.28.14:441][568]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.12-18.28.14:441][568]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.12-18.28.14:441][568]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.12-18.28.14:444][568]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.12-18.28.14:445][568]PIE: 서버가 로그인했습니다.
+[2025.02.12-18.28.14:446][568]PIE: 에디터에서 플레이 총 시작 시간 0.136초입니다.
+[2025.02.12-18.28.15:887][723]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.15:896][724]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.15:904][725]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.15:913][726]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.15:921][727]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.15:931][728]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.15:939][729]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.15:951][730]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.15:959][731]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.15:967][732]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.15:975][733]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.15:985][734]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.15:993][735]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:002][736]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:010][737]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:020][738]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:028][739]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:383][779]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:392][780]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:401][781]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:409][782]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:418][783]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:426][784]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:436][785]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:444][786]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:452][787]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:461][788]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:471][789]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:483][790]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:499][792]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:577][801]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:588][802]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:615][805]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:658][810]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:667][811]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:695][814]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:703][815]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:712][816]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.28.16:992][848]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:000][849]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:011][850]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:020][851]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:029][852]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:037][853]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:047][854]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:055][855]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:063][856]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:072][857]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:080][858]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:088][859]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:097][860]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:105][861]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:116][862]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:125][863]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:134][864]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:142][865]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:151][866]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:161][867]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:169][868]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:177][869]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:186][870]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:195][871]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:203][872]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:212][873]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:224][874]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:232][875]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:240][876]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:249][877]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:258][878]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:267][879]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:276][880]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:415][896]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:423][897]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:435][898]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:443][899]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:451][900]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:460][901]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:469][902]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:478][903]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:487][904]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:497][905]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:505][906]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:514][907]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:522][908]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:531][909]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:542][910]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:551][911]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:560][912]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:568][913]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:576][914]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:585][915]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:593][916]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:601][917]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:610][918]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:618][919]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:627][920]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:635][921]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:647][922]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:655][923]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:665][924]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:673][925]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:682][926]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:690][927]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:699][928]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:707][929]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:716][930]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:724][931]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:733][932]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:741][933]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:752][934]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:761][935]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:770][936]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:779][937]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:787][938]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:796][939]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:804][940]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:812][941]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:821][942]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:830][943]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:839][944]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:847][945]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:859][946]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:867][947]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:876][948]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:884][949]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:893][950]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:901][951]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:910][952]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:918][953]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:928][954]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:938][955]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:946][956]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:955][957]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:966][958]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:976][959]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:984][960]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.17:992][961]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:001][962]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:010][963]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:019][964]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:027][965]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:036][966]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:045][967]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:054][968]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:062][969]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:074][970]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:084][971]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:092][972]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:101][973]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:110][974]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:119][975]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:128][976]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:136][977]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:145][978]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:154][979]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:163][980]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:171][981]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:183][982]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:191][983]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:199][984]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:208][985]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:217][986]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:226][987]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:234][988]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:243][989]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:252][990]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:260][991]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:268][992]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:276][993]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:287][994]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:296][995]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:304][996]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:314][997]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:323][998]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:331][999]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:340][  0]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:348][  1]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:356][  2]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:365][  3]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:373][  4]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:382][  5]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:394][  6]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:403][  7]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:412][  8]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:421][  9]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:429][ 10]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:438][ 11]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:448][ 12]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:456][ 13]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:464][ 14]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:473][ 15]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:482][ 16]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:490][ 17]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:502][ 18]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:512][ 19]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:520][ 20]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:529][ 21]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:537][ 22]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:546][ 23]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:554][ 24]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:563][ 25]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:571][ 26]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:581][ 27]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:590][ 28]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:599][ 29]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:610][ 30]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:619][ 31]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:627][ 32]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:636][ 33]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:645][ 34]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:654][ 35]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:663][ 36]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.18:671][ 37]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.28.19:040][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-18.28.19:040][ 75]LogWorld: BeginTearingDown for /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap
+[2025.02.12-18.28.19:040][ 75]LogWorld: UWorld::CleanupWorld for Rabbit_NewMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-18.28.19:040][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-18.28.19:043][ 75]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.12-18.28.19:048][ 75]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-18.28.19:071][ 75]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.12-18.28.19:071][ 75]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.02.12-18.28.19:071][ 75]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.02.12-18.28.19:073][ 75]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2025.02.12-18.28.19:077][ 75]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-18.28.19:094][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.02.12-18.28.19:127][ 76]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.02.12-18.28.26:020][194]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter
+[2025.02.12-18.28.26:020][194]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.02.12-18.28.32:560][807]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.02.12-18.28.33:094][864]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.12-18.28.33:160][864]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Make_HJ/BP_RabbitPlayerController] ([2] browsable assets)...
+[2025.02.12-18.28.33:160][864]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/BP_RabbitPlayerController]
+[2025.02.12-18.28.33:160][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/BP_RabbitPlayerController" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitPlayerController.uasset" SILENT=true
+[2025.02.12-18.28.33:162][864]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C' for saving '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C'
+[2025.02.12-18.28.33:162][864]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C' for saving '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C'
+[2025.02.12-18.28.33:162][864]LogSavePackage: Moving output files for package: /Game/Make_HJ/BP_RabbitPlayerController
+[2025.02.12-18.28.33:162][864]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BP_RabbitPlayerController01352C0849F975513CB69D9636E18A17.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitPlayerController.uasset'
+[2025.02.12-18.28.33:168][864]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.179 ms (total: 535.268 ms)
+[2025.02.12-18.28.33:225][864]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.12-18.28.33:225][864]LogContentValidation: Enabled validators:
+[2025.02.12-18.28.33:225][864]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.12-18.28.33:225][864]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.12-18.28.33:225][864]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.12-18.28.33:225][864]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.12-18.28.33:225][864]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.12-18.28.33:225][864]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.12-18.28.33:225][864]AssetCheck: /Game/Make_HJ/BP_RabbitPlayerController 에셋 유효성 검사 중
+[2025.02.12-18.28.38:122][  9]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4318.346191
+[2025.02.12-18.28.39:122][ 12]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-18.28.39:123][ 12]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4319.014648, Update Interval: 336.547119
+[2025.02.12-18.32.39:162][732]LogSlate: Window 'BP_RabbitCharacter' being destroyed
+[2025.02.12-18.32.39:168][732]LogSlate: Window 'BP_RabbitCharacter' being destroyed
+[2025.02.12-18.32.39:189][732]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-18.32.39:189][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-18.32.39:214][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.02.12-18.32.39:214][732]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-18.32.39:214][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-18.32.39:280][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.02.12-18.32.40:196][834]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-18.32.46:991][ 51]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_12.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_12.exp 개체를 생성하고 있습니다.
+[2025.02.12-18.32.47:538][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.02.12-18.32.48:001][ 53]Display: Reload/Re-instancing Complete: 1 package changed, 3 classes unchanged, 6 functions remapped
+[2025.02.12-18.32.48:001][ 53]LogLiveCoding: Display: Live coding succeeded
+[2025.02.12-18.33.11:023][123]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.02.12-18.33.11:029][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.12-18.33.11:029][123]LogPlayLevel: Creating play world package: /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap
+[2025.02.12-18.33.11:030][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001323s)
+[2025.02.12-18.33.11:030][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Make_HJ/Rabbit_NewMap.Rabbit_NewMap to /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap.Rabbit_NewMap (0.001348s)
+[2025.02.12-18.33.11:101][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.02.12-18.33.11:116][123]LogChaosDD: Creating Chaos Debug Draw Scene for world Rabbit_NewMap
+[2025.02.12-18.33.11:117][123]LogPlayLevel: PIE: World Init took: (0.001616s)
+[2025.02.12-18.33.11:118][123]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2025.02.12-18.33.11:118][123]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.12-18.33.11:118][123]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.12-18.33.11:118][123]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.12-18.33.11:118][123]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.12-18.33.11:118][123]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.12-18.33.11:118][123]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.12-18.33.11:118][123]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.12-18.33.11:118][123]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.12-18.33.11:118][123]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.12-18.33.11:118][123]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.12-18.33.11:118][123]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.12-18.33.11:120][123]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.12-18.33.11:132][123]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.02.12-18.33.11:132][123]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.12-18.33.11:132][123]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.12-18.33.11:132][123]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.12-18.33.11:133][123]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2025.02.12-18.33.11:133][123]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2025.02.12-18.33.11:135][123]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2025.02.12-18.33.11:135][123]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2025.02.12-18.33.11:135][123]LogInit: FAudioDevice initialized with ID 6.
+[2025.02.12-18.33.11:135][123]LogAudio: Display: Audio Device (ID: 6) registered with world 'Rabbit_NewMap'.
+[2025.02.12-18.33.11:135][123]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2025.02.12-18.33.11:138][123]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.12-18.33.11:139][123]LogWorld: Bringing World /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap.Rabbit_NewMap up for play (max tick rate 0) at 2025.02.13-03.33.11
+[2025.02.12-18.33.11:139][123]LogWorld: Bringing up level for play took: 0.000650
+[2025.02.12-18.33.11:141][123]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2025.02.12-18.33.11:142][123]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.12-18.33.11:142][123]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.12-18.33.11:142][123]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.12-18.33.11:145][123]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.12-18.33.11:145][123]PIE: 서버가 로그인했습니다.
+[2025.02.12-18.33.11:146][123]PIE: 에디터에서 플레이 총 시작 시간 0.118초입니다.
+[2025.02.12-18.33.15:572][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-18.33.15:572][564]LogWorld: BeginTearingDown for /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap
+[2025.02.12-18.33.15:572][564]LogWorld: UWorld::CleanupWorld for Rabbit_NewMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-18.33.15:572][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-18.33.15:575][564]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.12-18.33.15:580][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-18.33.15:596][564]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.12-18.33.15:603][564]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2025.02.12-18.33.15:604][564]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.02.12-18.33.15:606][564]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2025.02.12-18.33.15:609][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-18.33.15:626][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.02.12-18.33.15:662][565]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2025.02.12-18.35.01:422][924]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4701.649414
+[2025.02.12-18.35.02:423][927]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-18.35.02:423][927]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4702.316406, Update Interval: 335.785400
+[2025.02.12-18.41.12:777][ 38]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5073.012207
+[2025.02.12-18.41.13:776][ 41]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-18.41.13:776][ 41]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5073.678223, Update Interval: 328.374878
+[2025.02.12-18.47.24:126][152]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5444.386230
+[2025.02.12-18.47.25:126][155]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-18.47.25:126][155]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5445.052246, Update Interval: 352.598663
+[2025.02.12-18.49.38:435][874]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-18.49.42:260][874]LogAutomationController: Ignoring very large delta of 4.18 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.12-18.54.10:969][681]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5851.227051
+[2025.02.12-18.54.11:970][684]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-18.54.11:970][684]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5851.893066, Update Interval: 308.133789
+[2025.02.12-18.56.53:885][239]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-18.57.00:246][359]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_13.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_13.exp 개체를 생성하고 있습니다.
+[2025.02.12-18.57.00:623][359]LogClass: UClass RabbitCharacter Reload.
+[2025.02.12-18.57.00:626][359]LogClass: Could not find existing class RabbitCharacter in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-18.57.00:626][359]LogClass: Function Look is new or belongs to a modified class.
+[2025.02.12-18.57.00:626][359]LogClass: Function Move is new or belongs to a modified class.
+[2025.02.12-18.57.00:626][359]LogClass: Function StartJump is new or belongs to a modified class.
+[2025.02.12-18.57.00:626][359]LogClass: Function StartSprint is new or belongs to a modified class.
+[2025.02.12-18.57.00:626][359]LogClass: Function StopJump is new or belongs to a modified class.
+[2025.02.12-18.57.00:626][359]LogClass: Function StopSprint is new or belongs to a modified class.
+[2025.02.12-18.57.00:642][359]Re-instancing RabbitCharacter after reload.
+[2025.02.12-18.57.00:776][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.02.12-18.57.01:209][360]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 2 classes unchanged
+[2025.02.12-18.57.01:209][360]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
