@@ -3491,3 +3491,342 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.02.12-19.35.22:528][378]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
 [2025.02.12-19.35.22:534][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
 [2025.02.12-19.35.22:599][380]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2025.02.12-19.37.20:231][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.02.12-19.37.21:395][940]LogSlate: Window '콘텐츠 저장' being destroyed
+[2025.02.12-19.37.21:412][940]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.12-19.37.21:473][940]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Make_HJ/ABP_Rabbit] ([2] browsable assets)...
+[2025.02.12-19.37.21:485][940]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Make_HJ/ABP_Rabbit.ABP_Rabbit]
+[2025.02.12-19.37.21:485][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/ABP_Rabbit]
+[2025.02.12-19.37.21:485][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/ABP_Rabbit" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/ABP_Rabbit.uasset" SILENT=true
+[2025.02.12-19.37.21:510][940]LogSavePackage: Moving output files for package: /Game/Make_HJ/ABP_Rabbit
+[2025.02.12-19.37.21:510][940]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/ABP_Rabbit90E5C84F44DA935704AA2B9545A69DD0.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/ABP_Rabbit.uasset'
+[2025.02.12-19.37.21:511][940]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Resources/Characters/Animations/Manny/BS_MM_WalkRun] ([1] browsable assets)...
+[2025.02.12-19.37.21:511][940]OBJ SavePackage: Finished generating thumbnails for package [/Game/Resources/Characters/Animations/Manny/BS_MM_WalkRun]
+[2025.02.12-19.37.21:511][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Resources/Characters/Animations/Manny/BS_MM_WalkRun" FILE="D:/GitHub/Project08/Project08/Content/Resources/Characters/Animations/Manny/BS_MM_WalkRun.uasset" SILENT=true
+[2025.02.12-19.37.21:511][940]LogSavePackage: Moving output files for package: /Game/Resources/Characters/Animations/Manny/BS_MM_WalkRun
+[2025.02.12-19.37.21:512][940]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BS_MM_WalkRun09C69BFB490855AFF1F038969D5FCA32.tmp' to 'D:/GitHub/Project08/Project08/Content/Resources/Characters/Animations/Manny/BS_MM_WalkRun.uasset'
+[2025.02.12-19.37.21:519][940]LogFileHelpers: InternalPromptForCheckoutAndSave took 107.642 ms (total: 1.19 sec)
+[2025.02.12-19.37.21:571][940]LogContentValidation: Display: Starting to validate 2 assets
+[2025.02.12-19.37.21:571][940]LogContentValidation: Enabled validators:
+[2025.02.12-19.37.21:571][940]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.12-19.37.21:571][940]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.12-19.37.21:571][940]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.12-19.37.21:571][940]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.12-19.37.21:571][940]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.12-19.37.21:571][940]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.12-19.37.21:571][940]AssetCheck: /Game/Make_HJ/ABP_Rabbit 에셋 유효성 검사 중
+[2025.02.12-19.37.21:571][940]AssetCheck: /Game/Resources/Characters/Animations/Manny/BS_MM_WalkRun 에셋 유효성 검사 중
+[2025.02.12-19.37.49:440][704]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.37.49:543][704]Using bundled DotNet SDK version: 8.0.300
+[2025.02.12-19.37.49:543][704]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.37.49:845][704]Log file: C:\Users\Agape\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.02.12-19.37.50:046][704]
+[2025.02.12-19.37.50:046][704]Generating VisualStudio2022 project files:
+[2025.02.12-19.37.50:046][704]Discovering modules, targets and source code for project...
+[2025.02.12-19.37.53:170][704]Binding IntelliSense data...
+[2025.02.12-19.37.56:510][704]Binding IntelliSense data... 100%
+[2025.02.12-19.37.56:510][704]Writing project files...
+[2025.02.12-19.37.58:247][704]Writing project files... 100%
+[2025.02.12-19.37.58:247][704]
+[2025.02.12-19.37.58:247][704]Generating QueryTargets data for editor...
+[2025.02.12-19.37.58:247][704]Total execution time: 8.64 seconds
+[2025.02.12-19.37.58:551][704]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-19.37.58:651][704]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2025.02.12-19.37.58:683][704]LogAutomationController: Ignoring very large delta of 9.61 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.12-19.38.06:201][728]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_14.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_14.exp 개체를 생성하고 있습니다.
+[2025.02.12-19.38.06:448][728]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-19.38.06:448][728]LogClass: Could not find existing class ItemInterface in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-19.38.06:571][728]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.02.12-19.38.07:020][729]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 3 classes unchanged, 6 functions remapped
+[2025.02.12-19.38.07:020][729]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-19.38.12:373][746]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8492.612305
+[2025.02.12-19.38.13:372][749]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-19.38.13:372][749]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8493.277344, Update Interval: 323.148895
+[2025.02.12-19.40.58:357][996]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.40.58:461][996]Using bundled DotNet SDK version: 8.0.300
+[2025.02.12-19.40.58:461][996]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.40.58:662][996]Log file: C:\Users\Agape\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.02.12-19.40.58:762][996]
+[2025.02.12-19.40.58:762][996]Generating VisualStudio2022 project files:
+[2025.02.12-19.40.58:762][996]Discovering modules, targets and source code for project...
+[2025.02.12-19.41.01:476][996]Binding IntelliSense data...
+[2025.02.12-19.41.04:323][996]Binding IntelliSense data... 100%
+[2025.02.12-19.41.04:323][996]Writing project files...
+[2025.02.12-19.41.05:858][996]Writing project files... 100%
+[2025.02.12-19.41.05:858][996]
+[2025.02.12-19.41.05:858][996]Generating QueryTargets data for editor...
+[2025.02.12-19.41.05:858][996]Total execution time: 7.38 seconds
+[2025.02.12-19.41.06:164][996]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-19.41.06:187][996]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.06:189][996]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.06:189][996]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2025.02.12-19.41.06:199][996]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.06:201][996]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.06:229][996]LogAutomationController: Ignoring very large delta of 8.29 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.12-19.41.06:234][997]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.06:236][997]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.06:566][998]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.06:568][998]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.06:898][999]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.06:900][999]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.07:232][  0]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.07:234][  0]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.07:574][  1]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.07:577][  1]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.07:899][  2]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.07:901][  2]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.08:233][  3]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.08:236][  3]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.08:717][  4]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.08:720][  4]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.08:900][  5]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.08:902][  5]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.09:233][  6]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.09:235][  6]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.09:568][  7]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.09:571][  7]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.09:900][  8]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.09:902][  8]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.10:447][  9]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.10:477][  9]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.10:569][ 10]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.10:571][ 10]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.10:902][ 11]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.10:905][ 11]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.11:235][ 12]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.11:237][ 12]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.11:568][ 13]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.11:570][ 13]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2025.02.12-19.41.13:561][ 19]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_15.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_15.exp 개체를 생성하고 있습니다.
+[2025.02.12-19.41.13:996][ 20]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-19.41.13:999][ 20]LogClass: Could not find existing class BaseItem in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-19.41.14:222][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.02.12-19.41.14:642][ 21]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 4 classes unchanged, 6 functions remapped
+[2025.02.12-19.41.14:642][ 21]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-19.43.36:699][521]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-19.43.43:082][541]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_16.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_16.exp 개체를 생성하고 있습니다.
+[2025.02.12-19.43.43:465][541]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-19.43.43:466][541]LogClass: UClass BaseItem Reload.
+[2025.02.12-19.43.43:469][541]LogClass: Could not find existing class BaseItem in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-19.43.43:498][541]Re-instancing BaseItem after reload.
+[2025.02.12-19.43.43:734][541]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2025.02.12-19.43.44:140][542]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 4 classes unchanged, 6 functions remapped
+[2025.02.12-19.43.44:140][542]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-19.44.08:534][892]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.44.08:637][892]Using bundled DotNet SDK version: 8.0.300
+[2025.02.12-19.44.08:637][892]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.44.08:838][892]Log file: C:\Users\Agape\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.02.12-19.44.08:938][892]
+[2025.02.12-19.44.08:938][892]Generating VisualStudio2022 project files:
+[2025.02.12-19.44.08:938][892]Discovering modules, targets and source code for project...
+[2025.02.12-19.44.11:754][892]Binding IntelliSense data...
+[2025.02.12-19.44.14:796][892]Binding IntelliSense data... 100%
+[2025.02.12-19.44.14:796][892]Writing project files...
+[2025.02.12-19.44.16:440][892]Writing project files... 100%
+[2025.02.12-19.44.16:440][892]
+[2025.02.12-19.44.16:440][892]Generating QueryTargets data for editor...
+[2025.02.12-19.44.16:440][892]Total execution time: 7.72 seconds
+[2025.02.12-19.44.16:647][892]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-19.44.16:736][892]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2025.02.12-19.44.16:777][892]LogAutomationController: Ignoring very large delta of 8.71 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.12-19.44.16:777][892]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8857.017578
+[2025.02.12-19.44.17:496][895]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-19.44.17:496][895]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8857.404297, Update Interval: 350.500183
+[2025.02.12-19.44.24:280][916]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_17.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_17.exp 개체를 생성하고 있습니다.
+[2025.02.12-19.44.24:551][916]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-19.44.24:558][916]LogClass: Could not find existing class CoinItem in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-19.44.24:748][916]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.02.12-19.44.25:140][917]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 5 classes unchanged, 6 functions remapped
+[2025.02.12-19.44.25:140][917]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-19.45.49:874][172]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-19.45.56:707][277]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_18.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_18.exp 개체를 생성하고 있습니다.
+[2025.02.12-19.45.57:055][277]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-19.45.57:055][277]LogClass: UClass CoinItem Reload.
+[2025.02.12-19.45.57:061][277]LogClass: Could not find existing class CoinItem in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-19.45.57:085][277]Re-instancing CoinItem after reload.
+[2025.02.12-19.45.57:262][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.02.12-19.45.57:676][278]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 5 classes unchanged, 6 functions remapped
+[2025.02.12-19.45.57:676][278]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-19.46.08:006][ 74]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.46.08:109][ 74]Using bundled DotNet SDK version: 8.0.300
+[2025.02.12-19.46.08:109][ 74]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.46.08:310][ 74]Log file: C:\Users\Agape\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.02.12-19.46.08:411][ 74]
+[2025.02.12-19.46.08:411][ 74]Generating VisualStudio2022 project files:
+[2025.02.12-19.46.08:411][ 74]Discovering modules, targets and source code for project...
+[2025.02.12-19.46.10:928][ 74]Binding IntelliSense data...
+[2025.02.12-19.46.13:755][ 74]Binding IntelliSense data... 100%
+[2025.02.12-19.46.13:755][ 74]Writing project files...
+[2025.02.12-19.46.15:291][ 74]Writing project files... 100%
+[2025.02.12-19.46.15:291][ 74]
+[2025.02.12-19.46.15:291][ 74]Generating QueryTargets data for editor...
+[2025.02.12-19.46.15:291][ 74]Total execution time: 7.16 seconds
+[2025.02.12-19.46.15:604][ 74]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-19.46.15:748][ 74]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2025.02.12-19.46.15:792][ 74]LogAutomationController: Ignoring very large delta of 8.19 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.12-19.46.23:321][ 98]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_19.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_19.exp 개체를 생성하고 있습니다.
+[2025.02.12-19.46.23:568][ 98]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-19.46.23:574][ 98]LogClass: Could not find existing class BigCoinItem in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-19.46.23:754][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2025.02.12-19.46.24:159][ 99]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 6 classes unchanged, 6 functions remapped
+[2025.02.12-19.46.24:160][ 99]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-19.48.47:792][624]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-19.48.54:480][752]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_20.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_20.exp 개체를 생성하고 있습니다.
+[2025.02.12-19.48.54:834][752]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-19.48.54:834][752]LogClass: UClass BigCoinItem Reload.
+[2025.02.12-19.48.54:837][752]LogClass: Could not find existing class BigCoinItem in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-19.48.54:866][752]Re-instancing BigCoinItem after reload.
+[2025.02.12-19.48.55:041][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.02.12-19.48.55:435][753]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 6 classes unchanged, 6 functions remapped
+[2025.02.12-19.48.55:435][753]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-19.49.30:824][ 14]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.49.30:926][ 14]Using bundled DotNet SDK version: 8.0.300
+[2025.02.12-19.49.30:926][ 14]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.49.31:127][ 14]Log file: C:\Users\Agape\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.02.12-19.49.31:227][ 14]
+[2025.02.12-19.49.31:227][ 14]Generating VisualStudio2022 project files:
+[2025.02.12-19.49.31:227][ 14]Discovering modules, targets and source code for project...
+[2025.02.12-19.49.33:844][ 14]Binding IntelliSense data...
+[2025.02.12-19.49.36:764][ 14]Binding IntelliSense data... 100%
+[2025.02.12-19.49.36:765][ 14]Writing project files...
+[2025.02.12-19.49.38:433][ 14]Writing project files... 100%
+[2025.02.12-19.49.38:433][ 14]
+[2025.02.12-19.49.38:433][ 14]Generating QueryTargets data for editor...
+[2025.02.12-19.49.38:433][ 14]Total execution time: 7.44 seconds
+[2025.02.12-19.49.38:744][ 14]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-19.49.38:830][ 14]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2025.02.12-19.49.38:874][ 14]LogAutomationController: Ignoring very large delta of 8.42 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.12-19.49.46:557][ 39]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_21.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_21.exp 개체를 생성하고 있습니다.
+[2025.02.12-19.49.46:982][ 39]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-19.49.47:005][ 39]LogClass: Could not find existing class SmallCoinItem in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-19.49.47:163][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.02.12-19.49.47:566][ 40]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 7 classes unchanged, 6 functions remapped
+[2025.02.12-19.49.47:566][ 40]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-19.50.46:927][219]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9247.163086
+[2025.02.12-19.50.47:927][222]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-19.50.47:927][222]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9247.830078, Update Interval: 352.648102
+[2025.02.12-19.51.52:151][555]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.51.52:254][555]Using bundled DotNet SDK version: 8.0.300
+[2025.02.12-19.51.52:254][555]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.51.52:455][555]Log file: C:\Users\Agape\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.02.12-19.51.52:555][555]
+[2025.02.12-19.51.52:555][555]Generating VisualStudio2022 project files:
+[2025.02.12-19.51.52:555][555]Discovering modules, targets and source code for project...
+[2025.02.12-19.51.55:270][555]Binding IntelliSense data...
+[2025.02.12-19.51.58:290][555]Binding IntelliSense data... 100%
+[2025.02.12-19.51.58:290][555]Writing project files...
+[2025.02.12-19.52.00:000][555]Writing project files... 100%
+[2025.02.12-19.52.00:000][555]
+[2025.02.12-19.52.00:000][555]Generating QueryTargets data for editor...
+[2025.02.12-19.52.00:000][555]Total execution time: 7.68 seconds
+[2025.02.12-19.52.00:312][555]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-19.52.00:406][555]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2025.02.12-19.52.00:440][555]LogAutomationController: Ignoring very large delta of 8.67 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.12-19.52.08:339][580]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_22.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_22.exp 개체를 생성하고 있습니다.
+[2025.02.12-19.52.08:550][580]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-19.52.08:550][580]LogClass: UClass SmallCoinItem Reload.
+[2025.02.12-19.52.08:559][580]LogClass: Could not find existing class SmallCoinItem in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-19.52.08:559][580]LogClass: Could not find existing class HealingItem in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-19.52.08:588][580]Re-instancing SmallCoinItem after reload.
+[2025.02.12-19.52.08:789][580]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.02.12-19.52.09:214][581]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 1 class changed, 7 classes unchanged, 6 functions remapped
+[2025.02.12-19.52.09:214][581]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-19.54.02:221][676]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.54.02:324][676]Using bundled DotNet SDK version: 8.0.300
+[2025.02.12-19.54.02:324][676]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-19.54.02:525][676]Log file: C:\Users\Agape\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.02.12-19.54.02:726][676]
+[2025.02.12-19.54.02:726][676]Generating VisualStudio2022 project files:
+[2025.02.12-19.54.02:726][676]Discovering modules, targets and source code for project...
+[2025.02.12-19.54.05:340][676]Binding IntelliSense data...
+[2025.02.12-19.54.08:256][676]Binding IntelliSense data... 100%
+[2025.02.12-19.54.08:256][676]Writing project files...
+[2025.02.12-19.54.09:897][676]Writing project files... 100%
+[2025.02.12-19.54.09:897][676]
+[2025.02.12-19.54.09:897][676]Generating QueryTargets data for editor...
+[2025.02.12-19.54.09:897][676]Total execution time: 7.52 seconds
+[2025.02.12-19.54.10:203][676]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-19.54.10:305][676]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2025.02.12-19.54.10:339][676]LogAutomationController: Ignoring very large delta of 8.60 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.12-19.54.17:976][700]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_23.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_23.exp 개체를 생성하고 있습니다.
+[2025.02.12-19.54.18:122][700]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-19.54.18:122][700]LogClass: UClass HealingItem Reload.
+[2025.02.12-19.54.18:135][700]LogClass: Could not find existing class HealingItem in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-19.54.18:141][700]LogClass: Could not find existing class MineItem in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-19.54.18:165][700]Re-instancing HealingItem after reload.
+[2025.02.12-19.54.18:362][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.02.12-19.54.18:768][701]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 1 class changed, 8 classes unchanged, 6 functions remapped
+[2025.02.12-19.54.18:768][701]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-19.57.40:140][306]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9660.369141
+[2025.02.12-19.57.41:139][309]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-19.57.41:139][309]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9661.036133, Update Interval: 301.507019
+[2025.02.12-20.03.29:150][353]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10009.375977
+[2025.02.12-20.03.30:150][356]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-20.03.30:151][356]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10010.043945, Update Interval: 336.887726
+[2025.02.12-20.09.37:505][458]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10377.717773
+[2025.02.12-20.09.38:505][461]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-20.09.38:505][461]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10378.384766, Update Interval: 345.327301
+[2025.02.12-20.15.58:855][602]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10759.045898
+[2025.02.12-20.15.59:855][605]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-20.15.59:855][605]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10759.711914, Update Interval: 355.090790
+[2025.02.12-20.18.36:772][ 76]LogDerivedDataCache: C:/Users/Agape/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.02.12-20.22.49:870][835]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11170.021484
+[2025.02.12-20.22.51:203][839]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-20.22.51:203][839]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11171.021484, Update Interval: 300.375366
+[2025.02.12-20.28.49:216][913]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11529.349609
+[2025.02.12-20.28.50:215][916]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-20.28.50:215][916]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11530.016602, Update Interval: 322.097839
+[2025.02.12-20.34.45:568][982]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11885.650391
+[2025.02.12-20.34.46:902][986]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-20.34.46:902][986]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11886.650391, Update Interval: 321.641907
+[2025.02.12-20.40.55:917][ 93]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12255.960938
+[2025.02.12-20.40.56:917][ 96]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-20.40.56:917][ 96]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12256.627930, Update Interval: 325.241852
+[2025.02.12-20.47.16:599][235]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12636.630859
+[2025.02.12-20.47.17:600][238]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-20.47.17:600][238]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12637.297852, Update Interval: 347.434906
+[2025.02.12-20.53.42:288][392]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13022.282227
+[2025.02.12-20.53.43:288][395]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-20.53.43:288][395]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13022.949219, Update Interval: 340.229492
+[2025.02.12-21.00.23:303][595]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13423.245117
+[2025.02.12-21.00.24:304][598]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-21.00.24:304][598]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13423.914062, Update Interval: 317.360748
+[2025.02.12-21.06.30:898][690]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13788.172852
+[2025.02.12-21.06.31:898][693]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-21.06.31:898][693]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13788.838867, Update Interval: 347.923828
+[2025.02.12-21.13.18:353][912]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14195.562500
+[2025.02.12-21.13.19:353][915]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-21.13.19:353][915]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14196.228516, Update Interval: 338.403870
+[2025.02.12-21.13.31:021][950]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: 7d4...6cc
+[2025.02.12-21.13.31:021][950]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.8 RefreshExpires: 1.552e+07
+[2025.02.12-21.13.32:023][953]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: 7d4...6cc Access[Expires: 2025.02.12-23.13.31 Remaining: 7200.48] Refresh[Expires: 2025-08-11T13:04:55.780Z Remaining: 15522684.78] State: Valid
+[2025.02.12-21.18.39:326][875]LogDerivedDataCache: C:/Users/Agape/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.02.12-21.19.32:743][ 35]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14569.924805
+[2025.02.12-21.19.33:744][ 38]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-21.19.33:744][ 38]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14570.590820, Update Interval: 311.332733
+[2025.02.12-21.25.36:800][127]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 14933.945312
+[2025.02.12-21.25.37:800][130]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-21.25.37:800][130]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 14934.611328, Update Interval: 303.272186
+[2025.02.12-21.31.13:847][138]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15270.972656
+[2025.02.12-21.31.14:846][141]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-21.31.14:846][141]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15271.640625, Update Interval: 315.643188
+[2025.02.12-21.37.01:898][182]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15618.985352
+[2025.02.12-21.37.02:897][185]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-21.37.02:897][185]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15619.651367, Update Interval: 304.553986
+[2025.02.12-21.42.45:610][213]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 15962.666016
+[2025.02.12-21.42.46:610][216]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-21.42.46:610][216]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 15963.332031, Update Interval: 303.173309
+[2025.02.12-21.48.23:991][228]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16301.035156
+[2025.02.12-21.48.24:991][231]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-21.48.24:991][231]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16301.701172, Update Interval: 338.647430
+[2025.02.12-21.53.45:806][320]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-21.53.53:248][516]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_24.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_24.exp 개체를 생성하고 있습니다.
+[2025.02.12-21.53.53:853][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.02.12-21.53.54:311][517]Display: Reload/Re-instancing Complete: 1 package changed, 10 classes unchanged, 6 functions remapped
+[2025.02.12-21.53.54:312][517]LogLiveCoding: Display: Live coding succeeded
+[2025.02.12-21.55.03:333][725]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16700.492188
+[2025.02.12-21.55.04:332][728]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-21.55.04:332][728]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16701.160156, Update Interval: 327.950073
+[2025.02.12-21.57.36:095][263]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-21.57.42:791][590]Display: Reload/Re-instancing Complete: No object changes detected
+[2025.02.12-21.57.42:791][590]LogLiveCoding: Error: Live coding failed, please see Live console for more information

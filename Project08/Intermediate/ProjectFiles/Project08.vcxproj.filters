@@ -42,6 +42,24 @@
     <Filter Include="Source\Project08\Private">
       <UniqueIdentifier>{AB17ED0D-CCC5-3ADB-95EB-187A876B4F8B}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Project08\Private\BaseItem.cpp">
+      <Filter>Source\Project08\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Private\BigCoinItem.cpp">
+      <Filter>Source\Project08\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Private\CoinItem.cpp">
+      <Filter>Source\Project08\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Private\HealingItem.cpp">
+      <Filter>Source\Project08\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Private\ItemInterface.cpp">
+      <Filter>Source\Project08\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Private\MineItem.cpp">
+      <Filter>Source\Project08\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Project08\Private\RabbitCharacter.cpp">
       <Filter>Source\Project08\Private</Filter>
     </ClCompile>
@@ -51,9 +69,30 @@
     <ClCompile Include="..\..\Source\Project08\Private\RabbitPlayerController.cpp">
       <Filter>Source\Project08\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Private\SmallCoinItem.cpp">
+      <Filter>Source\Project08\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\Project08\Public">
       <UniqueIdentifier>{C21D4929-B47B-332B-8111-094DA4FF0C05}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Project08\Public\BaseItem.h">
+      <Filter>Source\Project08\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Public\BigCoinItem.h">
+      <Filter>Source\Project08\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Public\CoinItem.h">
+      <Filter>Source\Project08\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Public\HealingItem.h">
+      <Filter>Source\Project08\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Public\ItemInterface.h">
+      <Filter>Source\Project08\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Public\MineItem.h">
+      <Filter>Source\Project08\Public</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Project08\Public\RabbitCharacter.h">
       <Filter>Source\Project08\Public</Filter>
     </ClCompile>
@@ -61,6 +100,9 @@
       <Filter>Source\Project08\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Project08\Public\RabbitPlayerController.h">
+      <Filter>Source\Project08\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Public\SmallCoinItem.h">
       <Filter>Source\Project08\Public</Filter>
     </ClCompile>
   </ItemGroup>
