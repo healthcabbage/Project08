@@ -48,6 +48,9 @@
     <ClCompile Include="..\..\Source\Project08\Private\RabbitGameMode.cpp">
       <Filter>Source\Project08\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Private\RabbitPlayerController.cpp">
+      <Filter>Source\Project08\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\Project08\Public">
       <UniqueIdentifier>{C21D4929-B47B-332B-8111-094DA4FF0C05}</UniqueIdentifier>
     </Filter>
@@ -55,6 +58,9 @@
       <Filter>Source\Project08\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Project08\Public\RabbitGameMode.h">
+      <Filter>Source\Project08\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Public\RabbitPlayerController.h">
       <Filter>Source\Project08\Public</Filter>
     </ClCompile>
   </ItemGroup>

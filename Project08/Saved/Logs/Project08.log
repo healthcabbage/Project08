@@ -1793,3 +1793,685 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.02.12-17.48.36:575][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
 [2025.02.12-17.48.36:917][244]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes unchanged
 [2025.02.12-17.48.36:917][244]LogLiveCoding: Display: Live coding succeeded
+[2025.02.12-17.50.43:704][957]Running C:/Program Files/Epic Games/UE_5.5/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-17.50.43:807][957]Using bundled DotNet SDK version: 8.0.300
+[2025.02.12-17.50.43:807][957]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="D:/GitHub/Project08/Project08/Project08.uproject" -game -rocket -progress
+[2025.02.12-17.50.44:009][957]Log file: C:\Users\Agape\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2025.02.12-17.50.44:210][957]
+[2025.02.12-17.50.44:210][957]Generating VisualStudio2022 project files:
+[2025.02.12-17.50.44:210][957]Discovering modules, targets and source code for project...
+[2025.02.12-17.50.47:425][957]Binding IntelliSense data...
+[2025.02.12-17.50.51:185][957]Binding IntelliSense data... 100%
+[2025.02.12-17.50.51:185][957]Writing project files...
+[2025.02.12-17.50.53:798][957]Writing project files... 100%
+[2025.02.12-17.50.53:798][957]
+[2025.02.12-17.50.53:798][957]Generating QueryTargets data for editor...
+[2025.02.12-17.50.53:798][957]Total execution time: 9.95 seconds
+[2025.02.12-17.50.54:106][957]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-17.50.54:136][957]LogSlate: Window 'C++ 클래스 추가' being destroyed
+[2025.02.12-17.50.54:397][957]LogAutomationController: Ignoring very large delta of 10.86 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2025.02.12-17.50.54:397][957]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2054.629639
+[2025.02.12-17.50.54:663][964]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-17.50.54:663][964]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2054.891357, Update Interval: 341.355621
+[2025.02.12-17.51.00:873][323]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_7.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_7.exp 개체를 생성하고 있습니다.
+[2025.02.12-17.51.01:486][324]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-17.51.01:492][324]LogClass: Could not find existing class RabbitPlayerController in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-17.51.01:714][324]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2025.02.12-17.51.02:083][325]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 2 classes unchanged
+[2025.02.12-17.51.02:083][325]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-17.52.43:363][729]LogSlate: Window 'BP_RabbitGameMode' being destroyed
+[2025.02.12-17.52.43:367][729]LogSlate: Window 'BP_RabbitGameMode' being destroyed
+[2025.02.12-17.52.43:370][729]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-17.52.43:370][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.52.43:410][729]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.02.12-17.52.43:410][729]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-17.52.43:410][729]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.52.43:516][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2025.02.12-17.52.48:557][316]LogToolMenus: Warning: Menu item not found: 'Rename' for insert: 'BatchRenameObject'
+[2025.02.12-17.52.55:171][ 90]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController
+[2025.02.12-17.52.55:171][ 90]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2025.02.12-17.52.55:335][ 90]LogSlate: Window '블루프린트 클래스 추가' being destroyed
+[2025.02.12-17.53.04:615][437]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode
+[2025.02.12-17.53.04:615][437]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.02.12-17.53.11:071][ 75]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-17.53.16:086][ 92]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_8.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_8.exp 개체를 생성하고 있습니다.
+[2025.02.12-17.53.16:502][ 93]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-17.53.16:502][ 93]LogClass: UClass RabbitPlayerController Reload.
+[2025.02.12-17.53.16:507][ 93]LogClass: Could not find existing class RabbitPlayerController in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-17.53.16:526][ 93]Re-instancing RabbitPlayerController after reload.
+[2025.02.12-17.53.16:746][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.02.12-17.53.17:142][ 94]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 2 classes unchanged
+[2025.02.12-17.53.17:142][ 94]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-17.53.18:167][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.02.12-17.53.19:526][153]LogSlate: Window '콘텐츠 저장' being destroyed
+[2025.02.12-17.53.19:550][153]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.12-17.53.19:597][153]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Make_HJ/BP_RabbitCharacter] ([2] browsable assets)...
+[2025.02.12-17.53.19:597][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/BP_RabbitCharacter]
+[2025.02.12-17.53.19:597][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/BP_RabbitCharacter" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitCharacter.uasset" SILENT=true
+[2025.02.12-17.53.19:599][153]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter_C' for saving '/Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter_C'
+[2025.02.12-17.53.19:599][153]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter_C' for saving '/Game/Make_HJ/BP_RabbitCharacter.BP_RabbitCharacter_C'
+[2025.02.12-17.53.19:599][153]LogSavePackage: Moving output files for package: /Game/Make_HJ/BP_RabbitCharacter
+[2025.02.12-17.53.19:599][153]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BP_RabbitCharacter354F36DE41D27B2721853898E5EA1A2C.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitCharacter.uasset'
+[2025.02.12-17.53.19:602][153]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Make_HJ/BP_RabbitGameMode] ([2] browsable assets)...
+[2025.02.12-17.53.19:602][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/BP_RabbitGameMode]
+[2025.02.12-17.53.19:602][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/BP_RabbitGameMode" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitGameMode.uasset" SILENT=true
+[2025.02.12-17.53.19:603][153]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C' for saving '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C'
+[2025.02.12-17.53.19:603][153]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C' for saving '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C'
+[2025.02.12-17.53.19:603][153]LogSavePackage: Moving output files for package: /Game/Make_HJ/BP_RabbitGameMode
+[2025.02.12-17.53.19:604][153]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BP_RabbitGameModeB349A83E4FC9110081189BA6B3ABA850.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitGameMode.uasset'
+[2025.02.12-17.53.19:606][153]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Make_HJ/BP_RabbitPlayerController] ([2] browsable assets)...
+[2025.02.12-17.53.19:606][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/BP_RabbitPlayerController]
+[2025.02.12-17.53.19:606][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/BP_RabbitPlayerController" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitPlayerController.uasset" SILENT=true
+[2025.02.12-17.53.19:607][153]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C' for saving '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C'
+[2025.02.12-17.53.19:607][153]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C' for saving '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C'
+[2025.02.12-17.53.19:607][153]LogSavePackage: Moving output files for package: /Game/Make_HJ/BP_RabbitPlayerController
+[2025.02.12-17.53.19:607][153]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BP_RabbitPlayerControllerF75545744EF5B016BC06E4959FD86692.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitPlayerController.uasset'
+[2025.02.12-17.53.19:619][153]LogFileHelpers: InternalPromptForCheckoutAndSave took 68.965 ms
+[2025.02.12-17.53.19:679][153]LogContentValidation: Display: Starting to validate 3 assets
+[2025.02.12-17.53.19:679][153]LogContentValidation: Enabled validators:
+[2025.02.12-17.53.19:679][153]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.12-17.53.19:679][153]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.12-17.53.19:679][153]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.12-17.53.19:679][153]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.12-17.53.19:679][153]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.12-17.53.19:679][153]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.12-17.53.19:679][153]AssetCheck: /Game/Make_HJ/BP_RabbitCharacter 에셋 유효성 검사 중
+[2025.02.12-17.53.19:679][153]AssetCheck: /Game/Make_HJ/BP_RabbitGameMode 에셋 유효성 검사 중
+[2025.02.12-17.53.19:679][153]AssetCheck: /Game/Make_HJ/BP_RabbitPlayerController 에셋 유효성 검사 중
+[2025.02.12-17.53.27:339][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2025.02.12-17.53.32:001][423]LogSlate: Window 'BP_RabbitGameMode' being destroyed
+[2025.02.12-17.53.32:006][423]LogSlate: Window 'BP_RabbitGameMode' being destroyed
+[2025.02.12-17.53.32:009][423]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-17.53.32:009][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.53.32:040][423]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.02.12-17.53.32:040][423]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-17.53.32:040][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.53.32:089][423]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2025.02.12-17.53.39:639][579]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController
+[2025.02.12-17.53.39:640][579]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2025.02.12-17.53.41:991][777]LogSlate: Window 'BP_RabbitPlayerController' being destroyed
+[2025.02.12-17.53.42:000][777]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-17.53.42:000][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.53.42:018][777]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController
+[2025.02.12-17.53.42:018][777]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.02.12-17.53.42:325][777]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.02.12-17.53.45:437][ 61]LogSlate: Window 'BP_RabbitPlayerController' being destroyed
+[2025.02.12-17.53.45:443][ 61]LogSlate: Window 'BP_RabbitPlayerController' being destroyed
+[2025.02.12-17.53.45:445][ 61]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-17.53.45:445][ 61]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.53.45:493][ 61]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.02.12-17.54.00:208][785]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode
+[2025.02.12-17.54.00:208][785]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.02.12-17.54.14:127][534]LogSlate: Window 'BP_RabbitGameMode' being destroyed
+[2025.02.12-17.54.14:136][534]LogSlate: Window 'BP_RabbitGameMode' being destroyed
+[2025.02.12-17.54.14:139][534]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-17.54.14:139][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.54.14:199][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.02.12-17.54.16:950][620]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode
+[2025.02.12-17.54.16:950][620]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.02.12-17.54.19:028][777]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.02.12-17.54.20:209][892]LogSlate: Window 'BP_RabbitGameMode' being destroyed
+[2025.02.12-17.54.20:214][892]LogSlate: Window 'BP_RabbitGameMode' being destroyed
+[2025.02.12-17.54.20:216][892]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-17.54.20:216][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.54.20:261][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.02.12-17.54.23:344][193]LogSlate: External Image Picker: DecompressImage failed
+[2025.02.12-17.54.28:422][732]LogSlate: Window '프로젝트 세팅' being destroyed
+[2025.02.12-17.54.28:427][732]LogSlate: Window '프로젝트 세팅' being destroyed
+[2025.02.12-17.54.32:823][823]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.02.12-17.54.32:835][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.12-17.54.32:843][823]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.02.12-17.54.32:844][823]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.02.12-17.54.32:845][823]LogPlayLevel: Creating play world package: /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap
+[2025.02.12-17.54.32:847][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002259s)
+[2025.02.12-17.54.32:847][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Make_HJ/Rabbit_NewMap.Rabbit_NewMap to /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap.Rabbit_NewMap (0.002303s)
+[2025.02.12-17.54.32:864][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.02.12-17.54.32:866][823]LogChaosDD: Creating Chaos Debug Draw Scene for world Rabbit_NewMap
+[2025.02.12-17.54.32:868][823]LogPlayLevel: PIE: World Init took: (0.001653s)
+[2025.02.12-17.54.32:869][823]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.02.12-17.54.32:869][823]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.12-17.54.32:869][823]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.12-17.54.32:869][823]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.12-17.54.32:869][823]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.12-17.54.32:869][823]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.12-17.54.32:869][823]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.12-17.54.32:869][823]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.12-17.54.32:869][823]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.12-17.54.32:869][823]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.12-17.54.32:869][823]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.12-17.54.32:869][823]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.12-17.54.32:871][823]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.12-17.54.32:883][823]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.02.12-17.54.32:883][823]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.12-17.54.32:883][823]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.12-17.54.32:883][823]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.12-17.54.32:884][823]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.02.12-17.54.32:884][823]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.02.12-17.54.32:886][823]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.02.12-17.54.32:886][823]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.02.12-17.54.32:886][823]LogInit: FAudioDevice initialized with ID 2.
+[2025.02.12-17.54.32:886][823]LogAudio: Display: Audio Device (ID: 2) registered with world 'Rabbit_NewMap'.
+[2025.02.12-17.54.32:886][823]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.02.12-17.54.32:894][823]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.12-17.54.32:895][823]LogWorld: Bringing World /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap.Rabbit_NewMap up for play (max tick rate 0) at 2025.02.13-02.54.32
+[2025.02.12-17.54.32:895][823]LogWorld: Bringing up level for play took: 0.000817
+[2025.02.12-17.54.32:898][823]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2025.02.12-17.54.32:910][823]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.12-17.54.32:910][823]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.12-17.54.32:910][823]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.12-17.54.32:917][823]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.12-17.54.32:918][823]PIE: 서버가 로그인했습니다.
+[2025.02.12-17.54.32:920][823]PIE: 에디터에서 플레이 총 시작 시간 0.089초입니다.
+[2025.02.12-17.54.51:664][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-17.54.51:664][674]LogWorld: BeginTearingDown for /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap
+[2025.02.12-17.54.51:664][674]LogWorld: UWorld::CleanupWorld for Rabbit_NewMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-17.54.51:664][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.54.51:668][674]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.12-17.54.51:673][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-17.54.51:691][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-17.54.51:691][674]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.02.12-17.54.51:693][674]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.02.12-17.54.51:698][674]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.02.12-17.54.51:705][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.02.12-17.54.51:727][675]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2025.02.12-17.55.06:075][908]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.02.12-17.55.06:175][914]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.02.12-17.55.09:934][334]LogContentBrowser: Deferred new asset folder creation: 새 폴더
+[2025.02.12-17.55.09:941][334]LogContentBrowser: Creating deferred item: 새 폴더
+[2025.02.12-17.55.09:946][335]LogContentBrowser: Renaming the item being created (Deferred Item: 새 폴더).
+[2025.02.12-17.55.11:636][536]LogContentBrowser: Attempting asset rename: 새 폴더 -> Input
+[2025.02.12-17.55.11:637][536]LogContentBrowser: End creating deferred item 새 폴더
+[2025.02.12-17.55.30:252][308]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.02.12-17.55.30:301][308]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.02.12-17.55.30:318][310]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.02.12-17.55.36:894][ 94]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Move
+[2025.02.12-17.55.36:899][ 94]LogContentBrowser: End creating deferred item NewInputAction
+[2025.02.12-17.55.38:493][279]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/IA_Move.IA_Move
+[2025.02.12-17.56.24:493][402]LogSlate: Window 'IA_Move' being destroyed
+[2025.02.12-17.56.24:498][402]LogSlate: Window 'IA_Move' being destroyed
+[2025.02.12-17.56.28:518][852]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.02.12-17.56.28:560][852]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.02.12-17.56.28:567][853]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.02.12-17.56.36:711][821]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Jump
+[2025.02.12-17.56.36:712][821]LogContentBrowser: End creating deferred item NewInputAction
+[2025.02.12-17.56.38:375][ 16]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/IA_Jump.IA_Jump
+[2025.02.12-17.56.58:144][185]LogSlate: Window 'IA_Jump' being destroyed
+[2025.02.12-17.56.58:148][185]LogSlate: Window 'IA_Jump' being destroyed
+[2025.02.12-17.57.04:398][603]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.02.12-17.57.04:466][603]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.02.12-17.57.04:475][604]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.02.12-17.57.08:295][ 48]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Sprint
+[2025.02.12-17.57.08:297][ 48]LogContentBrowser: End creating deferred item NewInputAction
+[2025.02.12-17.57.09:799][223]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/IA_Sprint.IA_Sprint
+[2025.02.12-17.57.16:149][323]LogSlate: Window 'IA_Sprint' being destroyed
+[2025.02.12-17.57.16:173][323]LogSlate: Window 'IA_Sprint' being destroyed
+[2025.02.12-17.57.18:928][621]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.02.12-17.57.19:903][621]LogSlate: Window '콘텐츠 저장' being destroyed
+[2025.02.12-17.57.19:926][621]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.12-17.57.19:977][621]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Make_HJ/BP_RabbitGameMode] ([2] browsable assets)...
+[2025.02.12-17.57.19:977][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/BP_RabbitGameMode]
+[2025.02.12-17.57.19:977][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/BP_RabbitGameMode" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitGameMode.uasset" SILENT=true
+[2025.02.12-17.57.19:979][621]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C' for saving '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C'
+[2025.02.12-17.57.19:979][621]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C' for saving '/Game/Make_HJ/BP_RabbitGameMode.BP_RabbitGameMode_C'
+[2025.02.12-17.57.19:979][621]LogSavePackage: Moving output files for package: /Game/Make_HJ/BP_RabbitGameMode
+[2025.02.12-17.57.19:980][621]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BP_RabbitGameMode53B0BBEE4D29E3D17B3CCA9F9F3985DC.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitGameMode.uasset'
+[2025.02.12-17.57.19:980][621]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IA_Jump] ([1] browsable assets)...
+[2025.02.12-17.57.19:980][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IA_Jump]
+[2025.02.12-17.57.19:980][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IA_Jump" FILE="D:/GitHub/Project08/Project08/Content/Input/IA_Jump.uasset" SILENT=true
+[2025.02.12-17.57.19:981][621]LogSavePackage: Moving output files for package: /Game/Input/IA_Jump
+[2025.02.12-17.57.19:981][621]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/IA_Jump4AF17A544749FE70B88DA2BFAE736EA4.tmp' to 'D:/GitHub/Project08/Project08/Content/Input/IA_Jump.uasset'
+[2025.02.12-17.57.19:982][621]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IA_Move] ([1] browsable assets)...
+[2025.02.12-17.57.19:982][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IA_Move]
+[2025.02.12-17.57.19:982][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IA_Move" FILE="D:/GitHub/Project08/Project08/Content/Input/IA_Move.uasset" SILENT=true
+[2025.02.12-17.57.19:982][621]LogSavePackage: Moving output files for package: /Game/Input/IA_Move
+[2025.02.12-17.57.19:982][621]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/IA_Move4656D8C14C36DBC79EB4C4B9927E7370.tmp' to 'D:/GitHub/Project08/Project08/Content/Input/IA_Move.uasset'
+[2025.02.12-17.57.19:983][621]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IA_Sprint] ([1] browsable assets)...
+[2025.02.12-17.57.19:983][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IA_Sprint]
+[2025.02.12-17.57.19:983][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IA_Sprint" FILE="D:/GitHub/Project08/Project08/Content/Input/IA_Sprint.uasset" SILENT=true
+[2025.02.12-17.57.19:983][621]LogSavePackage: Moving output files for package: /Game/Input/IA_Sprint
+[2025.02.12-17.57.19:983][621]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/IA_SprintC9BBD49240D8E68D81E9D0BA2F395F01.tmp' to 'D:/GitHub/Project08/Project08/Content/Input/IA_Sprint.uasset'
+[2025.02.12-17.57.19:990][621]LogFileHelpers: InternalPromptForCheckoutAndSave took 64.410 ms (total: 133.375 ms)
+[2025.02.12-17.57.20:044][621]LogContentValidation: Display: Starting to validate 4 assets
+[2025.02.12-17.57.20:044][621]LogContentValidation: Enabled validators:
+[2025.02.12-17.57.20:044][621]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.12-17.57.20:044][621]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.12-17.57.20:044][621]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.12-17.57.20:044][621]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.12-17.57.20:044][621]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.12-17.57.20:044][621]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.12-17.57.20:044][621]AssetCheck: /Game/Make_HJ/BP_RabbitGameMode 에셋 유효성 검사 중
+[2025.02.12-17.57.20:044][621]AssetCheck: /Game/Input/IA_Jump 에셋 유효성 검사 중
+[2025.02.12-17.57.20:044][621]AssetCheck: /Game/Input/IA_Move 에셋 유효성 검사 중
+[2025.02.12-17.57.20:044][621]AssetCheck: /Game/Input/IA_Sprint 에셋 유효성 검사 중
+[2025.02.12-17.57.25:620][855]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2445.866211
+[2025.02.12-17.57.26:232][878]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-17.57.26:232][878]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2446.470703, Update Interval: 351.133759
+[2025.02.12-17.57.28:017][ 58]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2025.02.12-17.57.28:023][ 58]LogContentBrowser: Creating deferred item: NewInputAction
+[2025.02.12-17.57.28:029][ 59]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2025.02.12-17.57.32:593][592]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Look
+[2025.02.12-17.57.32:594][592]LogContentBrowser: End creating deferred item NewInputAction
+[2025.02.12-17.57.33:988][754]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/IA_Look.IA_Look
+[2025.02.12-17.57.43:768][645]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.12-17.57.43:826][645]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IA_Look] ([1] browsable assets)...
+[2025.02.12-17.57.43:826][645]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IA_Look]
+[2025.02.12-17.57.43:826][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IA_Look" FILE="D:/GitHub/Project08/Project08/Content/Input/IA_Look.uasset" SILENT=true
+[2025.02.12-17.57.43:827][645]LogSavePackage: Moving output files for package: /Game/Input/IA_Look
+[2025.02.12-17.57.43:827][645]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/IA_LookEA676E0F4A166B0C9F083C90AF5B2289.tmp' to 'D:/GitHub/Project08/Project08/Content/Input/IA_Look.uasset'
+[2025.02.12-17.57.43:833][645]LogFileHelpers: InternalPromptForCheckoutAndSave took 64.978 ms (total: 198.353 ms)
+[2025.02.12-17.57.43:875][645]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.12-17.57.43:875][645]LogContentValidation: Enabled validators:
+[2025.02.12-17.57.43:875][645]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.12-17.57.43:875][645]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.12-17.57.43:875][645]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.12-17.57.43:875][645]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.12-17.57.43:875][645]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.12-17.57.43:875][645]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.12-17.57.43:875][645]AssetCheck: /Game/Input/IA_Look 에셋 유효성 검사 중
+[2025.02.12-17.57.45:409][816]LogSlate: Window 'IA_Look' being destroyed
+[2025.02.12-17.57.45:413][816]LogSlate: Window 'IA_Look' being destroyed
+[2025.02.12-17.57.55:025][547]LogContentBrowser: Deferred new asset file creation: NewInputMappingContext
+[2025.02.12-17.57.55:030][547]LogContentBrowser: Creating deferred item: NewInputMappingContext
+[2025.02.12-17.57.55:040][548]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputMappingContext).
+[2025.02.12-17.58.02:021][370]LogContentBrowser: Attempting asset rename: NewInputMappingContext -> IMC_Character
+[2025.02.12-17.58.02:022][370]LogContentBrowser: End creating deferred item NewInputMappingContext
+[2025.02.12-17.58.03:481][535]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Input/IMC_Character.IMC_Character
+[2025.02.12-18.01.57:416][550]LogEditCondition: Error: EnhancedActionKeyMapping - EditCondition이 유효하지 않은 \'SettingBehavior\' 피연산자를 사용하려 했습니다(값 오류).
+[2025.02.12-18.03.09:742][716]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.12-18.03.09:790][716]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Input/IMC_Character] ([1] browsable assets)...
+[2025.02.12-18.03.09:790][716]OBJ SavePackage: Finished generating thumbnails for package [/Game/Input/IMC_Character]
+[2025.02.12-18.03.09:790][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Input/IMC_Character" FILE="D:/GitHub/Project08/Project08/Content/Input/IMC_Character.uasset" SILENT=true
+[2025.02.12-18.03.09:791][716]LogSavePackage: Moving output files for package: /Game/Input/IMC_Character
+[2025.02.12-18.03.09:791][716]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/IMC_Character18DDF4C541273F37CCF1E0A89D1DFC10.tmp' to 'D:/GitHub/Project08/Project08/Content/Input/IMC_Character.uasset'
+[2025.02.12-18.03.09:797][716]LogFileHelpers: InternalPromptForCheckoutAndSave took 55.184 ms (total: 253.538 ms)
+[2025.02.12-18.03.09:858][716]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.12-18.03.09:858][716]LogContentValidation: Enabled validators:
+[2025.02.12-18.03.09:858][716]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.12-18.03.09:858][716]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.12-18.03.09:858][716]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.12-18.03.09:858][716]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.12-18.03.09:858][716]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.12-18.03.09:858][716]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.12-18.03.09:858][716]AssetCheck: /Game/Input/IMC_Character 에셋 유효성 검사 중
+[2025.02.12-18.03.11:145][841]LogSlate: Window 'IMC_Character' being destroyed
+[2025.02.12-18.03.11:149][841]LogSlate: Window 'IMC_Character' being destroyed
+[2025.02.12-18.03.54:256][239]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2834.489746
+[2025.02.12-18.03.55:255][242]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-18.03.55:255][242]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2835.156250, Update Interval: 300.206909
+[2025.02.12-18.06.44:563][832]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-18.06.49:931][997]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_9.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_9.exp 개체를 생성하고 있습니다.
+[2025.02.12-18.06.50:317][997]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.12-18.06.50:317][997]LogClass: UClass RabbitPlayerController Reload.
+[2025.02.12-18.06.50:322][997]LogClass: Could not find existing class RabbitPlayerController in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.12-18.06.50:336][997]Re-instancing RabbitPlayerController after reload.
+[2025.02.12-18.06.50:471][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.02.12-18.06.50:904][998]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 2 classes unchanged
+[2025.02.12-18.06.50:904][998]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.12-18.09.36:954][497]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3177.190430
+[2025.02.12-18.09.37:955][500]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.12-18.09.37:955][500]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3177.857178, Update Interval: 325.503723
+[2025.02.12-18.11.30:078][899]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.12-18.11.36:224][128]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_10.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_10.exp 개체를 생성하고 있습니다.
+[2025.02.12-18.11.36:558][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2025.02.12-18.11.36:961][129]Display: Reload/Re-instancing Complete: 1 package changed, 3 classes unchanged
+[2025.02.12-18.11.36:961][129]LogLiveCoding: Display: Live coding succeeded
+[2025.02.12-18.12.20:348][263]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Input/IMC_Character.IMC_Character
+[2025.02.12-18.12.24:413][677]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController
+[2025.02.12-18.12.24:414][677]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.02.12-18.12.35:768][827]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2025.02.12-18.12.39:350][181]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.12-18.12.39:401][181]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Make_HJ/BP_RabbitPlayerController] ([2] browsable assets)...
+[2025.02.12-18.12.39:401][181]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/BP_RabbitPlayerController]
+[2025.02.12-18.12.39:401][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/BP_RabbitPlayerController" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitPlayerController.uasset" SILENT=true
+[2025.02.12-18.12.39:403][181]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C' for saving '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C'
+[2025.02.12-18.12.39:403][181]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C' for saving '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C'
+[2025.02.12-18.12.39:403][181]LogSavePackage: Moving output files for package: /Game/Make_HJ/BP_RabbitPlayerController
+[2025.02.12-18.12.39:404][181]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BP_RabbitPlayerController6680DA9544486AC3B4F8519D6A1C97CB.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitPlayerController.uasset'
+[2025.02.12-18.12.39:410][181]LogFileHelpers: InternalPromptForCheckoutAndSave took 60.658 ms (total: 314.197 ms)
+[2025.02.12-18.12.39:468][181]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.12-18.12.39:468][181]LogContentValidation: Enabled validators:
+[2025.02.12-18.12.39:468][181]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.12-18.12.39:468][181]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.12-18.12.39:468][181]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.12-18.12.39:468][181]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.12-18.12.39:468][181]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.12-18.12.39:468][181]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.12-18.12.39:468][181]AssetCheck: /Game/Make_HJ/BP_RabbitPlayerController 에셋 유효성 검사 중
+[2025.02.12-18.12.45:605][853]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.02.12-18.12.45:613][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.12-18.12.45:613][853]LogPlayLevel: Creating play world package: /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap
+[2025.02.12-18.12.45:614][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001616s)
+[2025.02.12-18.12.45:615][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Make_HJ/Rabbit_NewMap.Rabbit_NewMap to /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap.Rabbit_NewMap (0.001645s)
+[2025.02.12-18.12.45:654][853]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.02.12-18.12.45:661][853]LogChaosDD: Creating Chaos Debug Draw Scene for world Rabbit_NewMap
+[2025.02.12-18.12.45:663][853]LogPlayLevel: PIE: World Init took: (0.001285s)
+[2025.02.12-18.12.45:663][853]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.02.12-18.12.45:663][853]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.12-18.12.45:663][853]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.12-18.12.45:663][853]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.12-18.12.45:663][853]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.12-18.12.45:663][853]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.12-18.12.45:663][853]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.12-18.12.45:663][853]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.12-18.12.45:663][853]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.12-18.12.45:663][853]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.12-18.12.45:663][853]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.12-18.12.45:663][853]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.12-18.12.45:666][853]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.12-18.12.45:677][853]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.02.12-18.12.45:677][853]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.12-18.12.45:677][853]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.12-18.12.45:677][853]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.12-18.12.45:678][853]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.02.12-18.12.45:678][853]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.02.12-18.12.45:680][853]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.02.12-18.12.45:680][853]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.02.12-18.12.45:680][853]LogInit: FAudioDevice initialized with ID 3.
+[2025.02.12-18.12.45:680][853]LogAudio: Display: Audio Device (ID: 3) registered with world 'Rabbit_NewMap'.
+[2025.02.12-18.12.45:681][853]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.02.12-18.12.45:683][853]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.12-18.12.45:684][853]LogWorld: Bringing World /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap.Rabbit_NewMap up for play (max tick rate 0) at 2025.02.13-03.12.45
+[2025.02.12-18.12.45:684][853]LogWorld: Bringing up level for play took: 0.000537
+[2025.02.12-18.12.45:685][853]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.02.12-18.12.45:686][853]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.12-18.12.45:686][853]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.12-18.12.45:686][853]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.12-18.12.45:689][853]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.12-18.12.45:689][853]PIE: 서버가 로그인했습니다.
+[2025.02.12-18.12.45:690][853]PIE: 에디터에서 플레이 총 시작 시간 0.081초입니다.
+[2025.02.12-18.12.47:578][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-18.12.47:578][ 60]LogWorld: BeginTearingDown for /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap
+[2025.02.12-18.12.47:578][ 60]LogWorld: UWorld::CleanupWorld for Rabbit_NewMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-18.12.47:579][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-18.12.47:582][ 60]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.12-18.12.47:587][ 60]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-18.12.47:606][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-18.12.47:606][ 60]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.02.12-18.12.47:606][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.02.12-18.12.47:610][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.02.12-18.12.47:616][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.02.12-18.12.47:642][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.02.12-18.14.34:120][536]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.12-18.14.34:184][536]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Make_HJ/BP_RabbitPlayerController] ([2] browsable assets)...
+[2025.02.12-18.14.34:184][536]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/BP_RabbitPlayerController]
+[2025.02.12-18.14.34:184][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/BP_RabbitPlayerController" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitPlayerController.uasset" SILENT=true
+[2025.02.12-18.14.34:186][536]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C' for saving '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C'
+[2025.02.12-18.14.34:186][536]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C' for saving '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C'
+[2025.02.12-18.14.34:187][536]LogSavePackage: Moving output files for package: /Game/Make_HJ/BP_RabbitPlayerController
+[2025.02.12-18.14.34:187][536]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BP_RabbitPlayerController03BB5FB147517A4DABBB65846496BEFD.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitPlayerController.uasset'
+[2025.02.12-18.14.34:193][536]LogFileHelpers: InternalPromptForCheckoutAndSave took 72.611 ms (total: 386.808 ms)
+[2025.02.12-18.14.34:249][536]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.12-18.14.34:249][536]LogContentValidation: Enabled validators:
+[2025.02.12-18.14.34:249][536]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.12-18.14.34:249][536]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.12-18.14.34:249][536]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.12-18.14.34:250][536]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.12-18.14.34:250][536]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.12-18.14.34:250][536]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.12-18.14.34:250][536]AssetCheck: /Game/Make_HJ/BP_RabbitPlayerController 에셋 유효성 검사 중
+[2025.02.12-18.14.36:223][717]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.02.12-18.14.36:904][790]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.12-18.14.36:967][790]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Make_HJ/BP_RabbitPlayerController] ([2] browsable assets)...
+[2025.02.12-18.14.36:967][790]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/BP_RabbitPlayerController]
+[2025.02.12-18.14.36:967][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/BP_RabbitPlayerController" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitPlayerController.uasset" SILENT=true
+[2025.02.12-18.14.36:971][790]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C' for saving '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C'
+[2025.02.12-18.14.36:971][790]LogWorldPartition: Can't find class descriptor '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C' for saving '/Game/Make_HJ/BP_RabbitPlayerController.BP_RabbitPlayerController_C'
+[2025.02.12-18.14.36:972][790]LogSavePackage: Moving output files for package: /Game/Make_HJ/BP_RabbitPlayerController
+[2025.02.12-18.14.36:972][790]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BP_RabbitPlayerController95C909174F166660CEEDAFBB4BAD0128.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitPlayerController.uasset'
+[2025.02.12-18.14.36:978][790]LogFileHelpers: InternalPromptForCheckoutAndSave took 73.280 ms (total: 460.089 ms)
+[2025.02.12-18.14.37:034][790]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.12-18.14.37:034][790]LogContentValidation: Enabled validators:
+[2025.02.12-18.14.37:034][790]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.12-18.14.37:034][790]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.12-18.14.37:034][790]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.12-18.14.37:034][790]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.12-18.14.37:034][790]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.12-18.14.37:034][790]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.12-18.14.37:034][790]AssetCheck: /Game/Make_HJ/BP_RabbitPlayerController 에셋 유효성 검사 중
+[2025.02.12-18.14.40:973][149]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.02.12-18.14.40:977][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.12-18.14.41:026][149]LogPlayLevel: Creating play world package: /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap
+[2025.02.12-18.14.41:028][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001474s)
+[2025.02.12-18.14.41:028][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Make_HJ/Rabbit_NewMap.Rabbit_NewMap to /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap.Rabbit_NewMap (0.001510s)
+[2025.02.12-18.14.41:046][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.02.12-18.14.41:048][149]LogChaosDD: Creating Chaos Debug Draw Scene for world Rabbit_NewMap
+[2025.02.12-18.14.41:050][149]LogPlayLevel: PIE: World Init took: (0.001222s)
+[2025.02.12-18.14.41:050][149]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.02.12-18.14.41:050][149]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.12-18.14.41:050][149]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.12-18.14.41:050][149]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.12-18.14.41:050][149]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.12-18.14.41:050][149]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.12-18.14.41:050][149]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.12-18.14.41:050][149]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.12-18.14.41:050][149]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.12-18.14.41:050][149]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.12-18.14.41:050][149]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.12-18.14.41:050][149]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.12-18.14.41:053][149]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.12-18.14.41:065][149]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.02.12-18.14.41:065][149]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.12-18.14.41:065][149]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.12-18.14.41:065][149]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.12-18.14.41:065][149]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.02.12-18.14.41:065][149]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.02.12-18.14.41:067][149]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.02.12-18.14.41:067][149]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.02.12-18.14.41:067][149]LogInit: FAudioDevice initialized with ID 4.
+[2025.02.12-18.14.41:067][149]LogAudio: Display: Audio Device (ID: 4) registered with world 'Rabbit_NewMap'.
+[2025.02.12-18.14.41:067][149]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.02.12-18.14.41:070][149]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.12-18.14.41:070][149]LogWorld: Bringing World /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap.Rabbit_NewMap up for play (max tick rate 0) at 2025.02.13-03.14.41
+[2025.02.12-18.14.41:071][149]LogWorld: Bringing up level for play took: 0.000580
+[2025.02.12-18.14.41:072][149]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.02.12-18.14.41:073][149]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.12-18.14.41:073][149]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.12-18.14.41:073][149]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.12-18.14.41:076][149]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.12-18.14.41:077][149]PIE: 서버가 로그인했습니다.
+[2025.02.12-18.14.41:078][149]PIE: 에디터에서 플레이 총 시작 시간 0.101초입니다.
+[2025.02.12-18.14.41:506][190]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:525][192]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:534][193]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:543][194]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:543][194]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:551][195]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:551][195]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:560][196]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:560][196]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:568][197]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:568][197]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:576][198]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:576][198]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:584][199]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:584][199]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:593][200]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:593][200]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:601][201]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:601][201]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:609][202]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:609][202]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:618][203]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:618][203]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:627][204]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:627][204]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:636][205]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:636][205]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:645][206]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:645][206]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:653][207]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:653][207]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:661][208]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:661][208]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:670][209]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:670][209]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:678][210]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:678][210]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:686][211]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:686][211]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:694][212]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:694][212]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:703][213]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:703][213]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:711][214]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:723][215]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:731][216]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:739][217]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:748][218]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:748][218]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:756][219]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:765][220]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:765][220]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:773][221]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:781][222]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:789][223]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:798][224]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:806][225]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:814][226]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:814][226]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:825][227]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:825][227]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:833][228]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:842][229]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:850][230]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:850][230]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.41:858][231]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:867][232]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:875][233]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:884][234]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:893][235]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:901][236]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:909][237]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:917][238]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.41:928][239]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:521][308]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:529][309]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:537][310]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:548][311]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:558][312]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:566][313]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:575][314]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:583][315]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:592][316]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:600][317]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:609][318]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:617][319]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:625][320]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:633][321]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:642][322]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:651][323]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:660][324]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:669][325]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:677][326]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:685][327]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:694][328]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:702][329]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:710][330]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:718][331]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:727][332]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:735][333]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:743][334]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:753][335]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:761][336]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:770][337]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:778][338]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:786][339]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:794][340]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:803][341]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:811][342]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:819][343]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:828][344]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.42:837][345]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:308][400]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:316][401]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:324][402]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:333][403]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:341][404]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:349][405]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:357][406]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:367][407]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:376][408]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:384][409]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:392][410]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:401][411]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:410][412]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:418][413]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:427][414]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:435][415]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:443][416]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:451][417]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:460][418]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:468][419]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:477][420]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.43:486][421]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.44:110][494]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.44:119][495]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.44:245][510]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.44:254][511]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.44:262][512]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.47:020][835]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.47:028][836]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.47:990][948]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.47:999][949]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:007][950]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:015][951]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:024][952]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:032][953]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:041][954]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:049][955]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:057][956]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:066][957]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:074][958]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:084][959]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:094][960]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:102][961]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:111][962]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:118][963]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:127][964]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:137][965]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:145][966]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:153][967]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:161][968]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:170][969]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:178][970]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:189][971]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:199][972]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:207][973]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:215][974]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:223][975]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:232][976]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:240][977]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:249][978]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:257][979]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:265][980]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:274][981]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:343][989]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:351][990]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:360][991]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:368][992]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:376][993]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:385][994]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:393][995]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:402][996]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:411][997]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:420][998]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:428][999]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:436][  0]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:444][  1]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:453][  2]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:461][  3]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:470][  4]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Move
+[2025.02.12-18.14.48:840][ 47]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.48:865][ 50]LogBlueprintUserMessages: [BP_RabbitPlayerController_C_0] Look
+[2025.02.12-18.14.49:157][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-18.14.49:157][ 81]LogWorld: BeginTearingDown for /Game/Make_HJ/UEDPIE_0_Rabbit_NewMap
+[2025.02.12-18.14.49:157][ 81]LogWorld: UWorld::CleanupWorld for Rabbit_NewMap, bSessionEnded=true, bCleanupResources=true
+[2025.02.12-18.14.49:157][ 81]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-18.14.49:161][ 81]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.12-18.14.49:166][ 81]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.12-18.14.49:186][ 81]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.12-18.14.49:187][ 81]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.02.12-18.14.49:187][ 81]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.02.12-18.14.49:188][ 81]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.02.12-18.14.49:194][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.02.12-18.14.49:249][ 83]LogPlayLevel: Display: Destroying online subsystem :Context_22
