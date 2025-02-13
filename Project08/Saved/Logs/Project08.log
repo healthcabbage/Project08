@@ -2720,3 +2720,987 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.02.13-06.36.34:127][421]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling 드래그 앤 드롭 위젯 entirely.
 [2025.02.13-06.36.34:193][422]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling 드래그 앤 드롭 위젯 entirely.
 [2025.02.13-06.36.34:255][424]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling 드래그 앤 드롭 위젯 entirely.
+[2025.02.13-06.37.23:229][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.02.13-06.37.23:233][208]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Make_HJ/Maps/BasicLevel' took 0.039
+[2025.02.13-06.37.23:233][208]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Make_HJ/UI/WBP_MainMenu] ([2] browsable assets)...
+[2025.02.13-06.37.23:235][208]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Make_HJ/UI/WBP_MainMenu.WBP_MainMenu]
+[2025.02.13-06.37.23:235][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/UI/WBP_MainMenu]
+[2025.02.13-06.37.23:235][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/UI/WBP_MainMenu" FILE="D:/GitHub/Project08/Project08/Saved/Autosaves/Game/Make_HJ/UI/WBP_MainMenu_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2025.02.13-06.37.23:237][208]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Make_HJ/UI/WBP_MainMenu_Auto3
+[2025.02.13-06.37.23:237][208]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/WBP_MainMenu_Auto30800D5744526694E2DA5B7ABBB6E8D1B.tmp' to 'D:/GitHub/Project08/Project08/Saved/Autosaves/Game/Make_HJ/UI/WBP_MainMenu_Auto3.uasset'
+[2025.02.13-06.37.23:237][208]LogFileHelpers: Auto-saving content packages took 0.005
+[2025.02.13-06.38.31:610][282]LogSlate: Took 0.001325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.02.13-06.38.35:327][721]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2793.379150
+[2025.02.13-06.38.35:577][751]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.13-06.38.35:577][751]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2793.622070, Update Interval: 349.710999
+[2025.02.13-06.38.40:799][360]LogSlate: Window '색 선택 툴' being destroyed
+[2025.02.13-06.38.56:315][197]LogSlate: Window '색 선택 툴' being destroyed
+[2025.02.13-06.39.09:907][799]LogSlate: Window '색 선택 툴' being destroyed
+[2025.02.13-06.39.11:824][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.02.13-06.39.12:514][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.13-06.39.12:543][ 99]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Make_HJ/UI/WBP_MainMenu] ([2] browsable assets)...
+[2025.02.13-06.39.12:546][ 99]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Make_HJ/UI/WBP_MainMenu.WBP_MainMenu]
+[2025.02.13-06.39.12:546][ 99]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/UI/WBP_MainMenu]
+[2025.02.13-06.39.12:546][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/UI/WBP_MainMenu" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/UI/WBP_MainMenu.uasset" SILENT=true
+[2025.02.13-06.39.12:549][ 99]LogSavePackage: Moving output files for package: /Game/Make_HJ/UI/WBP_MainMenu
+[2025.02.13-06.39.12:549][ 99]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/WBP_MainMenuF4B590C141FF1C03BFC255AC2EB293C1.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/UI/WBP_MainMenu.uasset'
+[2025.02.13-06.39.12:557][ 99]LogFileHelpers: InternalPromptForCheckoutAndSave took 42.647 ms (total: 361.200 ms)
+[2025.02.13-06.39.12:610][ 99]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.13-06.39.12:611][ 99]LogContentValidation: Enabled validators:
+[2025.02.13-06.39.12:611][ 99]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.13-06.39.12:611][ 99]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.13-06.39.12:611][ 99]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.13-06.39.12:611][ 99]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.13-06.39.12:611][ 99]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.13-06.39.12:611][ 99]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.13-06.39.12:611][ 99]AssetCheck: /Game/Make_HJ/UI/WBP_MainMenu 에셋 유효성 검사 중
+[2025.02.13-06.39.23:629][689]LogStreaming: Display: FlushAsyncLoading(541): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-06.39.29:316][689]LogSlate: Window '새 레벨' being destroyed
+[2025.02.13-06.39.29:323][689]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.02.13-06.39.29:351][689]LogWorld: UWorld::CleanupWorld for BasicLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-06.39.29:351][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-06.39.29:368][689]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.13-06.39.29:371][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.02.13-06.39.29:411][689]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2025.02.13-06.39.29:411][689]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2025.02.13-06.39.29:452][689]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.02.13-06.39.29:470][689]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2025.02.13-06.39.29:472][689]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.02.13-06.39.29:472][689]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.103ms.
+[2025.02.13-06.39.46:249][ 55]LogSlate: Window '다른 이름으로 레벨 저장' being destroyed
+[2025.02.13-06.39.46:298][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/Maps/MenuLevel" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/Maps/MenuLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.02.13-06.39.46:335][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.02.13-06.39.46:345][ 55]LogSavePackage: Moving output files for package: /Game/Make_HJ/Maps/MenuLevel
+[2025.02.13-06.39.46:345][ 55]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/MenuLevel01D462C145EC2F47D6C9EC8C20AAA794.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/Maps/MenuLevel.umap'
+[2025.02.13-06.39.46:370][ 55]LogFileHelpers: Saving map 'MenuLevel' took 0.115
+[2025.02.13-06.39.46:370][ 55]Cmd: MAP LOAD FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/Maps/MenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.02.13-06.39.46:392][ 55]LogWorld: UWorld::CleanupWorld for MenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-06.39.46:392][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-06.39.46:408][ 55]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.13-06.39.46:410][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.02.13-06.39.46:412][ 55]LogStreaming: Display: FlushAsyncLoading(544): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-06.39.46:413][ 55]LogAudio: Display: Audio Device (ID: 1) registered with world 'MenuLevel'.
+[2025.02.13-06.39.46:413][ 55]LogChaosDD: Creating Chaos Debug Draw Scene for world MenuLevel
+[2025.02.13-06.39.46:453][ 55]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.02.13-06.39.46:470][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.02.13-06.39.46:482][ 55]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.02.13-06.39.46:482][ 55]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.045ms.
+[2025.02.13-06.39.46:543][ 55]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.13-06.39.46:543][ 55]LogContentValidation: Enabled validators:
+[2025.02.13-06.39.46:543][ 55]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.13-06.39.46:543][ 55]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.13-06.39.46:543][ 55]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.13-06.39.46:543][ 55]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.13-06.39.46:543][ 55]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.13-06.39.46:543][ 55]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.13-06.39.46:543][ 55]AssetCheck: /Game/Make_HJ/Maps/MenuLevel 에셋 유효성 검사 중
+[2025.02.13-06.39.51:577][373]LogSlate: External Image Picker: DecompressImage failed
+[2025.02.13-06.39.51:678][373]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2025.02.13-06.39.59:151][180]LogSlate: Window '프로젝트 세팅' being destroyed
+[2025.02.13-06.39.59:154][180]LogSlate: Window '프로젝트 세팅' being destroyed
+[2025.02.13-06.45.18:332][302]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3196.384521
+[2025.02.13-06.45.19:333][305]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.13-06.45.19:333][305]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3197.052979, Update Interval: 347.041229
+[2025.02.13-06.51.53:693][488]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3591.744141
+[2025.02.13-06.51.54:692][491]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.13-06.51.54:692][491]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3592.411377, Update Interval: 349.853821
+[2025.02.13-06.53.59:086][865]LogDerivedDataCache: C:/Users/Agape/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.02.13-06.57.07:383][429]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.13-06.57.12:789][565]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_4.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_4.exp 개체를 생성하고 있습니다.
+[2025.02.13-06.57.12:926][567]LogClass: UPackage /Script/Project08 Reload.
+[2025.02.13-06.57.12:926][567]LogClass: UClass RabbitPlayerController Reload.
+[2025.02.13-06.57.12:930][567]LogClass: Could not find existing class RabbitPlayerController in package /Script/Project08 for reload, assuming new or modified class
+[2025.02.13-06.57.12:930][567]LogClass: Function GetHUDWidget is new or belongs to a modified class.
+[2025.02.13-06.57.12:930][567]LogClass: Function ShowGameHUD is new or belongs to a modified class.
+[2025.02.13-06.57.12:930][567]LogClass: Function ShowMainMenu is new or belongs to a modified class.
+[2025.02.13-06.57.12:930][567]LogClass: Function StartGame is new or belongs to a modified class.
+[2025.02.13-06.57.12:950][567]Re-instancing RabbitPlayerController after reload.
+[2025.02.13-06.57.13:068][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.02.13-06.57.13:449][568]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed, 6 classes unchanged, 6 functions remapped, 1 scriptstruct remapped
+[2025.02.13-06.57.13:449][568]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2025.02.13-06.57.22:471][389]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2025.02.13-06.58.28:945][107]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3986.998047
+[2025.02.13-06.58.29:187][136]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.13-06.58.29:187][136]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3987.231689, Update Interval: 330.147400
+[2025.02.13-06.58.34:392][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2025.02.13-06.58.39:061][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2025.02.13-06.58.42:269][608]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.13-06.58.42:314][608]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Make_HJ/UI/WBP_MainMenu] ([2] browsable assets)...
+[2025.02.13-06.58.42:316][608]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Make_HJ/UI/WBP_MainMenu.WBP_MainMenu]
+[2025.02.13-06.58.42:316][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/UI/WBP_MainMenu]
+[2025.02.13-06.58.42:316][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/UI/WBP_MainMenu" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/UI/WBP_MainMenu.uasset" SILENT=true
+[2025.02.13-06.58.42:319][608]LogSavePackage: Moving output files for package: /Game/Make_HJ/UI/WBP_MainMenu
+[2025.02.13-06.58.42:319][608]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/WBP_MainMenu7C9824CC42BCDD9A214838BD58DF4820.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/UI/WBP_MainMenu.uasset'
+[2025.02.13-06.58.42:323][608]LogFileHelpers: InternalPromptForCheckoutAndSave took 54.883 ms (total: 416.083 ms)
+[2025.02.13-06.58.42:382][608]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.13-06.58.42:382][608]LogContentValidation: Enabled validators:
+[2025.02.13-06.58.42:382][608]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.13-06.58.42:382][608]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.13-06.58.42:382][608]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.13-06.58.42:382][608]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.13-06.58.42:382][608]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.13-06.58.42:382][608]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.13-06.58.42:382][608]AssetCheck: /Game/Make_HJ/UI/WBP_MainMenu 에셋 유효성 검사 중
+[2025.02.13-06.58.43:754][763]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.13-06.58.43:782][763]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Make_HJ/BP_RabbitPlayerController] ([2] browsable assets)...
+[2025.02.13-06.58.43:782][763]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/BP_RabbitPlayerController]
+[2025.02.13-06.58.43:782][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/BP_RabbitPlayerController" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitPlayerController.uasset" SILENT=true
+[2025.02.13-06.58.43:784][763]LogSavePackage: Moving output files for package: /Game/Make_HJ/BP_RabbitPlayerController
+[2025.02.13-06.58.43:784][763]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/BP_RabbitPlayerControllerD2ADFC5E4B11AA182846AA9627729427.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/BP_RabbitPlayerController.uasset'
+[2025.02.13-06.58.43:789][763]LogFileHelpers: InternalPromptForCheckoutAndSave took 34.100 ms (total: 450.183 ms)
+[2025.02.13-06.58.43:832][763]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.13-06.58.43:832][763]LogContentValidation: Enabled validators:
+[2025.02.13-06.58.43:832][763]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.13-06.58.43:832][763]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.13-06.58.43:832][763]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.13-06.58.43:832][763]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.13-06.58.43:832][763]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.13-06.58.43:832][763]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.13-06.58.43:832][763]AssetCheck: /Game/Make_HJ/BP_RabbitPlayerController 에셋 유효성 검사 중
+[2025.02.13-07.03.25:316][838]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.13-07.03.31:757][582]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_5.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_5.exp 개체를 생성하고 있습니다.
+[2025.02.13-07.03.32:008][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2025.02.13-07.03.32:404][588]Display: Reload/Re-instancing Complete: 1 package changed, 7 classes unchanged, 10 functions remapped, 1 scriptstruct remapped
+[2025.02.13-07.03.32:404][588]LogLiveCoding: Display: Live coding succeeded
+[2025.02.13-07.03.33:974][715]LogDebuggerCommands: Repeating last play command: 새 에디터 창(PIE)
+[2025.02.13-07.03.33:980][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.13-07.03.33:980][715]LogPlayLevel: Creating play world package: /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.03.33:980][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001066s)
+[2025.02.13-07.03.33:980][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Make_HJ/Maps/MenuLevel.MenuLevel to /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.001089s)
+[2025.02.13-07.03.34:047][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.02.13-07.03.34:053][715]LogChaosDD: Creating Chaos Debug Draw Scene for world MenuLevel
+[2025.02.13-07.03.34:055][715]LogPlayLevel: PIE: World Init took: (0.001360s)
+[2025.02.13-07.03.34:055][715]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.02.13-07.03.34:055][715]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.13-07.03.34:055][715]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.13-07.03.34:055][715]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.13-07.03.34:055][715]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.13-07.03.34:055][715]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.13-07.03.34:055][715]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.13-07.03.34:055][715]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.13-07.03.34:055][715]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.13-07.03.34:055][715]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.13-07.03.34:055][715]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.13-07.03.34:055][715]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.13-07.03.34:057][715]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.13-07.03.34:069][715]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.02.13-07.03.34:070][715]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.13-07.03.34:070][715]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.13-07.03.34:070][715]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.13-07.03.34:070][715]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.02.13-07.03.34:070][715]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.02.13-07.03.34:072][715]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.02.13-07.03.34:073][715]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.02.13-07.03.34:073][715]LogInit: FAudioDevice initialized with ID 13.
+[2025.02.13-07.03.34:073][715]LogAudio: Display: Audio Device (ID: 13) registered with world 'MenuLevel'.
+[2025.02.13-07.03.34:073][715]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.02.13-07.03.34:113][715]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.03.34:113][715]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.03.34:114][715]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 0) at 2025.02.13-16.03.34
+[2025.02.13-07.03.34:114][715]LogWorld: Bringing up level for play took: 0.000674
+[2025.02.13-07.03.34:117][715]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.02.13-07.03.34:117][715]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.03.34:117][715]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.03.34:117][715]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.03.34:123][715]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.02.13-07.03.34:123][715]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.03.34:123][715]LogTemp: Warning: Level 1 Start!, Spawned 0 coin
+[2025.02.13-07.03.34:123][715]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2025.02.13-07.03.34:124][715]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.02.13-07.03.34:124][715]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.03.34:126][715]PIE: 서버가 로그인했습니다.
+[2025.02.13-07.03.34:128][715]PIE: 에디터에서 플레이 총 시작 시간 0.148초입니다.
+[2025.02.13-07.03.35:461][857]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.03.35:461][857]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.03.35:461][857]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Make_HJ/Maps/BasicLevel"
+[2025.02.13-07.03.35:461][857]LogNet: Browse: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.03.35:461][857]LogLoad: LoadMap: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.03.35:461][857]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.03.35:462][857]LogWorld: UWorld::CleanupWorld for MenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.03.35:462][857]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.03.35:512][857]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.13-07.03.35:537][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.02.13-07.03.35:549][857]LogStreaming: Display: FlushAsyncLoading(545): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-07.03.35:552][857]LogAudio: Display: Audio Device (ID: 13) registered with world 'BasicLevel'.
+[2025.02.13-07.03.35:552][857]LogChaosDD: Creating Chaos Debug Draw Scene for world BasicLevel
+[2025.02.13-07.03.35:554][857]LogPlayLevel: PIE: World Init took: (0.001146s)
+[2025.02.13-07.03.35:554][857]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.03.35:555][857]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel.BasicLevel up for play (max tick rate 0) at 2025.02.13-16.03.35
+[2025.02.13-07.03.35:555][857]LogWorld: Bringing up level for play took: 0.001616
+[2025.02.13-07.03.35:556][857]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.03.35:556][857]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.03.35:556][857]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.03.35:560][857]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2025.02.13-07.03.35:560][857]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.02.13-07.03.35:560][857]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.03.35:565][857]LogTemp: Warning: Level 1 Start!, Spawned 19 coin
+[2025.02.13-07.03.35:565][857]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.03.35:565][857]LogLoad: Took 0.103770 seconds to LoadMap(/Game/Make_HJ/Maps/BasicLevel)
+[2025.02.13-07.03.35:565][857]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.03.40:257][397]LogTemp: Warning: Total Score Updated : 50
+[2025.02.13-07.03.40:257][397]LogTemp: Warning: Coin Collected: 1 / 19
+[2025.02.13-07.03.42:487][651]LogTemp: Warning: Total Score Updated : 60
+[2025.02.13-07.03.42:487][651]LogTemp: Warning: Coin Collected: 2 / 19
+[2025.02.13-07.03.42:800][687]LogTemp: Warning: Total Score Updated : 110
+[2025.02.13-07.03.42:800][687]LogTemp: Warning: Coin Collected: 3 / 19
+[2025.02.13-07.03.43:925][814]LogTemp: Warning: Total Score Updated : 120
+[2025.02.13-07.03.43:925][814]LogTemp: Warning: Coin Collected: 4 / 19
+[2025.02.13-07.03.52:307][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.03.52:307][449]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel
+[2025.02.13-07.03.52:308][449]LogSlate: Window 'Project08 프리뷰 [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.02.13-07.03.52:313][449]LogWorld: UWorld::CleanupWorld for BasicLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.03.52:314][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.03.52:316][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.13-07.03.52:323][449]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.03.52:341][449]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.02.13-07.03.52:341][449]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.02.13-07.03.52:343][449]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2025.02.13-07.03.52:350][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.02.13-07.03.52:599][450]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.02.13-07.03.55:111][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.13-07.03.55:111][553]LogPlayLevel: Creating play world package: /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.03.55:112][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001196s)
+[2025.02.13-07.03.55:112][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Make_HJ/Maps/MenuLevel.MenuLevel to /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.001222s)
+[2025.02.13-07.03.55:129][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.02.13-07.03.55:132][553]LogChaosDD: Creating Chaos Debug Draw Scene for world MenuLevel
+[2025.02.13-07.03.55:133][553]LogPlayLevel: PIE: World Init took: (0.001155s)
+[2025.02.13-07.03.55:133][553]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.02.13-07.03.55:133][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.13-07.03.55:133][553]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.13-07.03.55:133][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.13-07.03.55:133][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.13-07.03.55:133][553]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.13-07.03.55:133][553]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.13-07.03.55:133][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.13-07.03.55:133][553]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.13-07.03.55:134][553]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.13-07.03.55:134][553]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.13-07.03.55:134][553]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.13-07.03.55:135][553]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.13-07.03.55:146][553]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.02.13-07.03.55:146][553]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.13-07.03.55:146][553]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.13-07.03.55:146][553]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.13-07.03.55:147][553]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.02.13-07.03.55:147][553]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.02.13-07.03.55:149][553]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.02.13-07.03.55:149][553]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.02.13-07.03.55:149][553]LogInit: FAudioDevice initialized with ID 14.
+[2025.02.13-07.03.55:149][553]LogAudio: Display: Audio Device (ID: 14) registered with world 'MenuLevel'.
+[2025.02.13-07.03.55:149][553]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.02.13-07.03.55:152][553]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.03.55:153][553]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 0) at 2025.02.13-16.03.55
+[2025.02.13-07.03.55:153][553]LogWorld: Bringing up level for play took: 0.000628
+[2025.02.13-07.03.55:155][553]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2025.02.13-07.03.55:155][553]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.03.55:155][553]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.03.55:155][553]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.03.55:160][553]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.02.13-07.03.55:160][553]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.03.55:160][553]LogTemp: Warning: Level 1 Start!, Spawned 0 coin
+[2025.02.13-07.03.55:160][553]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2025.02.13-07.03.55:160][553]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.02.13-07.03.55:160][553]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.03.55:160][553]PIE: 서버가 로그인했습니다.
+[2025.02.13-07.03.55:161][553]PIE: 에디터에서 플레이 총 시작 시간 0.05초입니다.
+[2025.02.13-07.03.57:301][784]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.03.57:301][784]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.03.57:301][784]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Make_HJ/Maps/BasicLevel"
+[2025.02.13-07.03.57:301][784]LogNet: Browse: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.03.57:301][784]LogLoad: LoadMap: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.03.57:301][784]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.03.57:301][784]LogWorld: UWorld::CleanupWorld for MenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.03.57:302][784]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.03.57:344][784]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.13-07.03.57:346][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.02.13-07.03.57:348][784]LogStreaming: Display: FlushAsyncLoading(546): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-07.03.57:351][784]LogAudio: Display: Audio Device (ID: 14) registered with world 'BasicLevel'.
+[2025.02.13-07.03.57:351][784]LogChaosDD: Creating Chaos Debug Draw Scene for world BasicLevel
+[2025.02.13-07.03.57:352][784]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2025.02.13-07.03.57:352][784]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.03.57:353][784]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel.BasicLevel up for play (max tick rate 0) at 2025.02.13-16.03.57
+[2025.02.13-07.03.57:354][784]LogWorld: Bringing up level for play took: 0.001462
+[2025.02.13-07.03.57:354][784]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.03.57:354][784]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.03.57:354][784]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.03.57:358][784]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2025.02.13-07.03.57:358][784]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.02.13-07.03.57:358][784]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.03.57:363][784]LogTemp: Warning: Level 1 Start!, Spawned 14 coin
+[2025.02.13-07.03.57:363][784]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.03.57:363][784]LogLoad: Took 0.062489 seconds to LoadMap(/Game/Make_HJ/Maps/BasicLevel)
+[2025.02.13-07.03.57:363][784]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.04.06:603][892]LogTemp: Warning: Total Score Updated : 10
+[2025.02.13-07.04.06:603][892]LogTemp: Warning: Coin Collected: 1 / 14
+[2025.02.13-07.04.07:436][992]LogTemp: Warning: Total Score Updated : 20
+[2025.02.13-07.04.07:436][992]LogTemp: Warning: Coin Collected: 2 / 14
+[2025.02.13-07.04.10:201][322]LogTemp: Warning: Total Score Updated : 30
+[2025.02.13-07.04.10:201][322]LogTemp: Warning: Coin Collected: 3 / 14
+[2025.02.13-07.04.14:236][677]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_13
+[2025.02.13-07.04.14:281][678]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.02.13-07.04.14:300][679]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.02.13-07.04.14:319][680]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.02.13-07.04.27:319][188]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Make_HJ/BP_RabbitGameState.BP_RabbitGameState
+[2025.02.13-07.04.27:319][188]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.02.13-07.04.34:044][957]LogTemp: Warning: Total Score Updated : 80
+[2025.02.13-07.04.34:044][957]LogTemp: Warning: Coin Collected: 4 / 14
+[2025.02.13-07.04.36:360][235]LogTemp: Warning: Total Score Updated : 90
+[2025.02.13-07.04.36:360][235]LogTemp: Warning: Coin Collected: 5 / 14
+[2025.02.13-07.04.41:374][836]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4359.428711
+[2025.02.13-07.04.41:608][864]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.13-07.04.41:608][864]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4359.653809, Update Interval: 312.605377
+[2025.02.13-07.04.44:495][211]LogTemp: Warning: Health decreased to : 70.000000
+[2025.02.13-07.04.49:572][820]LogTemp: Warning: Health increased to: 90.000000
+[2025.02.13-07.04.50:272][904]LogTemp: Warning: Total Score Updated : 100
+[2025.02.13-07.04.50:272][904]LogTemp: Warning: Coin Collected: 6 / 14
+[2025.02.13-07.04.51:876][ 96]LogTemp: Warning: Total Score Updated : 110
+[2025.02.13-07.04.51:876][ 96]LogTemp: Warning: Coin Collected: 7 / 14
+[2025.02.13-07.04.52:926][222]LogTemp: Warning: Total Score Updated : 120
+[2025.02.13-07.04.52:926][222]LogTemp: Warning: Coin Collected: 8 / 14
+[2025.02.13-07.04.58:154][849]LogTemp: Warning: Total Score Updated : 120
+[2025.02.13-07.04.58:161][850]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.04.58:161][850]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.04.58:161][850]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Make_HJ/Maps/IntermediateLevel"
+[2025.02.13-07.04.58:161][850]LogNet: Browse: /Game/Make_HJ/Maps/IntermediateLevel
+[2025.02.13-07.04.58:161][850]LogLoad: LoadMap: /Game/Make_HJ/Maps/IntermediateLevel
+[2025.02.13-07.04.58:161][850]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel
+[2025.02.13-07.04.58:162][850]LogWorld: UWorld::CleanupWorld for BasicLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.04.58:163][850]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.04.58:206][850]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.13-07.04.58:226][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.02.13-07.04.58:230][850]LogStreaming: Display: FlushAsyncLoading(547): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-07.04.58:233][850]LogAudio: Display: Audio Device (ID: 14) registered with world 'IntermediateLevel'.
+[2025.02.13-07.04.58:233][850]LogChaosDD: Creating Chaos Debug Draw Scene for world IntermediateLevel
+[2025.02.13-07.04.58:235][850]LogPlayLevel: PIE: World Init took: (0.001221s)
+[2025.02.13-07.04.58:235][850]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.04.58:236][850]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_IntermediateLevel.IntermediateLevel up for play (max tick rate 0) at 2025.02.13-16.04.58
+[2025.02.13-07.04.58:236][850]LogWorld: Bringing up level for play took: 0.001425
+[2025.02.13-07.04.58:237][850]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.04.58:237][850]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.04.58:237][850]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.04.58:240][850]LogTemp: Warning: ItemToSpawn :  50 
+[2025.02.13-07.04.58:247][850]LogTemp: Warning: Level 2 Start!, Spawned 19 coin
+[2025.02.13-07.04.58:247][850]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.04.58:247][850]LogLoad: Took 0.086064 seconds to LoadMap(/Game/Make_HJ/Maps/IntermediateLevel)
+[2025.02.13-07.04.58:247][850]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Make_HJ/Maps/IntermediateLevel
+[2025.02.13-07.04.59:838][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.04.59:838][ 35]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_IntermediateLevel
+[2025.02.13-07.04.59:838][ 35]LogWorld: UWorld::CleanupWorld for IntermediateLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.04.59:839][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.04.59:844][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.13-07.04.59:850][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.04.59:867][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.04.59:867][ 35]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.02.13-07.04.59:867][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.02.13-07.04.59:869][ 35]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2025.02.13-07.04.59:879][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.02.13-07.04.59:907][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2025.02.13-07.08.51:470][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.02.13-07.09.16:413][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.02.13-07.09.16:415][ 75]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Make_HJ/Maps/MenuLevel' took 0.020
+[2025.02.13-07.09.16:415][ 75]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Make_HJ/UI/WBP_HUD] ([2] browsable assets)...
+[2025.02.13-07.09.16:423][ 75]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Make_HJ/UI/WBP_HUD.WBP_HUD]
+[2025.02.13-07.09.16:423][ 75]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/UI/WBP_HUD]
+[2025.02.13-07.09.16:423][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/UI/WBP_HUD" FILE="D:/GitHub/Project08/Project08/Saved/Autosaves/Game/Make_HJ/UI/WBP_HUD_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2025.02.13-07.09.16:427][ 75]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Make_HJ/UI/WBP_HUD_Auto4
+[2025.02.13-07.09.16:427][ 75]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/WBP_HUD_Auto444D252BD4827D6FEA5E5FBA2000583DF.tmp' to 'D:/GitHub/Project08/Project08/Saved/Autosaves/Game/Make_HJ/UI/WBP_HUD_Auto4.uasset'
+[2025.02.13-07.09.16:427][ 75]LogFileHelpers: Auto-saving content packages took 0.012
+[2025.02.13-07.10.26:682][286]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4704.729980
+[2025.02.13-07.10.27:682][289]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.13-07.10.27:682][289]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4705.396973, Update Interval: 345.512268
+[2025.02.13-07.15.15:549][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2025.02.13-07.15.18:690][349]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.02.13-07.15.18:695][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.13-07.15.18:730][349]LogPlayLevel: Creating play world package: /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.15.18:731][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001310s)
+[2025.02.13-07.15.18:731][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Make_HJ/Maps/MenuLevel.MenuLevel to /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.001351s)
+[2025.02.13-07.15.18:748][349]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2025.02.13-07.15.18:752][349]LogChaosDD: Creating Chaos Debug Draw Scene for world MenuLevel
+[2025.02.13-07.15.18:753][349]LogPlayLevel: PIE: World Init took: (0.001381s)
+[2025.02.13-07.15.18:754][349]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.02.13-07.15.18:754][349]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.13-07.15.18:754][349]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.13-07.15.18:754][349]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.13-07.15.18:754][349]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.13-07.15.18:754][349]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.13-07.15.18:754][349]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.13-07.15.18:754][349]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.13-07.15.18:754][349]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.13-07.15.18:754][349]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.13-07.15.18:754][349]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.13-07.15.18:754][349]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.13-07.15.18:756][349]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.13-07.15.18:768][349]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.02.13-07.15.18:768][349]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.13-07.15.18:768][349]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.13-07.15.18:768][349]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.13-07.15.18:769][349]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.02.13-07.15.18:769][349]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.02.13-07.15.18:771][349]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.02.13-07.15.18:771][349]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.02.13-07.15.18:771][349]LogInit: FAudioDevice initialized with ID 15.
+[2025.02.13-07.15.18:771][349]LogAudio: Display: Audio Device (ID: 15) registered with world 'MenuLevel'.
+[2025.02.13-07.15.18:771][349]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.02.13-07.15.18:774][349]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.15.18:774][349]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 0) at 2025.02.13-16.15.18
+[2025.02.13-07.15.18:775][349]LogWorld: Bringing up level for play took: 0.000655
+[2025.02.13-07.15.18:776][349]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2025.02.13-07.15.18:777][349]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.15.18:777][349]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.15.18:777][349]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.15.18:781][349]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.02.13-07.15.18:781][349]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.15.18:781][349]LogTemp: Warning: Level 1 Start!, Spawned 0 coin
+[2025.02.13-07.15.18:781][349]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2025.02.13-07.15.18:781][349]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.02.13-07.15.18:781][349]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.15.18:782][349]PIE: 서버가 로그인했습니다.
+[2025.02.13-07.15.18:783][349]PIE: 에디터에서 플레이 총 시작 시간 0.088초입니다.
+[2025.02.13-07.15.19:799][462]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.15.19:799][462]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.15.19:799][462]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Make_HJ/Maps/BasicLevel"
+[2025.02.13-07.15.19:799][462]LogNet: Browse: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.15.19:799][462]LogLoad: LoadMap: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.15.19:799][462]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.15.19:800][462]LogWorld: UWorld::CleanupWorld for MenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.15.19:800][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.15.19:856][462]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.13-07.15.19:858][462]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.02.13-07.15.19:860][462]LogStreaming: Display: FlushAsyncLoading(548): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-07.15.19:863][462]LogAudio: Display: Audio Device (ID: 15) registered with world 'BasicLevel'.
+[2025.02.13-07.15.19:863][462]LogChaosDD: Creating Chaos Debug Draw Scene for world BasicLevel
+[2025.02.13-07.15.19:864][462]LogPlayLevel: PIE: World Init took: (0.001108s)
+[2025.02.13-07.15.19:864][462]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.15.19:866][462]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel.BasicLevel up for play (max tick rate 0) at 2025.02.13-16.15.19
+[2025.02.13-07.15.19:866][462]LogWorld: Bringing up level for play took: 0.001598
+[2025.02.13-07.15.19:867][462]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.15.19:867][462]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.15.19:867][462]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.15.19:870][462]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2025.02.13-07.15.19:870][462]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.02.13-07.15.19:870][462]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.15.19:875][462]LogTemp: Warning: Level 1 Start!, Spawned 9 coin
+[2025.02.13-07.15.19:875][462]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.15.19:875][462]LogLoad: Took 0.076656 seconds to LoadMap(/Game/Make_HJ/Maps/BasicLevel)
+[2025.02.13-07.15.19:875][462]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.15.25:409][125]LogTemp: Warning: Total Score Updated : 50
+[2025.02.13-07.15.25:409][125]LogTemp: Warning: Coin Collected: 1 / 9
+[2025.02.13-07.15.26:181][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.15.26:181][212]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel
+[2025.02.13-07.15.26:181][212]LogWorld: UWorld::CleanupWorld for BasicLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.15.26:182][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.15.26:185][212]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.13-07.15.26:191][212]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.15.26:208][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.15.26:209][212]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.02.13-07.15.26:209][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.02.13-07.15.26:210][212]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2025.02.13-07.15.26:217][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.02.13-07.15.26:246][213]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2025.02.13-07.15.29:972][638]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.13-07.15.30:024][638]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Make_HJ/UI/WBP_HUD] ([2] browsable assets)...
+[2025.02.13-07.15.30:025][638]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Make_HJ/UI/WBP_HUD.WBP_HUD]
+[2025.02.13-07.15.30:025][638]OBJ SavePackage: Finished generating thumbnails for package [/Game/Make_HJ/UI/WBP_HUD]
+[2025.02.13-07.15.30:025][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/UI/WBP_HUD" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/UI/WBP_HUD.uasset" SILENT=true
+[2025.02.13-07.15.30:030][638]LogSavePackage: Moving output files for package: /Game/Make_HJ/UI/WBP_HUD
+[2025.02.13-07.15.30:030][638]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/WBP_HUD722291984523F389C87DEAA85EABF5B8.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/UI/WBP_HUD.uasset'
+[2025.02.13-07.15.30:037][638]LogFileHelpers: InternalPromptForCheckoutAndSave took 64.633 ms (total: 514.817 ms)
+[2025.02.13-07.15.30:090][638]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.13-07.15.30:090][638]LogContentValidation: Enabled validators:
+[2025.02.13-07.15.30:090][638]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.13-07.15.30:090][638]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.13-07.15.30:090][638]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.13-07.15.30:090][638]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.13-07.15.30:090][638]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.13-07.15.30:090][638]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.13-07.15.30:090][638]AssetCheck: /Game/Make_HJ/UI/WBP_HUD 에셋 유효성 검사 중
+[2025.02.13-07.15.34:534][ 96]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.02.13-07.15.34:539][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.13-07.15.34:559][ 96]LogPlayLevel: Creating play world package: /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.15.34:561][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001293s)
+[2025.02.13-07.15.34:561][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Make_HJ/Maps/MenuLevel.MenuLevel to /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.001327s)
+[2025.02.13-07.15.34:595][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2025.02.13-07.15.34:597][ 96]LogChaosDD: Creating Chaos Debug Draw Scene for world MenuLevel
+[2025.02.13-07.15.34:599][ 96]LogPlayLevel: PIE: World Init took: (0.001319s)
+[2025.02.13-07.15.34:599][ 96]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.02.13-07.15.34:599][ 96]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.13-07.15.34:599][ 96]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.13-07.15.34:599][ 96]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.13-07.15.34:599][ 96]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.13-07.15.34:599][ 96]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.13-07.15.34:599][ 96]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.13-07.15.34:599][ 96]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.13-07.15.34:599][ 96]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.13-07.15.34:599][ 96]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.13-07.15.34:599][ 96]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.13-07.15.34:600][ 96]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.13-07.15.34:603][ 96]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.13-07.15.34:614][ 96]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.02.13-07.15.34:614][ 96]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.13-07.15.34:614][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.13-07.15.34:614][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.13-07.15.34:615][ 96]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.02.13-07.15.34:615][ 96]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.02.13-07.15.34:617][ 96]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.02.13-07.15.34:617][ 96]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.02.13-07.15.34:617][ 96]LogInit: FAudioDevice initialized with ID 16.
+[2025.02.13-07.15.34:617][ 96]LogAudio: Display: Audio Device (ID: 16) registered with world 'MenuLevel'.
+[2025.02.13-07.15.34:617][ 96]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.02.13-07.15.34:620][ 96]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.15.34:620][ 96]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 0) at 2025.02.13-16.15.34
+[2025.02.13-07.15.34:621][ 96]LogWorld: Bringing up level for play took: 0.000643
+[2025.02.13-07.15.34:623][ 96]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2025.02.13-07.15.34:623][ 96]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.15.34:623][ 96]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.15.34:623][ 96]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.15.34:627][ 96]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.02.13-07.15.34:627][ 96]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.15.34:627][ 96]LogTemp: Warning: Level 1 Start!, Spawned 0 coin
+[2025.02.13-07.15.34:627][ 96]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2025.02.13-07.15.34:628][ 96]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.02.13-07.15.34:628][ 96]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.15.34:628][ 96]PIE: 서버가 로그인했습니다.
+[2025.02.13-07.15.34:629][ 96]PIE: 에디터에서 플레이 총 시작 시간 0.089초입니다.
+[2025.02.13-07.15.35:429][185]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.15.35:429][185]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.15.35:429][185]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Make_HJ/Maps/BasicLevel"
+[2025.02.13-07.15.35:429][185]LogNet: Browse: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.15.35:429][185]LogLoad: LoadMap: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.15.35:429][185]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.15.35:430][185]LogWorld: UWorld::CleanupWorld for MenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.15.35:430][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.15.35:486][185]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.13-07.15.35:488][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2025.02.13-07.15.35:490][185]LogStreaming: Display: FlushAsyncLoading(549): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-07.15.35:494][185]LogAudio: Display: Audio Device (ID: 16) registered with world 'BasicLevel'.
+[2025.02.13-07.15.35:494][185]LogChaosDD: Creating Chaos Debug Draw Scene for world BasicLevel
+[2025.02.13-07.15.35:495][185]LogPlayLevel: PIE: World Init took: (0.001153s)
+[2025.02.13-07.15.35:495][185]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.15.35:497][185]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel.BasicLevel up for play (max tick rate 0) at 2025.02.13-16.15.35
+[2025.02.13-07.15.35:497][185]LogWorld: Bringing up level for play took: 0.001561
+[2025.02.13-07.15.35:497][185]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.15.35:497][185]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.15.35:497][185]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.15.35:501][185]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2025.02.13-07.15.35:501][185]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.02.13-07.15.35:502][185]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.15.35:507][185]LogTemp: Warning: Level 1 Start!, Spawned 11 coin
+[2025.02.13-07.15.35:507][185]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.15.35:507][185]LogLoad: Took 0.078282 seconds to LoadMap(/Game/Make_HJ/Maps/BasicLevel)
+[2025.02.13-07.15.35:507][185]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.15.36:581][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.15.36:581][307]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel
+[2025.02.13-07.15.36:581][307]LogWorld: UWorld::CleanupWorld for BasicLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.15.36:582][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.15.36:587][307]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.13-07.15.36:593][307]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.15.36:610][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.15.36:611][307]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.02.13-07.15.36:611][307]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.02.13-07.15.36:612][307]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2025.02.13-07.15.36:621][307]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.02.13-07.15.36:649][308]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2025.02.13-07.15.55:315][654]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=S24C340(NVIDIA High Definition Audio), InstanceID=1
+[2025.02.13-07.15.55:516][654]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.02.13-07.15.55:516][654]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20908
+[2025.02.13-07.15.55:849][655]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.02.13-07.15.55:852][655]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{ef2660cc-0480-4cf9-9ecb-8b5dd5984460}, Name=S24C340(NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=6.99
+[2025.02.13-07.15.55:852][655]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.02.13-07.15.55:854][655]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.02.13-07.15.57:139][659]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=스피커(USB Audio Device), InstanceID=1
+[2025.02.13-07.15.57:182][659]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.02.13-07.15.57:182][659]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20908
+[2025.02.13-07.15.57:515][660]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.02.13-07.15.57:518][660]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5239bbfd-0c26-4a01-bec7-89eb4c8bedfa}, Name=스피커(USB Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=21.53
+[2025.02.13-07.15.57:518][660]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.02.13-07.15.57:519][660]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.02.13-07.16.16:401][717]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=S24C340(NVIDIA High Definition Audio), InstanceID=1
+[2025.02.13-07.16.16:518][717]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.02.13-07.16.16:518][717]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20908
+[2025.02.13-07.16.16:851][718]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.02.13-07.16.16:853][718]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{ef2660cc-0480-4cf9-9ecb-8b5dd5984460}, Name=S24C340(NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=7.42
+[2025.02.13-07.16.16:853][718]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.02.13-07.16.16:855][718]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.02.13-07.16.18:244][723]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=스피커(USB Audio Device), InstanceID=1
+[2025.02.13-07.16.18:517][723]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.02.13-07.16.18:517][723]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20908
+[2025.02.13-07.16.18:851][724]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.02.13-07.16.18:853][724]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5239bbfd-0c26-4a01-bec7-89eb4c8bedfa}, Name=스피커(USB Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=12.59
+[2025.02.13-07.16.18:853][724]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.02.13-07.16.18:855][724]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.02.13-07.16.49:856][817]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5087.909668
+[2025.02.13-07.16.50:856][820]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.02.13-07.16.50:856][820]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5088.576660, Update Interval: 333.238312
+[2025.02.13-07.17.39:804][212]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.13-07.17.45:450][307]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_6.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_6.exp 개체를 생성하고 있습니다.
+[2025.02.13-07.17.45:696][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2025.02.13-07.17.46:161][308]Display: Reload/Re-instancing Complete: 1 package changed, 7 classes unchanged, 10 functions remapped, 1 scriptstruct remapped
+[2025.02.13-07.17.46:161][308]LogLiveCoding: Display: Live coding succeeded
+[2025.02.13-07.17.48:522][316]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.02.13-07.17.48:528][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.13-07.17.48:528][316]LogPlayLevel: Creating play world package: /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.17.48:529][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001233s)
+[2025.02.13-07.17.48:529][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Make_HJ/Maps/MenuLevel.MenuLevel to /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.001258s)
+[2025.02.13-07.17.48:600][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.02.13-07.17.48:602][316]LogChaosDD: Creating Chaos Debug Draw Scene for world MenuLevel
+[2025.02.13-07.17.48:604][316]LogPlayLevel: PIE: World Init took: (0.001562s)
+[2025.02.13-07.17.48:605][316]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.02.13-07.17.48:605][316]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.13-07.17.48:605][316]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.13-07.17.48:605][316]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.13-07.17.48:605][316]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.13-07.17.48:605][316]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.13-07.17.48:605][316]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.13-07.17.48:605][316]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.13-07.17.48:605][316]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.13-07.17.48:605][316]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.13-07.17.48:605][316]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.13-07.17.48:605][316]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.13-07.17.48:607][316]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.13-07.17.48:619][316]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.02.13-07.17.48:619][316]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.13-07.17.48:619][316]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.13-07.17.48:619][316]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.13-07.17.48:620][316]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.02.13-07.17.48:620][316]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.02.13-07.17.48:623][316]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.02.13-07.17.48:623][316]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.02.13-07.17.48:623][316]LogInit: FAudioDevice initialized with ID 17.
+[2025.02.13-07.17.48:623][316]LogAudio: Display: Audio Device (ID: 17) registered with world 'MenuLevel'.
+[2025.02.13-07.17.48:623][316]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.02.13-07.17.48:626][316]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.17.48:627][316]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 0) at 2025.02.13-16.17.48
+[2025.02.13-07.17.48:627][316]LogWorld: Bringing up level for play took: 0.000570
+[2025.02.13-07.17.48:630][316]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.02.13-07.17.48:631][316]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.17.48:631][316]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.17.48:631][316]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.17.48:635][316]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.02.13-07.17.48:635][316]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.17.48:635][316]LogTemp: Warning: Level 1 Start!, Spawned 0 coin
+[2025.02.13-07.17.48:635][316]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2025.02.13-07.17.48:635][316]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.02.13-07.17.48:635][316]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.17.48:635][316]PIE: 서버가 로그인했습니다.
+[2025.02.13-07.17.48:636][316]PIE: 에디터에서 플레이 총 시작 시간 0.108초입니다.
+[2025.02.13-07.17.49:408][374]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.17.49:408][374]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.17.49:408][374]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Make_HJ/Maps/BasicLevel"
+[2025.02.13-07.17.49:408][374]LogNet: Browse: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.17.49:408][374]LogLoad: LoadMap: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.17.49:408][374]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.17.49:409][374]LogWorld: UWorld::CleanupWorld for MenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.17.49:409][374]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.17.49:454][374]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.13-07.17.49:478][374]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.02.13-07.17.49:488][374]LogStreaming: Display: FlushAsyncLoading(550): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-07.17.49:492][374]LogAudio: Display: Audio Device (ID: 17) registered with world 'BasicLevel'.
+[2025.02.13-07.17.49:492][374]LogChaosDD: Creating Chaos Debug Draw Scene for world BasicLevel
+[2025.02.13-07.17.49:493][374]LogPlayLevel: PIE: World Init took: (0.001294s)
+[2025.02.13-07.17.49:493][374]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.17.49:495][374]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel.BasicLevel up for play (max tick rate 0) at 2025.02.13-16.17.49
+[2025.02.13-07.17.49:495][374]LogWorld: Bringing up level for play took: 0.001659
+[2025.02.13-07.17.49:496][374]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.17.49:496][374]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.17.49:496][374]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.17.49:501][374]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2025.02.13-07.17.49:501][374]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.02.13-07.17.49:501][374]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.17.49:506][374]LogTemp: Warning: Level 1 Start!, Spawned 15 coin
+[2025.02.13-07.17.49:506][374]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.17.49:506][374]LogLoad: Took 0.097642 seconds to LoadMap(/Game/Make_HJ/Maps/BasicLevel)
+[2025.02.13-07.17.49:506][374]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.17.52:031][671]LogTemp: Warning: Health increased to: 100.000000
+[2025.02.13-07.17.53:035][790]LogTemp: Warning: Total Score Updated : 10
+[2025.02.13-07.17.53:035][790]LogTemp: Warning: Coin Collected: 1 / 15
+[2025.02.13-07.17.53:860][885]LogTemp: Warning: Total Score Updated : 20
+[2025.02.13-07.17.53:860][885]LogTemp: Warning: Coin Collected: 2 / 15
+[2025.02.13-07.17.55:584][ 92]LogTemp: Warning: Total Score Updated : 30
+[2025.02.13-07.17.55:584][ 92]LogTemp: Warning: Coin Collected: 3 / 15
+[2025.02.13-07.17.56:334][182]LogTemp: Warning: Total Score Updated : 40
+[2025.02.13-07.17.56:334][182]LogTemp: Warning: Coin Collected: 4 / 15
+[2025.02.13-07.17.57:893][369]LogTemp: Warning: Total Score Updated : 50
+[2025.02.13-07.17.57:893][369]LogTemp: Warning: Coin Collected: 5 / 15
+[2025.02.13-07.17.59:335][542]LogTemp: Warning: Total Score Updated : 100
+[2025.02.13-07.17.59:335][542]LogTemp: Warning: Coin Collected: 6 / 15
+[2025.02.13-07.18.00:097][633]LogTemp: Warning: Total Score Updated : 110
+[2025.02.13-07.18.00:097][633]LogTemp: Warning: Coin Collected: 7 / 15
+[2025.02.13-07.18.00:590][692]LogTemp: Warning: Health increased to: 100.000000
+[2025.02.13-07.18.08:040][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.18.08:040][460]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel
+[2025.02.13-07.18.08:040][460]LogWorld: UWorld::CleanupWorld for BasicLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.18.08:041][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.18.08:044][460]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.13-07.18.08:050][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.18.08:065][460]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.18.08:066][460]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.02.13-07.18.08:066][460]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.02.13-07.18.08:068][460]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2025.02.13-07.18.08:077][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.02.13-07.18.08:111][461]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.02.13-07.18.36:649][745]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.13-07.18.38:843][  7]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=S24C340(NVIDIA High Definition Audio), InstanceID=1
+[2025.02.13-07.18.38:843][  7]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.02.13-07.18.38:843][  7]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20908
+[2025.02.13-07.18.38:885][ 12]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.02.13-07.18.38:888][ 12]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{ef2660cc-0480-4cf9-9ecb-8b5dd5984460}, Name=S24C340(NVIDIA High Definition Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=35.71
+[2025.02.13-07.18.38:888][ 12]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.02.13-07.18.38:890][ 12]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.02.13-07.18.42:008][382]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=스피커(USB Audio Device), InstanceID=1
+[2025.02.13-07.18.42:013][383]LogAudioMixer: Display: StartRunningNullDevice() called, InstanceID=1
+[2025.02.13-07.18.42:013][383]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=20908
+[2025.02.13-07.18.42:096][393]LogAudioMixer: Display: StopRunningNullDevice() called, InstanceID=1
+[2025.02.13-07.18.42:098][393]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{5239bbfd-0c26-4a01-bec7-89eb4c8bedfa}, Name=스피커(USB Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=80.34
+[2025.02.13-07.18.42:098][393]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.02.13-07.18.42:101][393]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.02.13-07.18.43:895][564]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_7.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_7.exp 개체를 생성하고 있습니다.
+[2025.02.13-07.18.44:475][565]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2025.02.13-07.18.44:933][566]Display: Reload/Re-instancing Complete: 1 package changed, 7 classes unchanged, 10 functions remapped, 1 scriptstruct remapped
+[2025.02.13-07.18.44:933][566]LogLiveCoding: Display: Live coding succeeded
+[2025.02.13-07.18.47:644][578]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.02.13-07.18.47:649][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.13-07.18.47:677][578]LogPlayLevel: Creating play world package: /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.18.47:678][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001351s)
+[2025.02.13-07.18.47:678][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Make_HJ/Maps/MenuLevel.MenuLevel to /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.001388s)
+[2025.02.13-07.18.47:746][578]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.02.13-07.18.47:749][578]LogChaosDD: Creating Chaos Debug Draw Scene for world MenuLevel
+[2025.02.13-07.18.47:751][578]LogPlayLevel: PIE: World Init took: (0.001430s)
+[2025.02.13-07.18.47:751][578]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.02.13-07.18.47:751][578]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.13-07.18.47:751][578]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.13-07.18.47:751][578]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.13-07.18.47:751][578]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.13-07.18.47:751][578]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.13-07.18.47:751][578]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.13-07.18.47:751][578]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.13-07.18.47:751][578]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.13-07.18.47:751][578]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.13-07.18.47:751][578]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.13-07.18.47:751][578]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.13-07.18.47:753][578]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.13-07.18.47:765][578]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.02.13-07.18.47:765][578]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.13-07.18.47:765][578]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.13-07.18.47:765][578]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.13-07.18.47:765][578]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.02.13-07.18.47:765][578]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.02.13-07.18.47:768][578]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.02.13-07.18.47:768][578]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.02.13-07.18.47:768][578]LogInit: FAudioDevice initialized with ID 18.
+[2025.02.13-07.18.47:768][578]LogAudio: Display: Audio Device (ID: 18) registered with world 'MenuLevel'.
+[2025.02.13-07.18.47:768][578]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.02.13-07.18.47:771][578]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.18.47:772][578]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 0) at 2025.02.13-16.18.47
+[2025.02.13-07.18.47:772][578]LogWorld: Bringing up level for play took: 0.000635
+[2025.02.13-07.18.47:774][578]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.02.13-07.18.47:774][578]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.18.47:774][578]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.18.47:774][578]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.18.47:778][578]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.02.13-07.18.47:778][578]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.18.47:778][578]LogTemp: Warning: Level 1 Start!, Spawned 0 coin
+[2025.02.13-07.18.47:779][578]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2025.02.13-07.18.47:779][578]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.02.13-07.18.47:779][578]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.18.47:779][578]PIE: 서버가 로그인했습니다.
+[2025.02.13-07.18.47:780][578]PIE: 에디터에서 플레이 총 시작 시간 0.132초입니다.
+[2025.02.13-07.18.48:727][673]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.18.48:727][673]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.18.48:727][673]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Make_HJ/Maps/BasicLevel"
+[2025.02.13-07.18.48:727][673]LogNet: Browse: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.18.48:727][673]LogLoad: LoadMap: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.18.48:727][673]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.18.48:728][673]LogWorld: UWorld::CleanupWorld for MenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.18.48:728][673]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.18.48:792][673]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.13-07.18.48:815][673]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.02.13-07.18.48:828][673]LogStreaming: Display: FlushAsyncLoading(551): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-07.18.48:831][673]LogAudio: Display: Audio Device (ID: 18) registered with world 'BasicLevel'.
+[2025.02.13-07.18.48:831][673]LogChaosDD: Creating Chaos Debug Draw Scene for world BasicLevel
+[2025.02.13-07.18.48:833][673]LogPlayLevel: PIE: World Init took: (0.001258s)
+[2025.02.13-07.18.48:833][673]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.18.48:834][673]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel.BasicLevel up for play (max tick rate 0) at 2025.02.13-16.18.48
+[2025.02.13-07.18.48:835][673]LogWorld: Bringing up level for play took: 0.001803
+[2025.02.13-07.18.48:835][673]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.18.48:835][673]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.18.48:835][673]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.18.48:839][673]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2025.02.13-07.18.48:839][673]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.02.13-07.18.48:839][673]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.18.48:844][673]LogTemp: Warning: Level 1 Start!, Spawned 15 coin
+[2025.02.13-07.18.48:844][673]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.18.48:844][673]LogLoad: Took 0.116795 seconds to LoadMap(/Game/Make_HJ/Maps/BasicLevel)
+[2025.02.13-07.18.48:844][673]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.18.51:965][ 44]LogTemp: Warning: Health increased to: 100.000000
+[2025.02.13-07.18.53:372][210]LogTemp: Warning: Health increased to: 100.000000
+[2025.02.13-07.19.01:669][205]LogTemp: Warning: Health decreased to : 70.000000
+[2025.02.13-07.19.03:238][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.19.03:238][389]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel
+[2025.02.13-07.19.03:238][389]LogWorld: UWorld::CleanupWorld for BasicLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.19.03:239][389]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.19.03:242][389]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.13-07.19.03:248][389]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.19.03:263][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.19.03:264][389]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.02.13-07.19.03:264][389]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.02.13-07.19.03:266][389]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2025.02.13-07.19.03:272][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.02.13-07.19.03:306][390]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.02.13-07.19.15:439][891]LogLiveCoding: Display: Starting Live Coding compile.
+[2025.02.13-07.19.22:831][176]LogLiveCoding: Display:    D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_8.lib 라이브러리 및 D:\GitHub\Project08\Project08\Binaries\Win64\UnrealEditor-Project08.patch_8.exp 개체를 생성하고 있습니다.
+[2025.02.13-07.19.23:239][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2025.02.13-07.19.23:700][177]Display: Reload/Re-instancing Complete: 1 package changed, 7 classes unchanged, 10 functions remapped, 1 scriptstruct remapped
+[2025.02.13-07.19.23:700][177]LogLiveCoding: Display: Live coding succeeded
+[2025.02.13-07.19.25:599][188]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.02.13-07.19.25:740][188]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Make_HJ/Maps/MenuLevel" FILE="D:/GitHub/Project08/Project08/Content/Make_HJ/Maps/MenuLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.02.13-07.19.25:829][188]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.02.13-07.19.25:837][188]LogSavePackage: Moving output files for package: /Game/Make_HJ/Maps/MenuLevel
+[2025.02.13-07.19.25:837][188]LogSavePackage: Moving 'D:/GitHub/Project08/Project08/Saved/MenuLevelADA5F7944DB5EF8288978889D597111E.tmp' to 'D:/GitHub/Project08/Project08/Content/Make_HJ/Maps/MenuLevel.umap'
+[2025.02.13-07.19.25:847][188]LogFileHelpers: Saving map 'MenuLevel' took 0.107
+[2025.02.13-07.19.25:855][188]LogFileHelpers: InternalPromptForCheckoutAndSave took 255.918 ms (total: 770.735 ms)
+[2025.02.13-07.19.25:907][188]LogContentValidation: Display: Starting to validate 1 assets
+[2025.02.13-07.19.25:908][188]LogContentValidation: Enabled validators:
+[2025.02.13-07.19.25:908][188]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.02.13-07.19.25:908][188]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.02.13-07.19.25:908][188]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.02.13-07.19.25:908][188]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.02.13-07.19.25:908][188]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.02.13-07.19.25:908][188]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.02.13-07.19.25:908][188]AssetCheck: /Game/Make_HJ/Maps/MenuLevel 에셋 유효성 검사 중
+[2025.02.13-07.19.28:650][505]LogDebuggerCommands: Repeating last play command: 선택된 뷰포트
+[2025.02.13-07.19.28:655][505]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.02.13-07.19.28:697][505]LogPlayLevel: Creating play world package: /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.19.28:698][505]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001250s)
+[2025.02.13-07.19.28:698][505]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Make_HJ/Maps/MenuLevel.MenuLevel to /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel (0.001291s)
+[2025.02.13-07.19.28:733][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.02.13-07.19.28:744][505]LogChaosDD: Creating Chaos Debug Draw Scene for world MenuLevel
+[2025.02.13-07.19.28:746][505]LogPlayLevel: PIE: World Init took: (0.001376s)
+[2025.02.13-07.19.28:746][505]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2025.02.13-07.19.28:746][505]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.02.13-07.19.28:747][505]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.02.13-07.19.28:747][505]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.02.13-07.19.28:747][505]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.02.13-07.19.28:747][505]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.02.13-07.19.28:747][505]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.02.13-07.19.28:747][505]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.02.13-07.19.28:747][505]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.02.13-07.19.28:747][505]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.02.13-07.19.28:747][505]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.02.13-07.19.28:747][505]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.02.13-07.19.28:749][505]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.02.13-07.19.28:760][505]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.02.13-07.19.28:761][505]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.02.13-07.19.28:761][505]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.02.13-07.19.28:761][505]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.02.13-07.19.28:761][505]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2025.02.13-07.19.28:761][505]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2025.02.13-07.19.28:764][505]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2025.02.13-07.19.28:764][505]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2025.02.13-07.19.28:764][505]LogInit: FAudioDevice initialized with ID 19.
+[2025.02.13-07.19.28:764][505]LogAudio: Display: Audio Device (ID: 19) registered with world 'MenuLevel'.
+[2025.02.13-07.19.28:764][505]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2025.02.13-07.19.28:766][505]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.19.28:767][505]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel.MenuLevel up for play (max tick rate 0) at 2025.02.13-16.19.28
+[2025.02.13-07.19.28:767][505]LogWorld: Bringing up level for play took: 0.000659
+[2025.02.13-07.19.28:769][505]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.02.13-07.19.28:770][505]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.19.28:770][505]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.19.28:770][505]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.19.28:774][505]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2025.02.13-07.19.28:774][505]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.19.28:774][505]LogTemp: Warning: Level 1 Start!, Spawned 0 coin
+[2025.02.13-07.19.28:774][505]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2025.02.13-07.19.28:774][505]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.02.13-07.19.28:774][505]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.19.28:774][505]PIE: 서버가 로그인했습니다.
+[2025.02.13-07.19.28:775][505]PIE: 에디터에서 플레이 총 시작 시간 0.121초입니다.
+[2025.02.13-07.19.29:717][609]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.19.29:717][609]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.19.29:717][609]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Make_HJ/Maps/BasicLevel"
+[2025.02.13-07.19.29:717][609]LogNet: Browse: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.19.29:717][609]LogLoad: LoadMap: /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.19.29:717][609]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_MenuLevel
+[2025.02.13-07.19.29:718][609]LogWorld: UWorld::CleanupWorld for MenuLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.19.29:718][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.19.29:781][609]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.13-07.19.29:783][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2025.02.13-07.19.29:792][609]LogStreaming: Display: FlushAsyncLoading(552): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-07.19.29:796][609]LogAudio: Display: Audio Device (ID: 19) registered with world 'BasicLevel'.
+[2025.02.13-07.19.29:796][609]LogChaosDD: Creating Chaos Debug Draw Scene for world BasicLevel
+[2025.02.13-07.19.29:797][609]LogPlayLevel: PIE: World Init took: (0.001230s)
+[2025.02.13-07.19.29:797][609]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.19.29:799][609]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel.BasicLevel up for play (max tick rate 0) at 2025.02.13-16.19.29
+[2025.02.13-07.19.29:799][609]LogWorld: Bringing up level for play took: 0.001877
+[2025.02.13-07.19.29:799][609]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.19.29:799][609]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.19.29:799][609]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.19.29:803][609]LogViewport: Display: Viewport MouseLockMode Changed, LockInFullscreen -> LockOnCapture
+[2025.02.13-07.19.29:803][609]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.02.13-07.19.29:803][609]LogTemp: Warning: ItemToSpawn :  40 
+[2025.02.13-07.19.29:808][609]LogTemp: Warning: Level 1 Start!, Spawned 15 coin
+[2025.02.13-07.19.29:808][609]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.19.29:808][609]LogLoad: Took 0.091842 seconds to LoadMap(/Game/Make_HJ/Maps/BasicLevel)
+[2025.02.13-07.19.29:808][609]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Make_HJ/Maps/BasicLevel
+[2025.02.13-07.19.38:096][599]LogTemp: Warning: Health decreased to : 70.000000
+[2025.02.13-07.19.41:599][ 19]LogTemp: Warning: Total Score Updated : 10
+[2025.02.13-07.19.41:599][ 19]LogTemp: Warning: Coin Collected: 1 / 15
+[2025.02.13-07.19.43:983][305]LogTemp: Warning: Total Score Updated : 20
+[2025.02.13-07.19.43:983][305]LogTemp: Warning: Coin Collected: 2 / 15
+[2025.02.13-07.19.46:950][661]LogTemp: Warning: Health increased to: 90.000000
+[2025.02.13-07.19.48:142][804]LogTemp: Warning: Total Score Updated : 70
+[2025.02.13-07.19.48:142][804]LogTemp: Warning: Coin Collected: 3 / 15
+[2025.02.13-07.19.49:609][980]LogTemp: Warning: Total Score Updated : 80
+[2025.02.13-07.19.49:609][980]LogTemp: Warning: Coin Collected: 4 / 15
+[2025.02.13-07.20.03:700][669]LogTemp: Warning: Health decreased to : 60.000000
+[2025.02.13-07.20.09:291][340]LogTemp: Warning: Health increased to: 80.000000
+[2025.02.13-07.20.10:308][462]LogTemp: Warning: Health increased to: 100.000000
+[2025.02.13-07.20.12:175][686]LogTemp: Warning: Total Score Updated : 130
+[2025.02.13-07.20.12:175][686]LogTemp: Warning: Coin Collected: 5 / 15
+[2025.02.13-07.20.13:725][872]LogTemp: Warning: Total Score Updated : 140
+[2025.02.13-07.20.13:725][872]LogTemp: Warning: Coin Collected: 6 / 15
+[2025.02.13-07.20.14:958][ 20]LogTemp: Warning: Total Score Updated : 190
+[2025.02.13-07.20.14:958][ 20]LogTemp: Warning: Coin Collected: 7 / 15
+[2025.02.13-07.20.17:109][278]LogTemp: Warning: Total Score Updated : 200
+[2025.02.13-07.20.17:109][278]LogTemp: Warning: Coin Collected: 8 / 15
+[2025.02.13-07.20.24:534][169]LogTemp: Warning: Total Score Updated : 210
+[2025.02.13-07.20.24:534][169]LogTemp: Warning: Coin Collected: 9 / 15
+[2025.02.13-07.20.28:892][692]LogTemp: Warning: Total Score Updated : 220
+[2025.02.13-07.20.28:892][692]LogTemp: Warning: Coin Collected: 10 / 15
+[2025.02.13-07.20.29:718][791]LogTemp: Warning: Total Score Updated : 220
+[2025.02.13-07.20.29:725][792]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.20.29:725][792]LogGameState: Match State Changed from InProgress to LeavingMap
+[2025.02.13-07.20.29:726][792]LogGlobalStatus: UEngine::Browse Started Browse: "/Game/Make_HJ/Maps/IntermediateLevel"
+[2025.02.13-07.20.29:726][792]LogNet: Browse: /Game/Make_HJ/Maps/IntermediateLevel
+[2025.02.13-07.20.29:726][792]LogLoad: LoadMap: /Game/Make_HJ/Maps/IntermediateLevel
+[2025.02.13-07.20.29:726][792]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_BasicLevel
+[2025.02.13-07.20.29:726][792]LogWorld: UWorld::CleanupWorld for BasicLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.20.29:727][792]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.20.29:774][792]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.02.13-07.20.29:777][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.02.13-07.20.29:780][792]LogStreaming: Display: FlushAsyncLoading(553): 1 QueuedPackages, 0 AsyncPackages
+[2025.02.13-07.20.29:784][792]LogAudio: Display: Audio Device (ID: 19) registered with world 'IntermediateLevel'.
+[2025.02.13-07.20.29:784][792]LogChaosDD: Creating Chaos Debug Draw Scene for world IntermediateLevel
+[2025.02.13-07.20.29:785][792]LogPlayLevel: PIE: World Init took: (0.001269s)
+[2025.02.13-07.20.29:785][792]LogLoad: Game class is 'BP_RabbitGameMode_C'
+[2025.02.13-07.20.29:787][792]LogWorld: Bringing World /Game/Make_HJ/Maps/UEDPIE_0_IntermediateLevel.IntermediateLevel up for play (max tick rate 0) at 2025.02.13-16.20.29
+[2025.02.13-07.20.29:787][792]LogWorld: Bringing up level for play took: 0.001509
+[2025.02.13-07.20.29:787][792]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.20.29:787][792]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2025.02.13-07.20.29:787][792]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.20.29:791][792]LogTemp: Warning: ItemToSpawn :  50 
+[2025.02.13-07.20.29:798][792]LogTemp: Warning: Level 2 Start!, Spawned 16 coin
+[2025.02.13-07.20.29:798][792]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2025.02.13-07.20.29:798][792]LogLoad: Took 0.072635 seconds to LoadMap(/Game/Make_HJ/Maps/IntermediateLevel)
+[2025.02.13-07.20.29:798][792]LogGlobalStatus: UEngine::LoadMap Load map complete /Game/Make_HJ/Maps/IntermediateLevel
+[2025.02.13-07.20.31:037][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.20.31:037][934]LogWorld: BeginTearingDown for /Game/Make_HJ/Maps/UEDPIE_0_IntermediateLevel
+[2025.02.13-07.20.31:038][934]LogWorld: UWorld::CleanupWorld for IntermediateLevel, bSessionEnded=true, bCleanupResources=true
+[2025.02.13-07.20.31:039][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.20.31:042][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.02.13-07.20.31:048][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.02.13-07.20.31:065][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.02.13-07.20.31:065][934]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2025.02.13-07.20.31:065][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2025.02.13-07.20.31:067][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2025.02.13-07.20.31:074][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2025.02.13-07.20.31:105][935]LogPlayLevel: Display: Destroying online subsystem :Context_31

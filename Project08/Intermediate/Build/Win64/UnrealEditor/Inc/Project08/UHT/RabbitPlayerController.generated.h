@@ -16,6 +16,9 @@ class UUserWidget;
 #define PROJECT08_RabbitPlayerController_generated_h
 
 #define FID_Project08_Source_Project08_Public_RabbitPlayerController_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execStartGame); \
+	DECLARE_FUNCTION(execShowMainMenu); \
+	DECLARE_FUNCTION(execShowGameHUD); \
 	DECLARE_FUNCTION(execGetHUDWidget);
 
 

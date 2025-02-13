@@ -28,12 +28,23 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "HUD")
 	TSubclassOf<UUserWidget> HUDWidgetClass;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "HUD")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "HUD")
 	UUserWidget* HUDWidgetInstance;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Menu")
+	TSubclassOf<UUserWidget> MainMenuWidgetClass;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Menu")
+	UUserWidget* MainMenuWidgetInstance;
 	
 	UFUNCTION(BlueprintCallable, Category = "HUD")
 	UUserWidget* GetHUDWidget() const;
 
-protected:
+	UFUNCTION(BlueprintCallable, Category = "HUD")
+	void ShowGameHUD();
+	UFUNCTION(BlueprintCallable, Category = "Menu")
+	void ShowMainMenu(bool bIsRestart);
+	UFUNCTION(BlueprintCallable, Category = "Menu")
+	void StartGame();
+
 	virtual void BeginPlay() override;
 };

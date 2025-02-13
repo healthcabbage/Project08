@@ -1,5 +1,6 @@
 #include "RabbitGameState.h"
 #include "RabbitGameInstance.h"
+#include "RabbitCharacter.h"
 #include "Kismet/GameplayStatics.h"
 #include "RabbitPlayerController.h"
 #include "SpawnVolume.h"
@@ -54,8 +55,13 @@ void ARabbitGameState::AddScore(int32 Amount)
 
 void ARabbitGameState::OnGameOver()
 {
-	UpdateHUD();
-	UE_LOG(LogTemp, Warning, TEXT("Game Over!"));
+	if (APlayerController* PlayerController = GetWorld()->GetFirstPlayerController())
+	{
+		if (ARabbitPlayerController* RabbitPlayerController = Cast<ARabbitPlayerController>(PlayerController))
+		{
+			RabbitPlayerController->ShowMainMenu(true);
+		}
+	}
 }
 
 void ARabbitGameState::OnCoinCollected()
@@ -73,6 +79,14 @@ void ARabbitGameState::OnCoinCollected()
 
 void ARabbitGameState::StartLevel()
 {
+	if (APlayerController* PlayerController = GetWorld()->GetFirstPlayerController())
+	{
+		if (ARabbitPlayerController* RabbitPlayerController = Cast<ARabbitPlayerController>(PlayerController))
+		{
+			RabbitPlayerController->ShowGameHUD();
+		}
+	}
+
 	if (UGameInstance* GameInstance = GetGameInstance())
 	{
 		URabbitGameInstance* RabbitGameInstance = Cast<URabbitGameInstance>(GameInstance);
@@ -185,6 +199,18 @@ void ARabbitGameState::UpdateHUD()
 				if (UTextBlock* LevelIndexText = Cast<UTextBlock>(HUDWidget->GetWidgetFromName(TEXT("Level"))))
 				{
 					LevelIndexText->SetText(FText::FromString(FString::Printf(TEXT("Level : %d"), CurrentLevelIndex + 1)));
+				}
+
+				if (UTextBlock* HealthText = Cast<UTextBlock>(HUDWidget->GetWidgetFromName(TEXT("Health"))))
+				{
+					if (PlayerController)
+					{
+						ARabbitCharacter* RabbitCharacter = Cast<ARabbitCharacter>(PlayerController->GetPawn());
+						if (RabbitCharacter)
+						{
+							HealthText->SetText(FText::FromString(FString::Printf(TEXT("Health : %.1f"), RabbitCharacter->GetHealth())));
+						}
+					}
 				}
 			}
 		}
