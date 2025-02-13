@@ -130,3 +130,14 @@ void ARabbitPlayerController::BeginPlay()
 		ShowMainMenu(false);
 	}
 }
+
+void ARabbitPlayerController::QuitGame()
+{
+	UKismetSystemLibrary::QuitGame
+	{
+		GetWorld(),
+		this,
+		EQuitPreference::Quit,
+		false
+	};
+}

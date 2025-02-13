@@ -73,7 +73,7 @@ void ARabbitGameState::OnCoinCollected()
 
 	if (SpawnedCoinCount > 0 && CollectedCoinCount >= SpawnedCoinCount)
 	{
-		EndLevel();
+		EndLevel(false);
 	}
 }
 
@@ -138,12 +138,18 @@ void ARabbitGameState::StartLevel()
 
 void ARabbitGameState::OnLevelTimeUp()
 {
-	EndLevel();
+	EndLevel(true);
 }
 
-void ARabbitGameState::EndLevel()
+void ARabbitGameState::EndLevel(bool bIsGameOver)
 {
 	GetWorldTimerManager().ClearTimer(LevelTimerHandle);
+
+	if (bIsGameOver)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("TimeOver"));
+		OnGameOver();
+	}
 
 	if (UGameInstance* GameInstance = GetGameInstance())
 	{

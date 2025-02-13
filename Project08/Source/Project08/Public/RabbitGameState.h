@@ -48,6 +48,6 @@ public:
 
 	void StartLevel();
 	void OnLevelTimeUp();
-	void EndLevel();
+	void EndLevel(bool bIsGameOver);
 	void UpdateHUD();
 };
