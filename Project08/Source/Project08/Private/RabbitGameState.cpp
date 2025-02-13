@@ -1,8 +1,11 @@
 #include "RabbitGameState.h"
 #include "RabbitGameInstance.h"
 #include "Kismet/GameplayStatics.h"
+#include "RabbitPlayerController.h"
 #include "SpawnVolume.h"
 #include "CoinItem.h"
+#include "Components/TextBlock.h"
+#include "Blueprint/UserWidget.h"
 
 ARabbitGameState::ARabbitGameState()
 {
@@ -22,6 +25,14 @@ void ARabbitGameState::BeginPlay()
 	Super::BeginPlay();
 
 	StartLevel();
+
+	GetWorldTimerManager().SetTimer(
+		HUDUpdateTimerHandle,
+		this,
+		&ARabbitGameState::UpdateHUD,
+		0.1f,
+		true
+	);
 }
 
 int32 ARabbitGameState::GetScore() const
@@ -43,6 +54,7 @@ void ARabbitGameState::AddScore(int32 Amount)
 
 void ARabbitGameState::OnGameOver()
 {
+	UpdateHUD();
 	UE_LOG(LogTemp, Warning, TEXT("Game Over!"));
 }
 
@@ -143,5 +155,38 @@ void ARabbitGameState::EndLevel()
 	else
 	{
 		OnGameOver();
+	}
+}
+
+void ARabbitGameState::UpdateHUD()
+{
+	if (APlayerController* PlayerController = GetWorld()->GetFirstPlayerController())
+	{
+		if (ARabbitPlayerController* RabbitPlayerController = Cast<ARabbitPlayerController>(PlayerController))
+		{
+			if (UUserWidget* HUDWidget = RabbitPlayerController->GetHUDWidget())
+			{
+				if (UTextBlock* TimeText = Cast<UTextBlock>(HUDWidget->GetWidgetFromName(TEXT("Time"))))
+				{
+					float RemainingTime = GetWorldTimerManager().GetTimerRemaining(LevelTimerHandle);
+					TimeText->SetText(FText::FromString(FString::Printf(TEXT("Time : %.1f"), RemainingTime)));
+				}
+				if (UTextBlock* ScoreText = Cast<UTextBlock>(HUDWidget->GetWidgetFromName(TEXT("Score"))))
+				{
+					if (UGameInstance* GameInstance = GetGameInstance())
+					{
+						URabbitGameInstance* RabbitGameInstance = Cast<URabbitGameInstance>(GameInstance);
+						if (RabbitGameInstance)
+						{
+							ScoreText->SetText(FText::FromString(FString::Printf(TEXT("Score : %d"), RabbitGameInstance->TotalScore)));
+						}
+					}
+				}
+				if (UTextBlock* LevelIndexText = Cast<UTextBlock>(HUDWidget->GetWidgetFromName(TEXT("Level"))))
+				{
+					LevelIndexText->SetText(FText::FromString(FString::Printf(TEXT("Level : %d"), CurrentLevelIndex + 1)));
+				}
+			}
+		}
 	}
 }

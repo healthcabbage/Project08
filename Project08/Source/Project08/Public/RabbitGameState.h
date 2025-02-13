@@ -34,6 +34,7 @@ public:
 	TArray<FName> LevelMapNames;
 
 	FTimerHandle LevelTimerHandle;
+	FTimerHandle HUDUpdateTimerHandle;
 
 
 	UFUNCTION(BlueprintPure, Category = "Score")
@@ -48,4 +49,5 @@ public:
 	void StartLevel();
 	void OnLevelTimeUp();
 	void EndLevel();
+	void UpdateHUD();
 };
