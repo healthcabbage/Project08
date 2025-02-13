@@ -1,6 +1,6 @@
 #include "CoinItem.h"
 #include "Engine/World.h"
-#include "RabbitGameStateBase.h"
+#include "RabbitGameState.h"
 
 ACoinItem::ACoinItem()
 {
@@ -14,9 +14,10 @@ void ACoinItem::ActivateItem(AActor* Activator)
 	{
 		if (UWorld* World = GetWorld())
 		{
-			if (ARabbitGameStateBase* GameState =  World->GetGameState<ARabbitGameStateBase>())
+			if (ARabbitGameState* GameState =  World->GetGameState<ARabbitGameState>())
 			{
 				GameState->AddScore(PointValue);
+				GameState->OnCoinCollected();
 			}
 		}
 		DestoryItem();

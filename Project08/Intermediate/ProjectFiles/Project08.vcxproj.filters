@@ -66,10 +66,13 @@
     <ClCompile Include="..\..\Source\Project08\Private\RabbitCharacter.cpp">
       <Filter>Source\Project08\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Private\RabbitGameInstance.cpp">
+      <Filter>Source\Project08\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Project08\Private\RabbitGameMode.cpp">
       <Filter>Source\Project08\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Project08\Private\RabbitGameStateBase.cpp">
+    <ClCompile Include="..\..\Source\Project08\Private\RabbitGameState.cpp">
       <Filter>Source\Project08\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Project08\Private\RabbitPlayerController.cpp">
@@ -108,10 +111,13 @@
     <ClCompile Include="..\..\Source\Project08\Public\RabbitCharacter.h">
       <Filter>Source\Project08\Public</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Public\RabbitGameInstance.h">
+      <Filter>Source\Project08\Public</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Project08\Public\RabbitGameMode.h">
       <Filter>Source\Project08\Public</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\Project08\Public\RabbitGameStateBase.h">
+    <ClCompile Include="..\..\Source\Project08\Public\RabbitGameState.h">
       <Filter>Source\Project08\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Project08\Public\RabbitPlayerController.h">
