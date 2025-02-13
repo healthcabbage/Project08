@@ -16,12 +16,15 @@ struct FInputActionValue;
 #define PROJECT08_RabbitCharacter_generated_h
 
 #define FID_Project08_Source_Project08_Public_RabbitCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execOnDeath); \
 	DECLARE_FUNCTION(execStopSprint); \
 	DECLARE_FUNCTION(execStartSprint); \
 	DECLARE_FUNCTION(execLook); \
 	DECLARE_FUNCTION(execStopJump); \
 	DECLARE_FUNCTION(execStartJump); \
-	DECLARE_FUNCTION(execMove);
+	DECLARE_FUNCTION(execMove); \
+	DECLARE_FUNCTION(execAddHealth); \
+	DECLARE_FUNCTION(execGetHealth);
 
 
 #define FID_Project08_Source_Project08_Public_RabbitCharacter_h_14_INCLASS_NO_PURE_DECLS \

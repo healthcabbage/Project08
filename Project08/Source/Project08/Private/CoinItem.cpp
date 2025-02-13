@@ -1,4 +1,6 @@
 #include "CoinItem.h"
+#include "Engine/World.h"
+#include "RabbitGameStateBase.h"
 
 ACoinItem::ACoinItem()
 {
@@ -10,12 +12,13 @@ void ACoinItem::ActivateItem(AActor* Activator)
 {
 	if (Activator && Activator->ActorHasTag("Player"))
 	{
-		GEngine->AddOnScreenDebugMessage(
-			-1,
-			2.0f,
-			FColor::Green,
-			FString::Printf(TEXT("Player GEngine %d points!"),
-				PointValue));
+		if (UWorld* World = GetWorld())
+		{
+			if (ARabbitGameStateBase* GameState =  World->GetGameState<ARabbitGameStateBase>())
+			{
+				GameState->AddScore(PointValue);
+			}
+		}
 		DestoryItem();
 	}
 }

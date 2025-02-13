@@ -4,6 +4,8 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "GameFramework/Actor.h"
+#include "Kismet/GameplayStatics.h"
 
 ARabbitCharacter::ARabbitCharacter()
 {
@@ -25,6 +27,20 @@ ARabbitCharacter::ARabbitCharacter()
 
 
 	GetCharacterMovement()->MaxWalkSpeed = NormalSpeed;
+
+	MaxHealth = 100.0f;
+	Health = MaxHealth;
+}
+
+float ARabbitCharacter::GetHealth() const
+{
+	return Health;
+}
+
+void ARabbitCharacter::AddHealth(float Amount)
+{
+	Health = FMath::Clamp(Health + Amount, 0.0f, MaxHealth);
+	UE_LOG(LogTemp, Warning, TEXT("Health increased to: %f"), Health);
 }
 
 void ARabbitCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -98,6 +114,21 @@ void ARabbitCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	}
 }
 
+float ARabbitCharacter::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	float ActualDamage =  Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+
+	Health = FMath::Clamp(Health - DamageAmount, 0.0f, MaxHealth);
+	UE_LOG(LogTemp, Warning, TEXT("Health decreased to : %f"), Health);
+
+	if (Health <= 0.0f)
+	{
+		OnDeath();
+	}
+
+	return ActualDamage;
+}
+
 void ARabbitCharacter::Move(const FInputActionValue& value)
 {
 	if (!Controller) return;
@@ -153,5 +184,10 @@ void ARabbitCharacter::StopSprint(const FInputActionValue& value)
 	{
 		GetCharacterMovement()->MaxWalkSpeed = NormalSpeed;
 	}
+}
+
+void ARabbitCharacter::OnDeath()
+{
+	//게임 종료
 }
 

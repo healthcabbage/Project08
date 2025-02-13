@@ -20,6 +20,91 @@ PROJECT08_API UClass* Z_Construct_UClass_ARabbitCharacter_NoRegister();
 UPackage* Z_Construct_UPackage__Script_Project08();
 // End Cross Module References
 
+// Begin Class ARabbitCharacter Function AddHealth
+struct Z_Construct_UFunction_ARabbitCharacter_AddHealth_Statics
+{
+	struct RabbitCharacter_eventAddHealth_Parms
+	{
+		float Amount;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Health" },
+		{ "ModuleRelativePath", "Public/RabbitCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Amount;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ARabbitCharacter_AddHealth_Statics::NewProp_Amount = { "Amount", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RabbitCharacter_eventAddHealth_Parms, Amount), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ARabbitCharacter_AddHealth_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ARabbitCharacter_AddHealth_Statics::NewProp_Amount,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ARabbitCharacter_AddHealth_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ARabbitCharacter_AddHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ARabbitCharacter, nullptr, "AddHealth", nullptr, nullptr, Z_Construct_UFunction_ARabbitCharacter_AddHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ARabbitCharacter_AddHealth_Statics::PropPointers), sizeof(Z_Construct_UFunction_ARabbitCharacter_AddHealth_Statics::RabbitCharacter_eventAddHealth_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ARabbitCharacter_AddHealth_Statics::Function_MetaDataParams), Z_Construct_UFunction_ARabbitCharacter_AddHealth_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_ARabbitCharacter_AddHealth_Statics::RabbitCharacter_eventAddHealth_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ARabbitCharacter_AddHealth()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ARabbitCharacter_AddHealth_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ARabbitCharacter::execAddHealth)
+{
+	P_GET_PROPERTY(FFloatProperty,Z_Param_Amount);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->AddHealth(Z_Param_Amount);
+	P_NATIVE_END;
+}
+// End Class ARabbitCharacter Function AddHealth
+
+// Begin Class ARabbitCharacter Function GetHealth
+struct Z_Construct_UFunction_ARabbitCharacter_GetHealth_Statics
+{
+	struct RabbitCharacter_eventGetHealth_Parms
+	{
+		float ReturnValue;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Health" },
+		{ "ModuleRelativePath", "Public/RabbitCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ARabbitCharacter_GetHealth_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(RabbitCharacter_eventGetHealth_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ARabbitCharacter_GetHealth_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ARabbitCharacter_GetHealth_Statics::NewProp_ReturnValue,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ARabbitCharacter_GetHealth_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ARabbitCharacter_GetHealth_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ARabbitCharacter, nullptr, "GetHealth", nullptr, nullptr, Z_Construct_UFunction_ARabbitCharacter_GetHealth_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ARabbitCharacter_GetHealth_Statics::PropPointers), sizeof(Z_Construct_UFunction_ARabbitCharacter_GetHealth_Statics::RabbitCharacter_eventGetHealth_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ARabbitCharacter_GetHealth_Statics::Function_MetaDataParams), Z_Construct_UFunction_ARabbitCharacter_GetHealth_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_ARabbitCharacter_GetHealth_Statics::RabbitCharacter_eventGetHealth_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_ARabbitCharacter_GetHealth()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ARabbitCharacter_GetHealth_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ARabbitCharacter::execGetHealth)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	*(float*)Z_Param__Result=P_THIS->GetHealth();
+	P_NATIVE_END;
+}
+// End Class ARabbitCharacter Function GetHealth
+
 // Begin Class ARabbitCharacter Function Look
 struct Z_Construct_UFunction_ARabbitCharacter_Look_Statics
 {
@@ -109,6 +194,36 @@ DEFINE_FUNCTION(ARabbitCharacter::execMove)
 	P_NATIVE_END;
 }
 // End Class ARabbitCharacter Function Move
+
+// Begin Class ARabbitCharacter Function OnDeath
+struct Z_Construct_UFunction_ARabbitCharacter_OnDeath_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Health" },
+		{ "ModuleRelativePath", "Public/RabbitCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ARabbitCharacter_OnDeath_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ARabbitCharacter, nullptr, "OnDeath", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080400, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ARabbitCharacter_OnDeath_Statics::Function_MetaDataParams), Z_Construct_UFunction_ARabbitCharacter_OnDeath_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_ARabbitCharacter_OnDeath()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ARabbitCharacter_OnDeath_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ARabbitCharacter::execOnDeath)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->OnDeath();
+	P_NATIVE_END;
+}
+// End Class ARabbitCharacter Function OnDeath
 
 // Begin Class ARabbitCharacter Function StartJump
 struct Z_Construct_UFunction_ARabbitCharacter_StartJump_Statics
@@ -295,8 +410,11 @@ void ARabbitCharacter::StaticRegisterNativesARabbitCharacter()
 {
 	UClass* Class = ARabbitCharacter::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "AddHealth", &ARabbitCharacter::execAddHealth },
+		{ "GetHealth", &ARabbitCharacter::execGetHealth },
 		{ "Look", &ARabbitCharacter::execLook },
 		{ "Move", &ARabbitCharacter::execMove },
+		{ "OnDeath", &ARabbitCharacter::execOnDeath },
 		{ "StartJump", &ARabbitCharacter::execStartJump },
 		{ "StartSprint", &ARabbitCharacter::execStartSprint },
 		{ "StopJump", &ARabbitCharacter::execStopJump },
@@ -327,14 +445,27 @@ struct Z_Construct_UClass_ARabbitCharacter_Statics
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/RabbitCharacter.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxHealth_MetaData[] = {
+		{ "Category", "health" },
+		{ "ModuleRelativePath", "Public/RabbitCharacter.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Health_MetaData[] = {
+		{ "Category", "health" },
+		{ "ModuleRelativePath", "Public/RabbitCharacter.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_SpringArmComp;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraComp;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_MaxHealth;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_Health;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_ARabbitCharacter_AddHealth, "AddHealth" }, // 3478193791
+		{ &Z_Construct_UFunction_ARabbitCharacter_GetHealth, "GetHealth" }, // 2117009297
 		{ &Z_Construct_UFunction_ARabbitCharacter_Look, "Look" }, // 282608883
 		{ &Z_Construct_UFunction_ARabbitCharacter_Move, "Move" }, // 3241707781
+		{ &Z_Construct_UFunction_ARabbitCharacter_OnDeath, "OnDeath" }, // 2296387666
 		{ &Z_Construct_UFunction_ARabbitCharacter_StartJump, "StartJump" }, // 2299935630
 		{ &Z_Construct_UFunction_ARabbitCharacter_StartSprint, "StartSprint" }, // 729315810
 		{ &Z_Construct_UFunction_ARabbitCharacter_StopJump, "StopJump" }, // 3780257513
@@ -348,9 +479,13 @@ struct Z_Construct_UClass_ARabbitCharacter_Statics
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARabbitCharacter_Statics::NewProp_SpringArmComp = { "SpringArmComp", nullptr, (EPropertyFlags)0x00100000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARabbitCharacter, SpringArmComp), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SpringArmComp_MetaData), NewProp_SpringArmComp_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARabbitCharacter_Statics::NewProp_CameraComp = { "CameraComp", nullptr, (EPropertyFlags)0x00100000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARabbitCharacter, CameraComp), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CameraComp_MetaData), NewProp_CameraComp_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ARabbitCharacter_Statics::NewProp_MaxHealth = { "MaxHealth", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARabbitCharacter, MaxHealth), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxHealth_MetaData), NewProp_MaxHealth_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ARabbitCharacter_Statics::NewProp_Health = { "Health", nullptr, (EPropertyFlags)0x0020080000020005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARabbitCharacter, Health), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Health_MetaData), NewProp_Health_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARabbitCharacter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARabbitCharacter_Statics::NewProp_SpringArmComp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARabbitCharacter_Statics::NewProp_CameraComp,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARabbitCharacter_Statics::NewProp_MaxHealth,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARabbitCharacter_Statics::NewProp_Health,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ARabbitCharacter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ARabbitCharacter_Statics::DependentSingletons[])() = {
@@ -393,10 +528,10 @@ ARabbitCharacter::~ARabbitCharacter() {}
 struct Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_RabbitCharacter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ARabbitCharacter, ARabbitCharacter::StaticClass, TEXT("ARabbitCharacter"), &Z_Registration_Info_UClass_ARabbitCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARabbitCharacter), 2407097807U) },
+		{ Z_Construct_UClass_ARabbitCharacter, ARabbitCharacter::StaticClass, TEXT("ARabbitCharacter"), &Z_Registration_Info_UClass_ARabbitCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARabbitCharacter), 3847326235U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_RabbitCharacter_h_3241155013(TEXT("/Script/Project08"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_RabbitCharacter_h_753988786(TEXT("/Script/Project08"),
 	Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_RabbitCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_RabbitCharacter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

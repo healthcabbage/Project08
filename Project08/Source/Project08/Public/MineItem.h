@@ -15,14 +15,15 @@ public :
 	USphereComponent* ExplosionCollision;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
-	float ExplostionDelay;
+	float ExplosionDelay;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
-	float ExplostionRadius;
+	float ExplosionRadius;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Item")
-	int32 ExplosionDamage;
+	int ExplosionDamage;
 
 	FTimerHandle ExplosionTimerHandle;
 
 	virtual void ActivateItem(AActor* Activator) override;
+
 	void Explode();
 };

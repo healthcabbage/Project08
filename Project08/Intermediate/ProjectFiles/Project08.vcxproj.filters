@@ -69,6 +69,9 @@
     <ClCompile Include="..\..\Source\Project08\Private\RabbitGameMode.cpp">
       <Filter>Source\Project08\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Private\RabbitGameStateBase.cpp">
+      <Filter>Source\Project08\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\Project08\Private\RabbitPlayerController.cpp">
       <Filter>Source\Project08\Private</Filter>
     </ClCompile>
@@ -106,6 +109,9 @@
       <Filter>Source\Project08\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Project08\Public\RabbitGameMode.h">
+      <Filter>Source\Project08\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project08\Public\RabbitGameStateBase.h">
       <Filter>Source\Project08\Public</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Project08\Public\RabbitPlayerController.h">
