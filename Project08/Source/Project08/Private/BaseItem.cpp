@@ -45,12 +45,6 @@ void ABaseItem::OnItemEndOverlap(
 
 void ABaseItem::ActivateItem(AActor* Activator)
 {
-	GEngine->AddOnScreenDebugMessage(
-		-1,
-		2.0f,
-		FColor::Green,
-		FString::Printf(TEXT("Overlap!!!"))
-	);
 }
 
 FName ABaseItem::GetItemType() const

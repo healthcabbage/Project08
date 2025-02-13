@@ -24,7 +24,6 @@ void AMineItem::ActivateItem(AActor* Activator)
 		ExplosionDelay,
 		false
 	);
-
 }
 
 void AMineItem::Explode()
@@ -37,10 +36,10 @@ void AMineItem::Explode()
 		if (Actor && Actor->ActorHasTag("Player"))
 		{
 			UGameplayStatics::ApplyDamage(
-				Actor,                   
-				ExplosionDamage,       
-				nullptr,                  
-				this,    
+				Actor,
+				ExplosionDamage,
+				nullptr,
+				this,
 				UDamageType::StaticClass()
 			);
 		}
