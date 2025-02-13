@@ -10,7 +10,11 @@ ARabbitGameState::ARabbitGameState()
 	SpawnedCoinCount = 0;
 	CollectedCoinCount = 0;
 	CurrentLevelIndex = 0;
-	MaxLevels = 3;
+	MaxLevels = 5;
+	ItemToSpawn = 40;
+	LevelMapNames = { "BasicLevel", "IntermediateLevel", "AdvancedLevel", "BasicLevel", "AdvancedLevel" };
+
+	LevelDuration = 60.0f;
 }
 
 void ARabbitGameState::BeginPlay()
@@ -72,7 +76,9 @@ void ARabbitGameState::StartLevel()
 	TArray<AActor*> FoundVolumes;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ASpawnVolume::StaticClass(), FoundVolumes);
 
-	const int32 ItemToSpawn = 40;
+	ItemToSpawn += CurrentLevelIndex * 10;
+
+	UE_LOG(LogTemp, Warning, TEXT("ItemToSpawn :  %d "), ItemToSpawn);
 	
 	for (int32 i = 0; i < ItemToSpawn; i++)
 	{
@@ -112,7 +118,6 @@ void ARabbitGameState::OnLevelTimeUp()
 void ARabbitGameState::EndLevel()
 {
 	GetWorldTimerManager().ClearTimer(LevelTimerHandle);
-	CurrentLevelIndex++;
 
 	if (UGameInstance* GameInstance = GetGameInstance())
 	{

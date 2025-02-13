@@ -211,6 +211,10 @@ struct Z_Construct_UClass_ARabbitGameState_Statics
 		{ "Category", "Level" },
 		{ "ModuleRelativePath", "Public/RabbitGameState.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ItemToSpawn_MetaData[] = {
+		{ "Category", "Level" },
+		{ "ModuleRelativePath", "Public/RabbitGameState.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LevelMapNames_MetaData[] = {
 		{ "Category", "Level" },
 		{ "ModuleRelativePath", "Public/RabbitGameState.h" },
@@ -222,6 +226,7 @@ struct Z_Construct_UClass_ARabbitGameState_Statics
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_LevelDuration;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_CurrentLevelIndex;
 	static const UECodeGen_Private::FIntPropertyParams NewProp_MaxLevels;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_ItemToSpawn;
 	static const UECodeGen_Private::FNamePropertyParams NewProp_LevelMapNames_Inner;
 	static const UECodeGen_Private::FArrayPropertyParams NewProp_LevelMapNames;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -244,6 +249,7 @@ const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ARabbitGameState_
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ARabbitGameState_Statics::NewProp_LevelDuration = { "LevelDuration", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARabbitGameState, LevelDuration), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LevelDuration_MetaData), NewProp_LevelDuration_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ARabbitGameState_Statics::NewProp_CurrentLevelIndex = { "CurrentLevelIndex", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARabbitGameState, CurrentLevelIndex), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CurrentLevelIndex_MetaData), NewProp_CurrentLevelIndex_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ARabbitGameState_Statics::NewProp_MaxLevels = { "MaxLevels", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARabbitGameState, MaxLevels), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaxLevels_MetaData), NewProp_MaxLevels_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ARabbitGameState_Statics::NewProp_ItemToSpawn = { "ItemToSpawn", nullptr, (EPropertyFlags)0x0010000000020015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARabbitGameState, ItemToSpawn), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ItemToSpawn_MetaData), NewProp_ItemToSpawn_MetaData) };
 const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_ARabbitGameState_Statics::NewProp_LevelMapNames_Inner = { "LevelMapNames", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ARabbitGameState_Statics::NewProp_LevelMapNames = { "LevelMapNames", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ARabbitGameState, LevelMapNames), EArrayPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LevelMapNames_MetaData), NewProp_LevelMapNames_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARabbitGameState_Statics::PropPointers[] = {
@@ -253,6 +259,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARabbitGa
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARabbitGameState_Statics::NewProp_LevelDuration,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARabbitGameState_Statics::NewProp_CurrentLevelIndex,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARabbitGameState_Statics::NewProp_MaxLevels,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARabbitGameState_Statics::NewProp_ItemToSpawn,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARabbitGameState_Statics::NewProp_LevelMapNames_Inner,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARabbitGameState_Statics::NewProp_LevelMapNames,
 };
@@ -297,10 +304,10 @@ ARabbitGameState::~ARabbitGameState() {}
 struct Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_RabbitGameState_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ARabbitGameState, ARabbitGameState::StaticClass, TEXT("ARabbitGameState"), &Z_Registration_Info_UClass_ARabbitGameState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARabbitGameState), 3530451833U) },
+		{ Z_Construct_UClass_ARabbitGameState, ARabbitGameState::StaticClass, TEXT("ARabbitGameState"), &Z_Registration_Info_UClass_ARabbitGameState, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARabbitGameState), 588014917U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_RabbitGameState_h_2805769995(TEXT("/Script/Project08"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_RabbitGameState_h_2192837874(TEXT("/Script/Project08"),
 	Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_RabbitGameState_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Project08_Source_Project08_Public_RabbitGameState_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

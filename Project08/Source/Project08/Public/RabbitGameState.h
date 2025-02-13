@@ -27,11 +27,14 @@ public:
 	int32 CurrentLevelIndex;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Level")
 	int32 MaxLevels;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Level")
+	int32 ItemToSpawn;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Level")
 	TArray<FName> LevelMapNames;
 
 	FTimerHandle LevelTimerHandle;
+
 
 	UFUNCTION(BlueprintPure, Category = "Score")
 	int32 GetScore() const;
