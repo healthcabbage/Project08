@@ -47,4 +47,6 @@ public:
 	void StartGame();
 
 	virtual void BeginPlay() override;
+
+	void QuitGame();
 };
